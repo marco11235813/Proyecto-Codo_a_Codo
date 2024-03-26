@@ -1,8 +1,8 @@
 ![F1](img/F1-Logo-2018.png)
 <br />
 
-![HTML](https://img.shields.io/badge/-HTML-333333?style=flat&logo=html)
-![CSS](https://img.shields.io/badge/-CSS-333333?style=flat&logo=css)
+![HTML5](https://img.shields.io/badge/-HTML5-333333?style=flat&logo=html5)
+![CSS3](https://img.shields.io/badge/-CSS3-333333?style=flat&logo=css3)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-333333?style=flat&logo=javascript)
 
 
