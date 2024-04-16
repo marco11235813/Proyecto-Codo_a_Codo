@@ -24,3 +24,9 @@ Se espera como producto final una plataforma,
 
 ## Tecnologías utilizadas
 
+## Nosotros
+
+|      |      |      |
+| :--: | :--: | :--: |
+| ![Marco](assets/Foto_perfil_Marco.jpg)<br>**Marco**<br>[<img src="assets/linkedin.png" style="width:20px;">](https://www.linkedin.com/in/marco-antonio-caro-22459711b) [<img src="assets/github.png" style="width:20px;">](https://github.com/marco11235813) | ![Paulo](assets/Foto_perfil_Paulo.jpg)<br>**Juan**<br>[<img src="assets/linkedin.png" style="width:20px;">](LINK_LINKEDIN_INTEGRANTE2) [<img src="assets/github.png" style="width:20px;">](LINK_GITHUB_INTEGRANTE2) | ![Kevin](assets/Foto_perfil_Kevin.jpg)<br>**Leandro**<br>[<img src="assets/linkedin.png" style="width:20px;">](LINK_LINKEDIN_INTEGRANTE3) [<img src="assets/github.png" style="width:20px;">](LINK_GITHUB_INTEGRANTE3) |
+| ![Edgar](assets/Foto_perfil_Edgar.jpg)<br>**Lourdes**<br>[<img src="assets/linkedin.png" style="width:20px;">](https:.linkedin.com/in/jesteban77/) [<img src="assets/github.png" style="width:20px;">](https://github.com/JavierEdgarEsteban77) |
