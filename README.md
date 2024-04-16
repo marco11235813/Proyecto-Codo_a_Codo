@@ -19,7 +19,16 @@ Se espera como producto final una plataforma,
 ## Contexto
 
 
-## Datos
+## Desarrollo
+
+
+### Estructura
+
+
+### Flujo de trabajo
+
+
+## Datos y Fuentes Externas
 
 
 ## Tecnologías utilizadas
