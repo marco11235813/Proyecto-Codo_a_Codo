@@ -46,6 +46,8 @@ El inicio de la Fórmula 1 moderna se remonta al año 1950, en el que participar
 
 ## Datos y Fuentes Externas
 
+* Formula 1. https://es.wikipedia.org/wiki/F%C3%B3rmula_1
+* Federación Internacional del Automóvil (FIA). https://es.wikipedia.org/wiki/Federaci%C3%B3n_Internacional_del_Autom%C3%B3vil 
 
 ## Tecnologías utilizadas
 
