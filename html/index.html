@@ -8,15 +8,18 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/media_QueryGrid.css">
 </head>
 
 <body>
     <header>
         <nav class="menu-bar">
             <div class="loguitoUno">
-                <img src="../img/loguito.png" alt="Logo" title="Formula 1">
+                <a href="index.html">
+                    <img src="../img/loguito.png" alt="Logo" title="Formula 1">
+                </a>
             </div>
-            <ul>
+            <ul class="menu-nabvar">
                 <li>
                     <a href="equipos.html">Equipos</a>
                 </li>
@@ -29,16 +32,57 @@
                 <li>
                     <a href="galeria.html">Galeria</a>
                 </li>
+                <li>
+                    <a href="contacto.html">Contacto</a>
+                </li>
             </ul>
         </nav>
         <section class="hero">
-            <img src="../img/LogoFormula1.png" alt="logo">
-            <h1>We Race as One</h1>
+            <img class="hero-img" src="../img/LogoFormula1.png" alt="logo">
+            <h1 class="hero-text">We Race as One</h1>
         </section>
     </header>
     <main>
         <section class="container-news">
             <section class="news">
+                <div class="card text-bg-dark">
+                    <img src="../img/OscarPiatri.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <h6 class="card-title">Oscar Piastri: "Hemos demostrado que tenemos un buen ritmo de
+                            carrera"
+                        </h6>
+                        <!--                         <p class="card-text">El team de los monoplazas papaya fue mejorando en sensaciones a medida
+                                                                            que
+                                                                            avanzaba la cita, mañana esperan sumar buenos
+                                                                            puntos. Los protagonistas de la escudería de Woking compartieron sus sensaciones tras la
+                                                                            segunda jornada de trabajo en
+                                                                            la pista de Albert Park, Lando Norris y Oscar Piastri saben que la batalla está más que
+                                                                            reñida en las primeras
+                                                                            posiciones, pero lo intentarán todo para conseguir un buen resultado. También comentó la
+                                                                            jornada Andrea Stella, el
+                                                                            director se muestra contento el resultado y el rendimiento de sus pilotos..</p> -->
+                        <p class="card-text"><small>Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+                <div class="card text-bg-dark">
+                    <img src="../img/OscarPiatri.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <h6 class="card-title">Oscar Piastri: "Hemos demostrado que tenemos un buen ritmo de
+                            carrera"
+                        </h6>
+                        <!--                         <p class="card-text">El team de los monoplazas papaya fue mejorando en sensaciones a medida
+                                                                                            que
+                                                                                            avanzaba la cita, mañana esperan sumar buenos
+                                                                                            puntos. Los protagonistas de la escudería de Woking compartieron sus sensaciones tras la
+                                                                                            segunda jornada de trabajo en
+                                                                                            la pista de Albert Park, Lando Norris y Oscar Piastri saben que la batalla está más que
+                                                                                            reñida en las primeras
+                                                                                            posiciones, pero lo intentarán todo para conseguir un buen resultado. También comentó la
+                                                                                            jornada Andrea Stella, el
+                                                                                            director se muestra contento el resultado y el rendimiento de sus pilotos..</p> -->
+                        <p class="card-text"><small>Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
                 <div class="card text-bg-dark">
                     <img src="../img/OscarPiatri.jpg" class="card-img" alt="...">
                     <div class="card-img-overlay">
@@ -107,109 +151,142 @@
                     </div>
                 </div>
             </section>
-            <aside class="stadistics">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam ratione quae
-                consequuntur aperiam quis quaerat nobis explicabo laborum sunt eum itaque distinctio, ipsum placeat,
-                incidunt officia ea. Nam, beatae natus?</aside>
+            <aside class="stadistics">
+                <div class="pos_Pilotos">
+                    <img src="../img/Posiciones_por_Piloto.jpg" alt="Posiciones_por_Piloto">
+                </div>
+                <div class="pos_Equipos">
+                    <img src="../img/Posiciones_por_Equipo.jpg" alt="Posiciones_por_Equipo">
+                </div>
+            </aside>
         </section>
         <section class="teams-list">
             <div class="slider-teams">
                 <div class="slider">
                     <img src="../img/logo/RedBullOracle.png" alt="RedBullOracle">
-                </div>
+                </div> <!-- Red Bull -->
                 <div class="slider">
                     <img src="../img/logo/Mercedes800x800.png" alt="Mercedes">
-                </div>
+                </div> <!-- Mercedes -->
                 <div class="slider">
                     <a href="#">
                         <img src="../img/logo/Williams800x800.png" alt="Williams">
                     </a>
-                </div>
+                </div> <!-- Williams -->
                 <div class="slider">
                     <a href="#">
-                        <img src="../img/logo/McLaren800x800.png" alt="MacLaren">
+                        <img src="../img/logo/McLaren.png" alt="McLaren">
                     </a>
-                </div>
+                </div> <!-- McLaren -->
                 <div class="slider">
                     <a href="#">
                         <img src="../img/logo/logo-haas.png" width="600" height="100" alt="Hass">
                     </a>
-                </div>
+                </div> <!-- Hass -->
                 <div class="slider">
                     <a href="#">
                         <img src="../img/logo/Ferrari800x800.png" alt="Ferrari">
                     </a>
-                </div>
+                </div> <!-- Ferrari -->
                 <div class="slider">
                     <a href="#">
                         <img src="../img/logo/Aston800x800.png" alt="AstonMartin">
                     </a>
-                </div>
+                </div> <!-- Aston Martin -->
                 <div class="slider">
                     <a href="#">
                         <img src="../img/logo/Alpine800x800.png" alt="Alpine">
                     </a>
-                </div>
+                </div> <!-- Alpine -->
                 <div class="slider">
                     <a href="#">
                         <img src="../img/logo/Stake_F1_Team_Kick_Sauber.png" alt="KickSauberTeam">
                     </a>
-                </div>
+                </div> <!-- Kick Sauber -->
                 <div class="slider">
                     <a href="#">
-                        <img src="../img/logo/VisaRBF1.png" alt="AlphaTauri">
+                        <img src="../img/logo/VisaRBF123.png" alt="AlphaTauri">
                     </a>
-                </div>
+                </div> <!-- VisaRb -->
                 <div class="slider">
                     <img src="../img/logo/RedBullOracle.png" alt="RedBullOracle">
-                </div>
+                </div> <!-- Red Bull -->
                 <div class="slider">
                     <img src="../img/logo/Mercedes800x800.png" alt="Mercedes">
-                </div>
+                </div> <!-- Mercedes -->
                 <div class="slider">
                     <a href="#">
                         <img src="../img/logo/Williams800x800.png" alt="Williams">
                     </a>
-                </div>
+                </div> <!-- Williams -->
                 <div class="slider">
                     <a href="#">
-                        <img src="../img/logo/McLaren800x800.png" alt="MacLaren">
+                        <img src="../img/logo/McLaren.png" alt="McLaren">
                     </a>
-                </div>
+                </div> <!-- McLaren -->
                 <div class="slider">
                     <a href="#">
                         <img src="../img/logo/logo-haas.png" width="600" height="100" alt="Hass">
                     </a>
-                </div>
+                </div> <!-- Hass -->
                 <div class="slider">
                     <a href="#">
                         <img src="../img/logo/Ferrari800x800.png" alt="Ferrari">
                     </a>
-                </div>
+                </div> <!-- Ferrari -->
                 <div class="slider">
                     <a href="#">
                         <img src="../img/logo/Aston800x800.png" alt="AstonMartin">
                     </a>
-                </div>
+                </div> <!-- Aston Martin -->
                 <div class="slider">
                     <a href="#">
                         <img src="../img/logo/Alpine800x800.png" alt="Alpine">
                     </a>
-                </div>
+                </div> <!-- Alpine -->
                 <div class="slider">
                     <a href="#">
                         <img src="../img/logo/Stake_F1_Team_Kick_Sauber.png" alt="KickSauberTeam">
                     </a>
-                </div>
+                </div> <!-- Kick Sauber -->
                 <div class="slider">
                     <a href="#">
-                        <img src="../img/logo/VisaRBF1.png" alt="AlphaTauri">
+                        <img src="../img/logo/VisaRBF123.png" alt="AlphaTauri">
                     </a>
-                </div>
+                </div> <!-- VisaRb -->
             </div>
         </section>
     </main>
     <footer>
-
+        <div>
+            <h3>Formula 1</h3>
+        </div>
+        <div class="redes">
+            <div class="redes-boot">
+                <ul>
+                    <li>
+                        <a href="#" target="_blank">
+                            <img src="../img/logo/Redes/icons8-facebook-100.png" alt="logo-facebook">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">
+                            <img src="../img/logo/Redes/icons8-instagram-100.png" alt="logo-instagram">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">
+                            <img src="../img/logo/Redes/icons8-twitter-100.png" alt="logo-twiter">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">
+                            <img src="../img/logo/Redes/icons8-youtube-100.png" alt="logo-youtube">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"

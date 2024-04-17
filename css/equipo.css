@@ -1,0 +1,92 @@
+body {
+	background-color: lightblue;
+}
+
+body main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+body main .teams-card {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 25px;
+}
+
+body main .teams-card .team-card {
+	margin: auto;
+	width: 85%;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	padding: 10px;
+}
+
+body main .teams-card .team-card a {
+	width: 200px;
+	border: 1px solid black;
+	margin: auto;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	border-radius: 25px;
+	box-shadow: 5px 5px 13px red;
+}
+
+body main .teams-card .team-card img {
+	width: 160px;
+	height: 120px;
+	padding: 15px;
+}
+
+body main .teams {
+	width: 90%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+body main .teams .team {
+	width: 95%;
+	padding: 50px;
+}
+
+body main .teams .team .cont-team {
+	margin: auto;
+	width: 95%;
+	padding: 25px;
+}
+
+body main .teams .team .cont-team .equipo-team {
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+}
+
+body main .teams .team .cont-team .equipo-team img {
+	width: 75%;
+	filter: drop-shadow(3px 3px 8px red);
+	margin: auto;
+	padding: 25px;
+}
+
+body main .teams .team .cont-team .pilotos-team {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+}
+
+body main .teams .team .cont-team .pilotos-team img {
+	width: 250px;
+	filter: drop-shadow(3px 3px 8px red);
+}
+
+body main .teams .team .cont-team .pilotos-team h5 {
+	text-align: center;
+	padding: 25px;
+}

@@ -4,37 +4,164 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Equipos</title>
+    <title>Formula 1</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/media_QueryGrid.css">
+    <link rel="stylesheet" href="../css/equipo.css">
 </head>
 
 <body>
-    <nav id="menu-bar">
-        <div id="loguitoUno">
-            <img src="../img/loguito.png" alt="Logo" title="Formula 1">
+    <header>
+        <nav class="menu-bar">
+            <div class="loguitoUno">
+                <a href="index.html">
+                    <img src="../img/loguito.png" alt="Logo" title="Formula 1">
+                </a>
+            </div>
+            <ul class="menu-nabvar">
+                <li>
+                    <a href="equipos.html">Equipos</a>
+                </li>
+                <li>
+                    <a href="cronograma.html">Cronograma</a>
+                </li>
+                <li>
+                    <a href="Estadisticas.html">Estadisticas</a>
+                </li>
+                <li>
+                    <a href="galeria.html">Galeria</a>
+                </li>
+                <li>
+                    <a href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+        <section class="hero">
+            <img class="hero-img" src="../img/LogoFormula1.png" alt="logo">
+            <h1 class="hero-text">We Race as One</h1>
+        </section>
+    </header>
+    <main>
+        <section class="teams-card">
+            <div class="team-card">
+                <!-- Ferrari -->
+                <a href="#ferrari">
+                    <img src="../img/logo/Ferrari800x800.png" alt="ferrariLogo">
+                </a>
+                <!-- Red Bull -->
+                <a href="#redbull">
+                    <img src="../img/logo/RedBullOracle.png" alt="RedBullLogo">
+                </a>
+                <!-- Alpine -->
+                <a href="#">
+                    <img src="../img/logo/Alpine800x800.png" alt="AlpineLogo">
+                </a>
+                <!-- Hass -->
+                <a href="#">
+                    <img src="../img/logo/logo-haas.png" alt="HassLogo">
+                </a>
+                <!-- Aston Martin -->
+                <a href="#">
+                    <img src="../img/logo/Aston800x800.png" alt="AstonMartinLogo">
+                </a>
+                <!-- McLaren -->
+                <a href="#">
+                    <img src="../img/logo/McLaren.png" alt="McLarenLogo">
+                </a>
+                <!-- Mercedes -->
+                <a href="#mercedes">
+                    <img src="../img/logo/Mercedes800x800.png" alt="MercedesLogo">
+                </a>
+                <!-- Visa Red Bull -->
+                <a href="#">
+                    <img src="../img/logo/VisaRBF1.png" alt="VisaRBLogo">
+                </a>
+                <!-- Stake Sauber -->
+                <a href="#">
+                    <img src="../img/logo/Stake_F1_Team_Kick_Sauber.png" alt="StakeSauberLogo">
+                </a>
+                <!-- Williams -->
+                <a href="#">
+                    <img src="../img/logo/Williams800x800.png" alt="MercedesLogo">
+                </a>
+            </div>
+        </section>
+        <section class="teams">
+            <div class="team">
+                <!-- Red Bull -->
+                <div id="redbull" class=" cont-team">
+                    <div class="equipo-team">
+                        <img src="../img/Equipos/Equipo/redbull.png" alt="">
+                        <h5>Red Bull RB20</h5>
+                    </div>
+                    <div class="pilotos-team">
+                        <div class="pilot-1">
+                            <img src="../img/Equipos/pilotos/max.png" alt="Max-n1">
+                            <h5>Verstappen, Max</h5>
+                        </div>
+                        <div class="pilot-2">
+                            <img src="../img/Equipos/pilotos/Checo.png" alt="">
+                            <h5>Checo Perez</h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- Mercedes -->
+                <div id="mercedes" class="cont-team">
+                    <div class="equipo-team">
+                        <img src="../img/Equipos/Equipo/mercedes.png" alt="">
+                        <h5>AMG F1 W15 E</h5>
+                    </div>
+                    <div class="pilotos-team">
+                        <div class="pilot-1">
+                            <img src="../img/Equipos/pilotos/George1.png" alt="George">
+                            <h5>Russell, George</h5>
+                        </div>
+                        <div class="pilot-2">
+                            <img src="../img/Equipos/pilotos/Lewis.png" alt="">
+                            <h5>Hamilton, Lewis</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <h3>Formula 1</h3>
         </div>
-        <ul>
-            <a href="index.html">
-                <li>Inicio</li>
-            </a>
-            <a href="cronograma.html">
-                <li>Cronograma</li>
-            </a>
-            <a href="Estadisticas">
-                <li>Estadisticas</li>
-            </a>
-            <a href="galeria.html">
-                <li>Galeria</li>
-            </a>
-        </ul>
-
-    </nav>
-
-
-
-
+        <div class="redes">
+            <div class="redes-boot">
+                <ul>
+                    <li>
+                        <a href="#" target="_blank">
+                            <img src="../img/logo/Redes/icons8-facebook-100.png" alt="logo-facebook">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">
+                            <img src="../img/logo/Redes/icons8-instagram-100.png" alt="logo-instagram">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">
+                            <img src="../img/logo/Redes/icons8-twitter-100.png" alt="logo-twiter">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">
+                            <img src="../img/logo/Redes/icons8-youtube-100.png" alt="logo-youtube">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="contacto">Contacto</div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
