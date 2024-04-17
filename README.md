@@ -28,7 +28,7 @@ Es la principal competición de automovilismo internacional y el campeonato de d
 
 A cada carrera se le denomina Gran Premio y el torneo que las agrupa es el Campeonato Mundial de Fórmula 1. La mayoría de los circuitos de carreras donde se celebran los Grandes Premios son autódromos, aunque también se utilizan circuitos callejeros y anteriormente se utilizaron circuitos ruteros. A su vez, los automóviles utilizados son monoplazas con la última tecnología disponible, siempre limitadas por un reglamento técnico; algunas mejoras que fueron desarrolladas en la Fórmula 1 terminaron siendo utilizadas en automóviles comerciales, como el freno de disco.
 
-![Bidating](../img/Galeria/image4.jpeg)
+![GRan Premio](img/Galeria/image4.jpeg)
 <br />
 > _Gran Premio de Australia._
 
