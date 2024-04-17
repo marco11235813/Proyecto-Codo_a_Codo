@@ -57,8 +57,17 @@ body main .teams .team {
 
 body main .teams .team .cont-team {
 	margin: auto;
+	display: flex;
+	flex-direction: column;
 	width: 95%;
 	padding: 25px;
+}
+
+body main .teams .team .cont-team a {
+	margin: auto;
+	text-decoration: none;
+	color: red;
+	filter: drop-shadow(2px 2px 3px black);
 }
 
 body main .teams .team .cont-team .equipo-team {
