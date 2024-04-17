@@ -4,6 +4,8 @@
 	src: url(./Fonts-F1/Formula1-Italic.ttf);
 }
 
+@import url(../css/media_QueryGrid.css);
+
 * {
 	box-sizing: border-box;
 	margin: 0;
@@ -16,6 +18,11 @@ html,
 body {
 	width: 100%;
 	height: 100%;
+	display: grid;
+	grid-template-areas:
+		"header"
+		"main"
+		"footer";
 }
 
 /* Header */
@@ -24,12 +31,15 @@ header {
 	width: 100%;
 	height: 300px;
 	background-color: black;
-	position: fixed;
-	top: 0;
 	z-index: 1;
+	grid-area: header;
+	grid-template-areas:
+		"nav"
+		"hero";
 }
 
-header nav {
+body header .menu-bar {
+	grid-area: nav;
 	width: 100%;
 	height: 80px;
 	display: flex;
@@ -42,26 +52,25 @@ header nav .loguitoUno {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	grid-area: loguitoUno;
 }
 
 header nav .loguitoUno img {
 	width: 80px;
 }
 
-header nav ul {
+header nav .menu-nabvar {
 	width: 60%;
 	display: flex;
 	height: 65px;
 	padding: 10px;
 	justify-content: space-evenly;
 	align-items: center;
+	grid-area: menu-navbar;
+	list-style: none;
 }
 
-header nav ul li {
-	display: flex;
-}
-
-header nav ul li a {
+header nav .menu-nabvar li a {
 	color: white;
 	text-decoration: none;
 	padding: 15px;
@@ -75,43 +84,54 @@ header nav ul li :hover {
 header .hero {
 	width: 100%;
 	height: 200px;
-	display: flex;
-	justify-content: space-evenly;
-	align-items: center;
+	grid-area: hero;
+	display: grid;
+	grid-template-areas: "hero-img hero-text";
 }
 
-header .hero h1 {
+header .hero .hero-text {
 	font-size: 40px;
+	width: 100%;
 	color: white;
+	grid-area: hero-text;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
-header .hero img {
+header .hero .hero-img {
 	opacity: 0.9;
-	height: 150px;
+	height: 130px;
+	display: flex;
+	margin: auto;
+	justify-content: center;
+	grid-area: hero-img;
 }
 
 /* Main */
 
 main {
 	width: 100%;
-	min-height: calc(100vh - 300px);
+	min-height: calc(100vh - 400px);
+	grid-area: main;
+	display: grid;
+	grid-template-areas:
+		"container-news"
+		"teams-list";
 }
 
 main .container-news {
+	grid-area: container-news;
 	width: 100%;
-	margin-top: 300px;
 	height: auto;
 	display: flex;
 }
 
 main .container-news .news {
-	width: 70%;
+	width: 60%;
 	height: auto;
 	padding: 15px;
-	background-color: lightslategrey;
+	background-color: lightgrey;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
@@ -144,18 +164,27 @@ main .container-news .news .card .card-img-overlay p {
 }
 
 main .container-news .stadistics {
-	width: 30%;
-	padding: 15px;
-	background-color: lightslategrey;
+	width: 40%;
+	padding: 5px;
+	background-color: lightgrey;
+}
+
+main .container-news .stadistics .pos_Pilotos img {
+	width: 100%;
+}
+
+main .container-news .stadistics .pos_Equipos img {
+	width: 100%;
 }
 
 main .teams-list {
+	grid-area: teams-list;
 	width: 100%;
 	height: auto;
 	padding: 10px;
 	margin: auto;
 	overflow: hidden;
-	background-color: white;
+	background-color: lightgrey;
 }
 
 main .teams-list .slider-teams {
@@ -163,10 +192,11 @@ main .teams-list .slider-teams {
 	animation: scroll 40s linear infinite;
 	width: calc(200px * 20);
 	-webkit-animation: scroll 40s linear infinite;
+	background-color: lightgrey;
 }
 
 main .teams-list .slider-teams .slider {
-	width: 150px;
+	width: 180px;
 	padding: 15px;
 	height: auto;
 	display: flex;
@@ -177,6 +207,30 @@ main .teams-list .slider-teams .slider {
 main .teams-list .slider-teams .slider img {
 	margin: auto;
 	width: 100%;
+	height: 85px;
+}
+
+footer {
+	width: 100%;
+	height: 100px;
+	background-color: black;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	color: white;
+	grid-area: footer;
+}
+
+footer .redes .redes-boot ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-evenly;
+	gap: 30px;
+}
+
+footer .redes .redes-boot a img {
+	width: 40px;
+	filter: drop-shadow(1px 1px 1px white);
 }
 
 /* Animacion Equipos */
@@ -188,4 +242,31 @@ main .teams-list .slider-teams .slider img {
 	100% {
 		transform: translateX(calc(-150px * 10));
 	}
+}
+
+form {
+	max-width: 400px;
+	margin: 20px auto;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+	display: block;
+	margin-bottom: 8px;
+}
+
+input,
+textarea {
+	width: 100%;
+	padding: 8px;
+	margin-bottom: 16px;
+	box-sizing: border-box;
+}
+
+input[type="submit"] {
+	background-color: #4caf50;
+	color: #fff;
 }
