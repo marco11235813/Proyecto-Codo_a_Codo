@@ -6,13 +6,13 @@ body main .galery-cont {
 	width: 90%;
 	margin: 30px auto;
 	display: flex;
-	justify-content: center;
+	justify-content: space-evenly;
 	flex-wrap: wrap;
-	row-gap: 25px;
+	row-gap: 20px;
 }
 
 body main .galery-cont .galery-card {
-	width: 400px;
+	width: 350px;
 	display: flex;
 	justify-content: center;
 }
@@ -22,8 +22,21 @@ body main .galery-cont .galery-card img {
 	border-radius: 50% 20% / 10% 40%;
 	box-shadow: 5px 5px 8px black;
 }
+
+body main .galery-cont .circuit-card {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	row-gap: 10px;
+}
+
 body main .galery-cont .circuit-card img {
-	width: 500px;
+	width: 375px;
+}
+
+body main .galery-cont .circuit-card button {
+	width: 50%;
 }
 
 body main .galery-cont .circuit-card .text-logo {
