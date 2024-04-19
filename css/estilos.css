@@ -244,20 +244,85 @@ footer .redes .redes-boot a img {
 	}
 }
 
+body main .form_cont {
+	padding: 2%;
+	display: flex;
+	flex-direction: column;
+	row-gap: 60px;
+}
+
+body main .form_cont .form_text {
+	padding: 2%;
+	display: flex;
+	flex-direction: column;
+	row-gap: 10px;
+}
+
 form {
-	max-width: 400px;
-	margin: 20px auto;
+	width: 50%;
+	margin: auto;
 	background-color: #fff;
 	padding: 20px;
 	border-radius: 8px;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+form .input_group {
+	padding: 15px;
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	row-gap: 25px;
+}
+body .form_cont form .input_group .input_sexo .input_sexo_group {
+	display: flex;
+	justify-content: space-evenly;
+	row-gap: 2%;
+}
+
+body .form_cont form .input_group .input_sexo .input_sexo_group .input_sex {
+	width: 30%;
+	font-size: 0.85rem;
+	display: flex;
+}
+
+body 
+    .form_cont
+	form
+	.input_group
+	.input_sexo
+	.input_sexo_group
+	.input_sex
+	label {
+	width: 67%;
+	margin: auto;
+	text-align: end;
+}
+
+body
+	.form_cont
+	form
+	.input_group
+	.input_sexo
+	.input_sexo_group
+	.input_sex
+	input {
+	width: 30%;
+	margin: auto;
+}
+
+body .form_cont form .input_group .input_sexo .input_sexo_group .input_sex {
+	margin: auto;
+}
+
+body .form_cont form .input_group .input_pais_otro {
+	display: none;
+}
+
 label {
 	display: block;
 	margin-bottom: 8px;
 }
-
 input,
 textarea {
 	width: 100%;
@@ -270,3 +335,5 @@ input[type="submit"] {
 	background-color: #4caf50;
 	color: #fff;
 }
+
+	
