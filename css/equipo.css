@@ -1,5 +1,5 @@
 body {
-	background-color: lightblue;
+	background-color: lightgray;
 }
 
 body main {
@@ -34,7 +34,7 @@ body main .teams-card .team-card a {
 	justify-content: space-evenly;
 	align-items: center;
 	border-radius: 25px;
-	box-shadow: 5px 5px 13px red;
+	box-shadow: 5px 5px 13px black;
 }
 
 body main .teams-card .team-card img {
@@ -78,7 +78,7 @@ body main .teams .team .cont-team .equipo-team {
 
 body main .teams .team .cont-team .equipo-team img {
 	width: 75%;
-	filter: drop-shadow(3px 3px 8px red);
+	filter: drop-shadow(4px 4px 2px black);
 	margin: auto;
 	padding: 25px;
 }
@@ -92,7 +92,7 @@ body main .teams .team .cont-team .pilotos-team {
 
 body main .teams .team .cont-team .pilotos-team img {
 	width: 250px;
-	filter: drop-shadow(3px 3px 8px red);
+	filter: drop-shadow(3px 3px 5px black);
 }
 
 body main .teams .team .cont-team .pilotos-team h5 {

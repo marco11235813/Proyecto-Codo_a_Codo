@@ -35,8 +35,11 @@ body main .galery-cont .circuit-card img {
 	width: 375px;
 }
 
-body main .galery-cont .circuit-card button {
-	width: 50%;
+body main .galery-cont .circuit-card a {
+	margin: auto;
+	text-decoration: none;
+	color: red;
+	filter: drop-shadow(2px 2px 3px black);
 }
 
 body main .galery-cont .circuit-card .text-logo {
