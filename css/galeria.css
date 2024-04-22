@@ -62,3 +62,7 @@ body main .galery-cont .circuit-card .text-logo p {
 	display: flex;
 	margin: auto;
 }
+
+body main .modal {
+	display: none;
+}

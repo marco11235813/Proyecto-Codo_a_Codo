@@ -244,6 +244,58 @@ footer .redes .redes-boot a img {
 	}
 }
 
+/* modal */
+
+.modal {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 15px;
+	position: fixed;
+	background-color: rgba(207, 207, 207, 0.1);
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+.modal .modal_content {
+	margin: auto;
+	background-color: lightsteelblue;
+	width: 60%;
+	height: 60%;
+	border-radius: 25px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	row-gap: 10px;
+	z-index: 2;
+}
+
+.modal .modal_content .text_modal h3 {
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.modal .modal_content .text_modal {
+	display: flex;
+	flex-direction: column;
+	row-gap: 10px;
+}
+
+.modal .modal_content .btn_modal button {
+	width: 70%;
+	font-size: 1.1rem;
+	background: none;
+	color: red;
+	border: none;
+	font-weight: bold;
+}
+
+/* form */
 body main .form_cont {
 	padding: 2%;
 	display: flex;
@@ -286,8 +338,8 @@ body .form_cont form .input_group .input_sexo .input_sexo_group .input_sex {
 	display: flex;
 }
 
-body 
-    .form_cont
+body
+	.form_cont
 	form
 	.input_group
 	.input_sexo
@@ -335,5 +387,3 @@ input[type="submit"] {
 	background-color: #4caf50;
 	color: #fff;
 }
-
-	

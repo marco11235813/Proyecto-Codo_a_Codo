@@ -28,13 +28,11 @@ body main .teams-card .team-card {
 
 body main .teams-card .team-card a {
 	width: 200px;
-	border: 1px solid black;
 	margin: auto;
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
 	border-radius: 25px;
-	box-shadow: 5px 5px 13px black;
 }
 
 body main .teams-card .team-card img {
@@ -98,4 +96,40 @@ body main .teams .team .cont-team .pilotos-team img {
 body main .teams .team .cont-team .pilotos-team h5 {
 	text-align: center;
 	padding: 25px;
+}
+
+.sombra_ferrari {
+	filter: drop-shadow(3px 3px 8px #dc0000);
+}
+
+.sombra_redbull {
+	filter: drop-shadow(3px 3px 8px #0600ef);
+}
+
+.sombra_astonmartin {
+	filter: drop-shadow(3px 3px 8px #358c75);
+}
+
+.sombra_hass {
+	filter: drop-shadow(3px 3px 8px black);
+}
+
+.sombra_alpine {
+	filter: drop-shadow(3px 3px 8px #0090ff);
+}
+
+.sombra_mclaren {
+	filter: drop-shadow(3px 3px 8px #ff8000);
+}
+
+.sombra_stake {
+	filter: drop-shadow(3px 3px 8px #83f52c);
+}
+
+.sombra_mercedes {
+	filter: drop-shadow(3px 3px 8px #00d2be);
+}
+
+.sombra_williams {
+	filter: drop-shadow(3px 3px 8px #005aff);
 }
