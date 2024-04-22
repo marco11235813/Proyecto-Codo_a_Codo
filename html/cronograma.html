@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../css/estilos.css" />
     <link rel="stylesheet" href="../css/media_QueryGrid.css" />
     <link rel="stylesheet" href="../css/galeria.css" />
+    <script src="/JS/cronograma.js" defer></script>
 </head>
 
 <body>
@@ -46,7 +47,7 @@
     <main>
         <section class="galery-cont">
             <div class="circuit-card">
-                <img src="../img/Circuitos/bahrein.png" alt="barhein" />
+                <img src="../img/Circuitos/bahrein1.png" alt="barhein" />
                 <div class="text-logo">
                     <img src="../img/Circuitos/bahreinLogo.png" alt="bahreinlogo" />
                     <div class="text">
@@ -54,10 +55,10 @@
                         <p>29 de Febrero al 02 de Marzo 2024</p>
                     </div>
                 </div>
-                <a>Mas Info</a>
+                <a id="btn_open_Bahrein">Mas Info</a>
             </div>
             <div class="circuit-card">
-                <img src="../img/Circuitos/arabiasaudi.png" alt="arabiasaudi" />
+                <img src="../img/Circuitos/ArabiaSaudita1.png" alt="arabiasaudi" />
                 <div class="text-logo">
                     <img src="../img/Circuitos/arabiaSaudilogo.png" alt="arabialogo" />
                     <div class="text">
@@ -65,10 +66,10 @@
                         <p>07 al 09 de Marzo 2024</p>
                     </div>
                 </div>
-                <a>Mas Info</a>
+                <a id="btn_open_ArabiaSaudita">Mas Info</a>
             </div>
             <div class="circuit-card">
-                <img src="../img/Circuitos/australia.png" alt="australia" />
+                <img src="../img/Circuitos/Australia1.png" alt="australia" />
                 <div class="text-logo">
                     <img src="../img/Circuitos/australialogo.png" alt="australialogo" />
                     <div class="text">
@@ -76,10 +77,10 @@
                         <p>22 al 24 de Marzo 2024</p>
                     </div>
                 </div>
-                <a>Mas Info</a>
+                <a id="btn_open_Australia">Mas Info</a>
             </div>
             <div class="circuit-card">
-                <img src="../img/Circuitos/japon.png" alt="japon" />
+                <img src="../img/Circuitos/Japon1.png" alt="japon" />
                 <div class="text-logo">
                     <img src="../img/Circuitos/japonlogo.png" alt="japonlogo" />
                     <div class="text">
@@ -87,10 +88,10 @@
                         <p>05 al 07 de Abril 2024</p>
                     </div>
                 </div>
-                <a>Mas Info</a>
+                <a id="btn_open_Japon">Mas Info</a>
             </div>
             <div class="circuit-card">
-                <img src="../img/Circuitos/china.png" alt="china" />
+                <img src="../img/Circuitos/China1.png" alt="china" />
                 <div class="text-logo">
                     <img src="../img/Circuitos/chinalogo.png" alt="chinalogo" />
                     <div class="text">
@@ -98,7 +99,7 @@
                         <p>19 al 21 de Abril 2024</p>
                     </div>
                 </div>
-                <a>Mas Info</a>
+                <a id="btn_open_China">Mas Info</a>
             </div>
             <div class="circuit-card">
                 <img src="../img/Circuitos/miami.png" alt="miami" />
@@ -109,7 +110,7 @@
                         <p>03 al 05 de Mayo 2024</p>
                     </div>
                 </div>
-                <a>Mas Info</a>
+                <a id="btn_open_Miami">Mas Info</a>
             </div>
             <div class="circuit-card">
                 <img src="../img/Circuitos/emiliaromania.png" alt="emiliaromania" />
@@ -123,7 +124,7 @@
                 <a>Mas Info</a>
             </div>
             <div class="circuit-card">
-                <img src="../img/Circuitos/monaco.png" alt="monaco" />
+                <img src="../img/Circuitos/Monaco1.png" alt="monaco" />
                 <div class="text-logo">
                     <img src="../img/Circuitos/monacologo.png" alt="monacologo" />
                     <div class="text">
@@ -131,10 +132,10 @@
                         <p>24 al 26 de Mayo 2024</p>
                     </div>
                 </div>
-                <a>Mas Info</a>
+                <a id="btn_open_Monaco">Mas Info</a>
             </div>
             <div class="circuit-card">
-                <img src="../img/Circuitos/canada.png" alt="monaco" />
+                <img src="../img/Circuitos/canada.png" alt="canada" />
                 <div class="text-logo">
                     <img src="../img/Circuitos/canadalogo.png" alt="canadalogo" />
                     <div class="text">
@@ -142,10 +143,10 @@
                         <p>07 al 09 de Junio 2024</p>
                     </div>
                 </div>
-                <a>Mas Info</a>
+                <a id="btn_open_Canada">Mas Info</a>
             </div>
             <div class="circuit-card">
-                <img src="../img/Circuitos/españa.png" alt="monaco" />
+                <img src="../img/Circuitos/españa.png" alt="barcelona" />
                 <div class="text-logo">
                     <img src="../img/Circuitos/espanalogo.png" alt="españalogo" />
                     <div class="text">
@@ -153,10 +154,10 @@
                         <p>21 al 23 de Junio 2024</p>
                     </div>
                 </div>
-                <a>Mas Info</a>
+                <a id="btn_open_Barcelona">Mas Info</a>
             </div>
             <div class="circuit-card">
-                <img src="../img/Circuitos/austria.png" alt="monaco" />
+                <img src="../img/Circuitos/austria.png" alt="austria" />
                 <div class="text-logo">
                     <img src="../img/Circuitos/austrialogo.png" alt="austrialogo" />
                     <div class="text">
@@ -164,7 +165,7 @@
                         <p>27 al 30 de Junio 2024</p>
                     </div>
                 </div>
-                <a>Mas Info</a>
+                <a id="btn_open_Monaco">Mas Info</a>
             </div>
             <div class="circuit-card">
                 <img src="../img/Circuitos/granbretana.png" alt="gran-bretaña" />
@@ -175,7 +176,7 @@
                         <p>05 al 07 de Julio 2024</p>
                     </div>
                 </div>
-                <a>Mas Info</a>
+                <a id="btn_open_Silverstone">Mas Info</a>
             </div>
             <div class="circuit-card">
                 <img src="../img/Circuitos/hungria.png" alt="hungria" />
@@ -186,7 +187,7 @@
                         <p>19 al 21 de Julio 2024</p>
                     </div>
                 </div>
-                <a>Mas Info</a>
+                <a id="btn_open_Hungaroring">Mas Info</a>
             </div>
             <div class="circuit-card">
                 <img src="../img/Circuitos/belgica.png" alt="belgica" />
@@ -197,10 +198,10 @@
                         <p>26 al 28 de Julio 2024</p>
                     </div>
                 </div>
-                <a>Mas Info</a>
+                <a id="btn_open_Spa_Francorschamps">Mas Info</a>
             </div>
             <div class="circuit-card">
-                <img src="../img/Circuitos/paisesbajos.png" alt="paisesbajos" />
+                <img src="../img/Circuitos/PaisesBajos1.png" alt="paisesbajos" />
                 <div class="text-logo">
                     <img src="../img/Circuitos/paises-bajoslogo.png" alt="paisesbajoslogo" />
                     <div class="text">
@@ -208,10 +209,10 @@
                         <p>23 al 25 de Agosto 2024</p>
                     </div>
                 </div>
-                <a>Mas Info</a>
+                <a id="btn_open_Zandvoort">Mas Info</a>
             </div>
             <div class="circuit-card">
-                <img src="../img/Circuitos/italia.png" alt="monza" />
+                <img src="../img/Circuitos/Monza.png" alt="monza" />
                 <div class="text-logo">
                     <img src="../img/Circuitos/italialogo.png" alt="monzalogo" />
                     <div class="text">
@@ -219,7 +220,7 @@
                         <p>30 de Agosto al 01 de Septiembre 2024</p>
                     </div>
                 </div>
-                <a>Mas Info</a>
+                <a id="btn_open_Monza">Mas Info</a>
             </div>
             <div class="circuit-card">
                 <img src="../img/Circuitos/azarbaiyan.png" alt="baku" />
@@ -230,7 +231,7 @@
                         <p>13 al 15 de Septiembre 2024</p>
                     </div>
                 </div>
-                <a>Mas Info</a>
+                <a id="btn_open_Baku">Mas Info</a>
             </div>
             <div class="circuit-card">
                 <img src="../img/Circuitos/singapur.png" alt="Singapur" />
@@ -241,7 +242,7 @@
                         <p>20 al 22 de Septiembre 2024</p>
                     </div>
                 </div>
-                <a>Mas Info</a>
+                <a id="btn_open_MarinaBay">Mas Info</a>
             </div>
             <div class="circuit-card">
                 <img src="../img/Circuitos/austin.png" alt="austin" />
@@ -252,7 +253,7 @@
                         <p>18 al 20 de Octubre 2024</p>
                     </div>
                 </div>
-                <a>Mas Info</a>
+                <a id="btn_open_Austin">Mas Info</a>
             </div>
             <div class="circuit-card">
                 <img src="../img/Circuitos/mexico.png" alt="mexico" />
@@ -263,7 +264,7 @@
                         <p>25 al 27 de Octubre 2024</p>
                     </div>
                 </div>
-                <a>Mas Info</a>
+                <a id="btn_open_Mexico">Mas Info</a>
             </div>
             <div class="circuit-card">
                 <img src="../img/Circuitos/brazil.png" alt="brasil" />
@@ -274,7 +275,7 @@
                         <p>01 al 03 de Noviembre 2024</p>
                     </div>
                 </div>
-                <a>Mas Info</a>
+                <a id="btn_open_SaoPaulo">Mas Info</a>
             </div>
             <div class="circuit-card">
                 <img src="../img/Circuitos/lasvegas.png" alt="lasVegas" />
@@ -285,7 +286,7 @@
                         <p>21 al 24 de Noviembre 2024</p>
                     </div>
                 </div>
-                <a>Mas Info</a>
+                <a id="btn_open_LasVegas">Mas Info</a>
             </div>
             <div class="circuit-card">
                 <img src="../img/Circuitos/Qatar.png" alt="qatar" />
@@ -296,7 +297,7 @@
                         <p>28 de Noviembre al 01 de Diciembre 2024</p>
                     </div>
                 </div>
-                <a>Mas Info</a>
+                <a id="btn_open_Qatar">Mas Info</a>
             </div>
             <div class="circuit-card">
                 <img src="../img/Circuitos/emiratosArabes.png" alt="AbuDabi" />
@@ -307,7 +308,414 @@
                         <p>06 al 08 de Diciembre 2024</p>
                     </div>
                 </div>
-                <a>Mas Info</a>
+                <a id="btn_open_EmiratosArabes">Mas Info</a>
+            </div>
+        </section>
+
+        <!-- Modal Bahrein -->
+        <section id="modal_Bahrein" class="modal">
+            <div class="modal_content">
+                <div class="text_modal">
+                    <h3>Bahrain International Circuit</h3>
+                    <p><strong>Primer Grand Prix:</strong> 2004</p>
+                    <p><strong>Número de Vueltas:</strong> 57</p>
+                    <p><strong>Kilometros por Vuelta:</strong> 5.412 Km</p>
+                    <p><strong>Kilometros de Carrera:</strong> 308.238 Km</p>
+                    <p><strong>Record de Vuelta:</strong> 1:31.447 - Pedro de la Rosa (2005)</p>
+                </div>
+                <div id="btn_close_Bahrein" class="btn_modal">
+                    <button class="close">Volver</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Modal Arabia Saudita -->
+        <section id="modal_ArabiaSaudita" class="modal">
+            <div class="modal_content">
+                <div class="text_modal">
+                    <h3>Jeddah Street Circuit</h3>
+                    <p><strong>Primer Grand Prix:</strong> 2021</p>
+                    <p><strong>Número de Vueltas:</strong> 50</p>
+                    <p><strong>Kilometros por Vuelta:</strong> 6.174 Km</p>
+                    <p><strong>Kilometros de Carrera:</strong> 308.45 Km</p>
+                    <p><strong>Record de Vuelta:</strong> 1:30.734 - Lewis, Hamilton (2021)</p>
+                </div>
+                <div id="btn_close_ArabiaSaudita" class="btn_modal">
+                    <button class="close">Volver</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Modal Australia -->
+        <section id="modal_Australia" class="modal">
+            <div class="modal_content">
+                <div class="text_modal">
+                    <h3>Circuito Grand Prix Melbourne</h3>
+                    <p><strong>Primer Grand Prix:</strong> 1996</p>
+                    <p><strong>Número de Vueltas:</strong> 58</p>
+                    <p><strong>Kilometros por Vuelta:</strong> 5.278 Km</p>
+                    <p><strong>Kilometros de Carrera:</strong> 306.124 Km</p>
+                    <p><strong>Record de Vuelta:</strong> 1:20.235 - Sergio, Perez (2021)</p>
+                </div>
+                <div id="btn_close_Australia" class="btn_modal">
+                    <button class="close">Volver</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Modal Japon -->
+        <section id="modal_Japon" class="modal">
+            <div class="modal_content">
+                <div class="text_modal">
+                    <h3>Suzuka International Racing Course</h3>
+                    <p><strong>Primer Grand Prix:</strong> 1987</p>
+                    <p><strong>Número de Vueltas:</strong> 53</p>
+                    <p><strong>Kilometros por Vuelta:</strong> 5.807 Km</p>
+                    <p><strong>Kilometros de Carrera:</strong> 307.471 Km</p>
+                    <p><strong>Record de Vuelta:</strong> 1:30.983 - Lewis, Hamilton (2019)</p>
+                </div>
+                <div id="btn_close_Japon" class="btn_modal">
+                    <button class="close">Volver</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Modal China -->
+        <section id="modal_China" class="modal">
+            <div class="modal_content">
+                <div class="text_modal">
+                    <h3>Shangai International Circuit</h3>
+                    <p><strong>Primer Grand Prix:</strong> 2004</p>
+                    <p><strong>Número de Vueltas:</strong> 56</p>
+                    <p><strong>Kilometros por Vuelta:</strong> 5.451 Km</p>
+                    <p><strong>Kilometros de Carrera:</strong> 305.066 Km</p>
+                    <p><strong>Record de Vuelta:</strong> 1:32.238 - Michael, Schumacher (2004)</p>
+                </div>
+                <div id="btn_close_China" class="btn_modal">
+                    <button class="close">Volver</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Modal Miami -->
+        <section id="modal_Miami" class="modal">
+            <div class="modal_content">
+                <div class="text_modal">
+                    <h3>Miami International Autodrome</h3>
+                    <p><strong>Primer Grand Prix:</strong> 2022</p>
+                    <p><strong>Número de Vueltas:</strong> 57</p>
+                    <p><strong>Kilometros por Vuelta:</strong> 5.412 Km</p>
+                    <p><strong>Kilometros de Carrera:</strong> 308.326 Km</p>
+                    <p><strong>Record de Vuelta:</strong> 1:29.708 - Max, Verstappen (2023)</p>
+                </div>
+                <div id="btn_close_Miami" class="btn_modal">
+                    <button class="close">Volver</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Modal Emilia Romaña -->
+        <section id="modal_EmiliaRomana" class="modal">
+            <div class="modal_content">
+                <div class="text_modal">
+                    <h3>Autodromo Enzo e Dino Ferrari</h3>
+                    <p><strong>Primer Grand Prix:</strong> 1980</p>
+                    <p><strong>Número de Vueltas:</strong> 63</p>
+                    <p><strong>Kilometros por Vuelta:</strong> 4.909 Km</p>
+                    <p><strong>Kilometros de Carrera:</strong> 309.049 Km</p>
+                    <p><strong>Record de Vuelta:</strong> 1:15.484 - Lewis, Hamilton (2020)</p>
+                </div>
+                <div id="btn_close_EmiliaRomana" class="btn_modal"> <button class="close">Volver</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Modal Monaco -->
+        <section id="modal_Monaco" class="modal">
+            <div class="modal_content">
+                <div class="text_modal">
+                    <h3>Circuit de Mónaco</h3>
+                    <p><strong>Primer Grand Prix:</strong> 1950</p>
+                    <p><strong>Número de Vueltas:</strong> 78</p>
+                    <p><strong>Kilometros por Vuelta:</strong> 3.337 Km</p>
+                    <p><strong>Kilometros de Carrera:</strong> 260.286 Km</p>
+                    <p><strong>Record de Vuelta:</strong> 1:12.909 - Lewis, Hamilton (2021)</p>
+                </div>
+                <div id="btn_close_Monaco" class="btn_modal">
+                    <button class="close">Volver</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Modal Canada -->
+        <section id="modal_Canada" class="modal">
+            <div class="modal_content">
+                <div class="text_modal">
+                    <h3>Circuit Gilles-Villeneuve</h3>
+                    <p><strong>Primer Grand Prix:</strong> 1978</p>
+                    <p><strong>Número de Vueltas:</strong> 70</p>
+                    <p><strong>Kilometros por Vuelta:</strong> 4.361 Km</p>
+                    <p><strong>Kilometros de Carrera:</strong> 305.27 Km</p>
+                    <p><strong>Record de Vuelta:</strong> 1:13.078 - Valtteri, Bottas (2019)</p>
+                </div>
+                <div id="btn_close_Gilles_Villeneuve" class="btn_modal">
+                    <button class="close">Volver</button>
+                    </divi>
+                </div>
+        </section>
+
+        <!-- Modal España -->
+        <section id="modal_Espana" class="modal">
+            <div class="modal_content">
+                <div class="text_modal">
+                    <h3>Circuit de Barcelona-Catalunya</h3>
+                    <p><strong>Primer Grand Prix:</strong> 1991</p>
+                    <p><strong>Número de Vueltas:</strong> 66</p>
+                    <p><strong>Kilometros por Vuelta:</strong> 4.657 Km</p>
+                    <p><strong>Kilometros de Carrera:</strong> 307.236 Km</p>
+                    <p><strong>Record de Vuelta:</strong> 1:16.330 - Max, Verstappen (2023)</p>
+                </div>
+                <div id="btn_close_Barcelona" class="btn_modal">
+                    <button class="close">Volver</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Modal Austria -->
+        <section id="modal_Austria" class="modal">
+            <div class="modal_content">
+                <div class="text_modal">
+                    <h3>Red Bull Ring</h3>
+                    <p><strong>Primer Grand Prix:</strong> 1970</p>
+                    <p><strong>Número de Vueltas:</strong> 71</p>
+                    <p><strong>Kilometros por Vuelta:</strong> 4.318 Km</p>
+                    <p><strong>Kilometros de Carrera:</strong> 306.452 Km</p>
+                    <p><strong>Record de Vuelta:</strong> 1:05.619 - Sainz, Carlos (2020)</p>
+                </div>
+                <div id="btn_close_RedBullRing" class="btn_modal">
+                    <button class="close">Volver</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Modal Gran-Bretaña -->
+        <section id="modal_GranBretana" class="modal">
+            <div class="modal_content">
+                <div class="text_modal">
+                    <h3>Silverstone Circuit</h3>
+                    <p><strong>Primer Grand Prix:</strong> 1950</p>
+                    <p><strong>Número de Vueltas:</strong> 52</p>
+                    <p><strong>Kilometros por Vuelta:</strong> 5.891 Km</p>
+                    <p><strong>Kilometros de Carrera:</strong> 306.198 Km</p>
+                    <p><strong>Record de Vuelta:</strong> 1:27.097 - Max, Verstappen (2020)</p>
+                </div>
+                <div id="btn_close_Silverstone" class="btn_modal">
+                    <button class="close">Volver</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Modal Hungria -->
+        <section id="modal_Hungria" class="modal">
+            <div class="modal_content">
+                <div class="text_modal">
+                    <h3>Hungaroring</h3>
+                    <p><strong>Primer Grand Prix:</strong> 1986</p>
+                    <p><strong>Número de Vueltas:</strong> 70</p>
+                    <p><strong>Kilometros por Vuelta:</strong> 4.381 Km</p>
+                    <p><strong>Kilometros de Carrera:</strong> 306.63 Km</p>
+                    <p><strong>Record de Vuelta:</strong> 1:16.627 - Lewis, Hamilton (2020)</p>
+                </div>
+                <div id="btn_close_Hungaroring" class="btn_modal">
+                    <button class="close">Volver</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Modal Belgica -->
+        <section id="modal_Belgica" class="modal">
+            <div class="modal_content">
+                <div class="text_modal">
+                    <h3>Circuit de Spa-Francorchamps</h3>
+                    <p><strong>Primer Grand Prix:</strong> 1950</p>
+                    <p><strong>Número de Vueltas:</strong> 44</p>
+                    <p><strong>Kilometros por Vuelta:</strong> 7.004 Km</p>
+                    <p><strong>Kilometros de Carrera:</strong> 308.052 Km</p>
+                    <p><strong>Record de Vuelta:</strong> 1:46.286 - Valtteri, Bottas (2018)</p>
+                </div>
+                <div id="btn_close_Spa-Francorchamps" class="btn_modal">
+                    <button class="close">Volver</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Modal Paises Bajos -->
+        <section id="modal_PaisesBajos" class="modal">
+            <div class="modal_content">
+                <div class="text_modal">
+                    <h3>Circuit Park Zandvoort</h3>
+                    <p><strong>Primer Grand Prix:</strong> 1952</p>
+                    <p><strong>Número de Vueltas:</strong> 72</p>
+                    <p><strong>Kilometros por Vuelta:</strong> 4.259 Km</p>
+                    <p><strong>Kilometros de Carrera:</strong> 306.587 Km</p>
+                    <p><strong>Record de Vuelta:</strong> 1:11.097 - Lewis, Hamilton (2021)</p>
+                </div>
+                <div id="btn_close_Zandvoort" class="btn_modal">
+                    <button class="close">Volver</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Modal Italia -->
+        <section id="modal_Italia" class="modal">
+            <div class="modal_content">
+                <div class="text_modal">
+                    <h3>Autodromo Nazionale Monza</h3>
+                    <p><strong>Primer Grand Prix:</strong> 1950</p>
+                    <p><strong>Número de Vueltas:</strong> 53</p>
+                    <p><strong>Kilometros por Vuelta:</strong> 5.793 Km</p>
+                    <p><strong>Kilometros de Carrera:</strong> 306.72 Km</p>
+                    <p><strong>Record de Vuelta:</strong> 1:21.046 - Rubens, Barrichello (2004)</p>
+                </div>
+                <div id="btn_close_Monza" class="btn_modal">
+                    <button class="close">Volver</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Modal Azerbaiyán -->
+        <section id="modal_Azerbaiyan" class="modal">
+            <div class="modal_content">
+                <div class="text_modal">
+                    <h3>Baku City Circuit</h3>
+                    <p><strong>Primer Grand Prix:</strong> 2006</p>
+                    <p><strong>Número de Vueltas:</strong> 51</p>
+                    <p><strong>Kilometros por Vuelta:</strong> 6.003 Km</p>
+                    <p><strong>Kilometros de Carrera:</strong> 306.049 Km</p>
+                    <p><strong>Record de Vuelta:</strong> 1:43.009 - Charles, Leclerc (2019)</p>
+                </div>
+                <div id="btn_close_Baku" class="btn_modal">
+                    <button class="close">Volver</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Modal Singapur -->
+        <section id="modal_Singapur" class="modal">
+            <div class="modal_content">
+                <div class="text_modal">
+                    <h3>Marina Bay Street Circuit</h3>
+                    <p><strong>Primer Grand Prix:</strong> 2008</p>
+                    <p><strong>Número de Vueltas:</strong> 62</p>
+                    <p><strong>Kilometros por Vuelta:</strong> 4.94 Km</p>
+                    <p><strong>Kilometros de Carrera:</strong> 306.143 Km</p>
+                    <p><strong>Record de Vuelta:</strong> 1:35.867 - Lewis, Hamilton (2023)</p>
+                </div>
+                <div id="btn_close_Singapur" class="btn_modal">
+                    <button class="close">Volver</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Modal Austin -->
+        <section id="modal_Austin" class="modal">
+            <div class="modal_content">
+                <div class="text_modal">
+                    <h3>Circuit of the Americas</h3>
+                    <p><strong>Primer Grand Prix:</strong> 2012</p>
+                    <p><strong>Número de Vueltas:</strong> 56</p>
+                    <p><strong>Kilometros por Vuelta:</strong> 5.513 Km</p>
+                    <p><strong>Kilometros de Carrera:</strong> 308.405 Km</p>
+                    <p><strong>Record de Vuelta:</strong> 1:36.169 - Charles, Leclerc (2019)</p>
+                </div>
+                <div id="btn_close_Austin" class="btn_modal">
+                    <button class="close">Volver</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Modal México -->
+        <section id="modal_Mexico" class="modal">
+            <div class="modal_content">
+                <div class="text_modal">
+                    <h3>Autódromo Hermanos Rodríguez</h3>
+                    <p><strong>Primer Grand Prix:</strong> 1963</p>
+                    <p><strong>Número de Vueltas:</strong> 71</p>
+                    <p><strong>Kilometros por Vuelta:</strong> 4.304 Km</p>
+                    <p><strong>Kilometros de Carrera:</strong> 305.354 Km</p>
+                    <p><strong>Record de Vuelta:</strong> 1:17.774 - Valtteri, Bottas (2021)</p>
+                </div>
+                <div id="btn_close_Mexico" class="btn_modal">
+                    <button class="close">Volver</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Modal Brasil -->
+        <section id="modal_Brasil" class="modal">
+            <div class="modal_content">
+                <div class="text_modal">
+                    <h3>Lenovo Sao Paulo GP</h3>
+                    <p><strong>Primer Grand Prix:</strong> 1973</p>
+                    <p><strong>Número de Vueltas:</strong> 71</p>
+                    <p><strong>Kilometros por Vuelta:</strong> 4.309 Km</p>
+                    <p><strong>Kilometros de Carrera:</strong> 305.879 Km</p>
+                    <p><strong>Record de Vuelta:</strong> 1:10.540 - Valtteri, Bottas (2018)</p>
+                </div>
+                <div id="btn_close_SaoPaulo" class="btn_modal">
+                    <button class="close">Volver</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Modal Las Vegas -->
+        <section id="modal_LasVegas" class="modal">
+            <div class="modal_content">
+                <div class="text_modal">
+                    <h3>Las Vegas Circuit</h3>
+                    <p><strong>Primer Grand Prix:</strong> 2023</p>
+                    <p><strong>Número de Vueltas:</strong> 50</p>
+                    <p><strong>Kilometros por Vuelta:</strong> 6.201 Km</p>
+                    <p><strong>Kilometros de Carrera:</strong> 309.958 Km</p>
+                    <p><strong>Record de Vuelta:</strong> 1:35.490 - Oscar, Piastri (2023)</p>
+                </div>
+                <div id="btn_close_LasVegas" class="btn_modal">
+                    <button class="close">Volver</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Modal Qatar -->
+        <section id="modal_Qatar" class="modal">
+            <div class="modal_content">
+                <div class="text_modal">
+                    <h3>Losail International Circuit</h3>
+                    <p><strong>Primer Grand Prix:</strong> 2021</p>
+                    <p><strong>Número de Vueltas:</strong> 57</p>
+                    <p><strong>Kilometros por Vuelta:</strong> 5.419 Km</p>
+                    <p><strong>Kilometros de Carrera:</strong> 308.611 Km</p>
+                    <p><strong>Record de Vuelta:</strong> 1:24.319 - Max, Verstappen (2023)</p>
+                </div>
+                <div id="btn_close_Qatar" class="btn_modal">
+                    <button class="close">Volver</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Modal Emiratos Arabes -->
+        <section id="modal_EmiratosArabes" class="modal">
+            <div class="modal_content">
+                <div class="text_modal">
+                    <h3>Yas Marina Circuit</h3>
+                    <p><strong>Primer Grand Prix:</strong> 2009</p>
+                    <p><strong>Número de Vueltas:</strong> 58</p>
+                    <p><strong>Kilometros por Vuelta:</strong> 5.281 Km</p>
+                    <p><strong>Kilometros de Carrera:</strong> 306.183 Km</p>
+                    <p><strong>Record de Vuelta:</strong> 1:26.103 - Max, Verstappen (2021)</p>
+                </div>
+                <div id="btn_close_Emiratos" class="btn_modal">
+                    <button class="close">Volver</button>
+                </div>
             </div>
         </section>
     </main>
