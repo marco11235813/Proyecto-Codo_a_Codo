@@ -54,6 +54,8 @@ const btn_open_ArabiaSaudita = document.querySelector(
 	"#btn_open_ArabiaSaudita"
 );
 const btn_open_Bahrein = document.querySelector("#btn_open_Bahrein");
+const btn_open_EmiliaRomana = document.querySelector("#btn_open_EmiliaRomana");
+const btn_open_RedBullRing = document.querySelector("#btn_open_RedBullRing");
 
 /* Btn Cerrar Modales */
 
@@ -115,6 +117,10 @@ btn_open_Austin.addEventListener("click", () => {
 	modal_Austin.style.display = "Block";
 });
 
+btn_open_RedBullRing.addEventListener("click", () => {
+	modal_Austria.style.display = "Block";
+});
+
 btn_open_MarinaBay.addEventListener("click", () => {
 	modal_Singapur.style.display = "Block";
 });
@@ -153,6 +159,10 @@ btn_open_Barcelona.addEventListener("click", () => {
 
 btn_open_Canada.addEventListener("click", () => {
 	modal_Canada.style.display = "Block";
+});
+
+btn_open_EmiliaRomana.addEventListener("click", () => {
+	modal_EmiliaRomana.style.display = "Block";
 });
 
 btn_open_Miami.addEventListener("click", () => {

@@ -29,6 +29,7 @@ body main .galery-cont .circuit-card {
 	justify-content: center;
 	align-items: center;
 	row-gap: 10px;
+	width: 375px;
 }
 
 body main .galery-cont .circuit-card img {

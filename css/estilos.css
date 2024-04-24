@@ -249,35 +249,55 @@ footer .redes .redes-boot a img {
 .modal {
 	width: 100%;
 	height: 100%;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
 	padding: 15px;
-	position: fixed;
-	background-color: rgba(207, 207, 207, 0.1);
-	top: 0;
-	left: 0;
+	background-color: rgba(218, 37, 37, 0.8);
 	z-index: 1;
 }
 
 .modal .modal_content {
 	margin: auto;
-	background-color: lightsteelblue;
-	width: 60%;
-	height: 60%;
+	background-color: whitesmoke;
+	width: 65%;
+	height: 75%;
 	border-radius: 25px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;
 	align-items: center;
 	row-gap: 10px;
-	z-index: 2;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
-.modal .modal_content .text_modal h3 {
-	margin-bottom: 20px;
-	text-align: center;
+.modal .modal_content p {
+	width: 85%;
+	padding: 10px;
+}
+
+.modal .modal_content h3 {
+	padding: 15px;
+}
+
+.modal .modal_content .content_text_modal {
+	display: flex;
+	column-gap: 10px;
+}
+
+.modal .modal_content .content_text_modal .img_piloto_modal {
+	display: flex;
+	align-items: center;
+}
+
+.modal .modal_content .content_text_modal .img_piloto_modal img {
+	width: 250px;
+}
+
+.modal .modal_content .text_modal {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
 }
 
 .modal .modal_content .text_modal {
@@ -293,6 +313,12 @@ footer .redes .redes-boot a img {
 	color: red;
 	border: none;
 	font-weight: bold;
+}
+
+/* Modal Historia */
+
+#Max_Historia {
+	display: none;
 }
 
 /* form */
