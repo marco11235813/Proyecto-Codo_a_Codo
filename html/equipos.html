@@ -8,8 +8,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/estilos.css">
-    <link rel="stylesheet" href="../css/media_QueryGrid.css">
     <link rel="stylesheet" href="../css/equipo.css">
+    <link rel="stylesheet" href="../css/media_QueryGrid.css">
+    <script src="/JS/equipos.js" defer></script>
 </head>
 
 <body>
@@ -91,17 +92,17 @@
         <section class="teams">
             <div class="team">
                 <!-- Red Bull -->
-                <div id="redbull" class=" cont-team">
-                    <div class="equipo-team sombra_redbull">
+                <div id="redbull" class="cont-team">
+                    <div class="equipo-team sombra_redbull redbull_team">
                         <img src="../img/Equipos/Equipo/redbull.png" alt="redbull_auto">
                         <h5>Red Bull RB20</h5>
                     </div>
                     <div class="pilotos-team sombra_redbull">
-                        <div class="pilot-1">
+                        <div id="Max" class="pilot-1">
                             <img src="../img/Equipos/pilotos/max.png" alt="max_photo">
                             <h5>Verstappen, Max</h5>
                         </div>
-                        <div class="pilot-2">
+                        <div id="Checo" class="pilot-2">
                             <img src="../img/Equipos/pilotos/Checo.png" alt="checo_photo">
                             <h5>Checo Perez</h5>
                         </div>
@@ -115,11 +116,11 @@
                         <h5>Mercedes AMG F1 W15 E</h5>
                     </div>
                     <div class="pilotos-team sombra_mercedes">
-                        <div class="pilot-1">
+                        <div id="Russell" class="pilot-1">
                             <img src="../img/Equipos/pilotos/George1.png" alt="george_photo">
                             <h5>Russell, George</h5>
                         </div>
-                        <div class="pilot-2">
+                        <div id="Hamilton" class="pilot-2">
                             <img src="../img/Equipos/pilotos/Lewis.png" alt="lewis_photo">
                             <h5>Hamilton, Lewis</h5>
                         </div>
@@ -133,11 +134,11 @@
                         <h5>McLaren MCL 38</h5>
                     </div>
                     <div class="pilotos-team sombra_mclaren ">
-                        <div class="pilot-1">
+                        <div id="Norris" class="pilot-1">
                             <img src="../img/Equipos/pilotos/Lando.png" alt="lando_photo">
                             <h5>Lando, Norris</h5>
                         </div>
-                        <div class="pilot-2">
+                        <div id="Piastri" class="pilot-2">
                             <img src="../img/Equipos/pilotos/oscar.png" alt="piastri_photo">
                             <h5>Piastri, Oscar</h5>
                         </div>
@@ -151,11 +152,11 @@
                         <h5>Ferrari SF 24</h5>
                     </div>
                     <div class="pilotos-team sombra_ferrari">
-                        <div class="pilot-1">
+                        <div id="Leclerc" class="pilot-1">
                             <img src="../img/Equipos/pilotos/Charles.png" alt="leclerc_photo">
                             <h5>Leclerc, Charles</h5>
                         </div>
-                        <div class="pilot-2">
+                        <div id="Sainz" class="pilot-2">
                             <img src="../img/Equipos/pilotos/Carlos.png" alt="sainz_photo">
                             <h5>Sainz, Carlos</h5>
                         </div>
@@ -169,11 +170,11 @@
                         <h5>Racing Bull VCARB 01</h5>
                     </div>
                     <div class=" pilotos-team sombra_redbull">
-                        <div class="pilot-1">
+                        <div id="Ricciardo" class="pilot-1">
                             <img src="../img/Equipos/pilotos/ricciardo.png" alt="ricciardo_photo">
                             <h5>Ricciardo, Daniel</h5>
                         </div>
-                        <div class="pilot-2">
+                        <div id="Tsunoda" class="pilot-2">
                             <img src="../img/Equipos/pilotos/tsunoda.png" alt="tsunoda_photo">
                             <h5>Tsunoda, Yuki</h5>
                         </div>
@@ -205,11 +206,11 @@
                         <h5>Hass VF 24</h5>
                     </div>
                     <div class=" pilotos-team sombra_hass">
-                        <div class="pilot-1">
+                        <div id="Magnussen" class="pilot-1">
                             <img src="../img/Equipos/pilotos/kevin.png" alt="kevin_photo">
                             <h5>Magnussen, Kevin</h5>
                         </div>
-                        <div class="pilot-2">
+                        <div id="Hulkenberg" class="pilot-2">
                             <img src="../img/Equipos/pilotos/nico.png" alt="hulkenberg_photo">
                             <h5>HÜlkenberg, Nico</h5>
                         </div>
@@ -241,11 +242,11 @@
                         <h5>Aston Martin ARM24</h5>
                     </div>
                     <div class=" pilotos-team sombra_astonmartin">
-                        <div class="pilot-1">
+                        <div id="Alonso" class="pilot-1">
                             <img src="../img/Equipos/pilotos/alonso.png" alt="alonso_photo">
                             <h5>Alonso, Fernando </h5>
                         </div>
-                        <div class="pilot-2">
+                        <div id="Stroll" class="pilot-2">
                             <img src="../img/Equipos/pilotos/stroll.png" alt="stroll_photo">
                             <h5>Stroll, Lance</h5>
                         </div>
@@ -304,6 +305,301 @@
             </div>
         </div>
     </footer>
+
+    <!-- Modal Max -->
+    <section id="Max_Historia" class="modal">
+        <div class="modal_content">
+            <h3>Max Emilian Verstappen</h3>
+            <p>Nació el 30 de septiembre de 1997 en Bélgica. Desde 2015 compite como piloto,
+                debutando
+                en la escudería Toro Rosso con
+                apenas 17 años de edad, siendo en aquel entonces el corredor más joven de la
+                fórmula 1.
+                A partir de 2016 lo hace en el
+                equipo Red Bull Racing resultando tricampeón del Campeonato Mundial de Fórmula 1
+                con los
+                títulos obtenidos en 2021, 2022
+                y 2023. Cuenta además con 100 podios ganados. Con Verstappen existe la sensación
+                de que
+                el cielo es el límite.</p>
+            <div id="btn_close_Max" class="btn_modal">
+                <button class="close">Volver</button>
+            </div>
+        </div>
+    </section>
+    <!-- Modal Checo -->
+    <section id="Checo_Historia" class="modal">
+        <div class="modal_content">
+            <h3>Sergio Michel Pérez Mendoza</h3>
+            <p>Conocido como Checo Pérez, nació el 26 de enero de 1990 en Guadalajara, México. Hizo su debut en Fórmula
+                1 con el equipo
+                Sauber durante la temporada 2011, donde obtuvo su primer podio en el Gran Premio de Malasia de 2012. Se
+                unió a McLaren
+                para la temporada 2013 y desde el 2014 hasta el 2020 condujo para Racing Point hasta que en diciembre se
+                hizo oficial su
+                fichaje con Red Bull Racing para 2021 donde continúa actualmente. Aún no cuenta con campeonatos
+                mundiales ganados, pero
+                sí lleva 37 grandes victorias que lo subieron al podio y 261 premios ganados.</p>
+            <div id="btn_close_Checo" class="btn_modal">
+                <button class="close">Volver</button>
+            </div>
+        </div>
+    </section>
+    <!-- Modal Russell -->
+    <section id="Russell_Historia" class="modal">
+        <div class="modal_content">
+            <h3>George William Russell
+            </h3>
+            <p>Piloto de automovilismo británico nacido el 15 de febrero de 1998, Inglaterra. Desde 2019 hasta 2021
+                compitió para
+                Williams en Fórmula 1.​ Desde el año 2022 es piloto de la escudería Mercedes-AMG Petronas. La temporada
+                2023 resultó
+                difícil, pero si las flechas de plata pueden recuperarse y brindarle un auto verdaderamente competitivo,
+                seguramente le
+                espera una candidatura al título. Un gran desafío, pero como siempre, irá a toda velocidad. Ganó 107
+                grandes premios, 11
+                podios.</p>
+            <div id="btn_close_Russell" class="btn_modal">
+                <button class="close">Volver</button>
+            </div>
+        </div>
+    </section>
+    <!-- Modal Hamilton -->
+    <section id="Hamilton_Historia" class="modal">
+        <div class="modal_content">
+            <h3>Lewis Carl Davidson Larbalestier Hamilton
+            </h3>
+            <p>Más conocido como Sir Lewis Hamilton nació el 7 de enero de 1985, Stevenage. piloto británico. En Fórmula
+                1 desde 2007
+                hasta 2012, fue piloto de la escudería McLaren, con la cual fue campeón en 2008 y subcampeón en 2007. A
+                partir de 2013,
+                se convirtió en piloto de Mercedes, resultando campeón en 2014, 2015, 2017, 2018, 2019, 2020, igualando
+                los 7 títulos
+                mundiales de Michael Schumacher, y subcampeón en 2016 y 2021, y tercero en 2023. Ha logrado alzarse con
+                más de 103
+                victorias en Grandes Premios a lo largo de su carrera en la Fórmula 1, superando en 2020 el récord de
+                victorias en la
+                historia de la competición. A partir de 2025 competirá para la escudería italiana Ferrari. Cuenta con
+                335 grandes
+                premios y 197 podios.</p>
+            <div id="btn_close_Hamilton" class="btn_modal">
+                <button class="close">Volver</button>
+            </div>
+        </div>
+    </section>
+    <!-- Modal Norris -->
+    <section id="Norris_Historia" class="modal">
+        <div class="modal_content">
+            <h3>Lando Norris
+            </h3>
+            <p>Piloto nacido en Inglaterra, 13 de noviembre de 1999. Desde 2019 es piloto de la escudería McLaren de
+                Fórmula 1. Su
+                temporada de novato fue impresionante, en 2020 consiguió su primer podio, y le siguieron más en las dos
+                temporadas
+                siguientes. Un talento apasionante en la pista, fuera de ella, Norris rebosa un encanto modesto y un
+                lado artístico que
+                le permite diseñar y pintar su propio equipo de carrera como pasatiempo. El enfoque para el futuro es
+                aunar arte y
+                ambición en la pista, mientras McLaren confía en la promesa de la juventud para llevarlos de regreso a
+                la cima. Grandes
+                premios ganados 107, podios 14.
+            </p>
+            <div id="btn_close_Norris" class="btn_modal">
+                <button class="close">Volver</button>
+            </div>
+        </div>
+    </section>
+    <!-- Modal Piastri -->
+    <section id="Piastri_Historia" class="modal">
+        <div class="modal_content">
+            <h3>Oscar Piastri
+            </h3>
+            <p>Nació el 6 de abril de 2001 en Melbourne, Australia. ​ En 2021 fue miembro de la Academia Alpine y piloto
+                reserva de
+                Alpine en 2022. Desde 2023 es piloto de McLaren en Fórmula 1 quien renovó su contrato hasta la temporada
+                2026. Si bien
+                es un piloto de corta trayectoria aún no posee campeonatos mundiales pero sí 25 grandes premios, 2
+                podios.
+
+            </p>
+            <div id="btn_close_Piastri" class="btn_modal">
+                <button class="close">Volver</button>
+            </div>
+        </div>
+    </section>
+    <!-- Modal Leclerc -->
+    <section id="Leclerc_Historia" class="modal">
+        <div class="modal_content">
+            <h3>Charles Marc Hervé Perceval Leclerc
+            </h3>
+            <p>Piloto nacido el 16 de octubre de 1997, Mónaco. Debutó en la Fórmula 1 con el equipo Sauber en 2018, y
+                desde 2019 es
+                piloto de la escudería Ferrari. Lleva ganados 128 grandes premios, 32 podios, pero por el momento ningún
+                campeonato
+                mundial. Tiene un camino incomparable en GP3 y Fórmula 2. Es un piloto joven que promete un largo camino
+                por recorrer en
+                la Fórmula 1.
+
+            </p>
+            <div id="btn_close_Leclerc" class="btn_modal">
+                <button class="close">Volver</button>
+            </div>
+        </div>
+    </section>
+    <!-- Modal Sainz -->
+    <section id="Sainz_Historia" class="modal">
+        <div class="modal_content">
+            <h3>Carlos Sainz Vázquez de Castro
+            </h3>
+            <p>Más conocido como Carlos Sainz Jr. nació en Madrid el 1 de septiembre de 1994. Debutó en Fórmula 1 con
+                Toro Rosso en
+                2015 donde se mantuvo hasta 2017, temporada en la que firmó con el equipo Renault. En 2019 y 2020
+                compitió con McLaren,
+                resultando sexto en ambas temporadas. Desde 2021 es piloto de la escudería Ferrari. Lleva ganados 187
+                grandes premios,
+                20 podios, aún sin obtener ningún título a nivel mundial, es el hijo del piloto Carlos Sainz, dos veces
+                campeón del
+                Campeonato Mundial de Rally y cuatro veces vencedor del Rally Dakar. Ha demostrado que posee grandes
+                habilidades de
+                conducción y que continuará luchando en las pistas hasta conseguir su primer título mundial.</p>
+            <div id="btn_close_Sainz" class="btn_modal">
+                <button class="close">Volver</button>
+            </div>
+        </div>
+    </section>
+    <!-- Modal Ricciardo -->
+    <section id="Ricciardo_Historia" class="modal">
+        <div class="modal_content">
+            <h3>Daniel Joseph Ricciardo
+            </h3>
+            <p>El primero de julio de 1989 nació en Perth, Australia aunque tiene ascendencia italiana. debutó en
+                Fórmula 1 con HRT en
+                2011. En 2012 y 2013 fue piloto de Toro Rosso y dio el salto a Red Bull de 2014 a 2018. De 2019 a 2020
+                compitió con
+                Renault hasta 2021, cuando firmó con McLaren hasta 2022. En 2023 volvió a Red Bull como tercer piloto
+                tras quedarse sin
+                asiento como piloto principal, hasta el Gran Premio de Hungría, donde sustituyó a Nyck de Vries en
+                AlphaTauri. En 2024
+                compite con el equipo RB. Ha logrado 32 podios y 244 grandes premios a lo largo de su trayectoria en F1,
+                aún esperamos
+                su gran sonrisa ante un campeonato mundial.
+            </p>
+            <div id="btn_close_Ricciardo" class="btn_modal">
+                <button class="close">Volver</button>
+            </div>
+        </div>
+    </section>
+    <!-- Modal Tsunoda -->
+    <section id="Tsunoda_Historia" class="modal">
+        <div class="modal_content">
+            <h3>Yuki Tsunoda
+            </h3>
+            <p>El 11 de mayo del 2000 nació en Japón. Desde 2021 compitió en la Fórmula 1 con la escudería AlphaTauri
+                hasta 2023, tras
+                una reestructuración del equipo en 2024 corre con el equipo RB. Tsunoda demostró que tenía la velocidad
+                y el arte de
+                competir para abrirse camino hacia la cima. Puede que no se haya adaptado a los Grandes Premios tan
+                rápido como lo hizo
+                a la F2, pero ahora que se ha establecido firmemente en la Fórmula 1, aún podría encontrarse luchando en
+                la parte más
+                dura con un Red Bull. Hoy en día cuenta con 71 grandes premios a la espera de su primer podio en F1.
+
+            </p>
+            <div id="btn_close_Tsunoda" class="btn_modal">
+                <button class="close">Volver</button>
+            </div>
+        </div>
+    </section>
+    <!-- Modal Alonso -->
+    <section id="Alonso_Historia" class="modal">
+        <div class="modal_content">
+            <h3>Fernando Alonso Díaz
+            </h3>
+            <p>Nació el 29 de julio de 1981, en Asturias. Ha ganado dos veces el Campeonato Mundial de Fórmula 1 en 2005
+                y 2006 con el
+                equipo Renault, ​ resultó subcampeón en 2010, 2012 y 2013 con la escudería Ferrari, y obtuvo un tercer
+                puesto en 2007
+                con McLaren. Tras dos años fuera de la categoría, en 2021 volvió con la escudería Alpine, parte de la
+                familia Renault,
+                con la que ganó sus dos campeonatos. Desde 2023 forma parte del equipo Aston Martin sustituyendo a
+                Sebastian Vettel,
+                donde resultó cuarto con ocho podios y una vuelta rápida. Cuenta con 106 podios, 385 grandes premios y 2
+                campeonatos
+                mundiales. Alonso espera que sea con el equipo de verde donde finalmente vuelva a la senda del triunfo!
+
+            </p>
+            <div id="btn_close_Alonso" class="btn_modal">
+                <button class="close">Volver</button>
+            </div>
+        </div>
+    </section>
+    <!-- Modal Stroll -->
+    <section id="Stroll_Historia" class="modal">
+        <div class="modal_content">
+            <h3>Lance Strulovitch
+            </h3>
+            <p>Más conocido como Lance Stroll, nació en Canadá el 29 de octubre de 1998. Disputó las temporadas 2017 y
+                2018 con
+                Williams en Fórmula 1, en 2019 y 2020 fue piloto de Racing Point. Actualmente es piloto de la escudería
+                Aston Martin F1
+                Team donde su padre desde el 2018 lidera el consorcio de la escudería.Stroll tiene el potencial de ser
+                un elemento fijo
+                a largo plazo en la Fórmula 1. Consiguió subir al podio en tres oportunidades y cuenta con 148 grandes
+                premios.
+
+            </p>
+            <div id="btn_close_Stroll" class="btn_modal">
+                <button class="close">Volver</button>
+            </div>
+        </div>
+    </section>
+    <!-- Modal Magnussen -->
+    <section id="Magnussen_Historia" class="modal">
+        <div class="modal_content">
+            <h3>Kevin Magnussen
+
+            </h3>
+            <p>Nació en Dinamarca el 5 de octubre de 1992. El piloto danés debutó en la Fórmula 1 en 2014 con McLaren,
+                logrando un
+                segundo puesto en el Gran Premio de Australia de 2014 en su primera carrera. Compitió con la escudería
+                Renault en 2016 e
+                ingresó a Haas F1 Team de 2017 hasta 2020. Después de dejar temporalmente la Fórmula 1 compitió en
+                carreras de
+                resistencia como las 24 Horas de Le Mans. En febrero de 2022 volvió a Haas con un contrato multianual.
+                Sus maniobras
+                sustanciosas y su enfoque descarado le han ganado una reputación de chico malo en la pista dandole como
+                resultado 1
+                podio y 169 grandes premios.
+            </p>
+            <div id="btn_close_Magnussen" class="btn_modal">
+                <button class="close">Volver</button>
+            </div>
+        </div>
+    </section>
+    <!-- Modal HÜlkengerg -->
+    <section id="Hulkenberg_Historia" class="modal">
+        <div class="modal_content">
+            <h3>Nicolas Hülkenberg
+
+            </h3>
+            <p>Piloto alemán nacido el 19 de agosto de 1987 Desde 2010 hasta 2020 corrió en Fórmula 1 para Williams,
+                Force India,
+                Sauber, Renault, Racing Point y en 2022 para Aston Martin en las dos primeras carreras. En 2023 volvió a
+                la categoría
+                como piloto oficial de Haas. Es el piloto con mayor número de presencias en Fórmula 1 sin haber subido
+                nunca a un podio.
+                Lleva ganados 211 grandes premios.
+
+            </p>
+            <div id="btn_close_Hulkenberg" class="btn_modal">
+                <button class="close">Volver</button>
+            </div>
+        </div>
+    </section>
+
+
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>
