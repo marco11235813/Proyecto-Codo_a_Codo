@@ -15,12 +15,16 @@
 
 <body>
     <header id="teams-list">
+        <section class="hero">
+            <img class="hero-img" src="../img/LogoFormula1.png" alt="logo">
+            <h1 class="hero-text">Equipos y Pilotos </h1>
+        </section>
         <nav class="menu-bar">
-            <div class="loguitoUno">
+            <!--             <div class="loguitoUno">
                 <a href="index.html">
                     <img src="../img/loguito.png" alt="Logo" title="Formula 1">
                 </a>
-            </div>
+            </div> -->
             <ul class="menu-nabvar">
                 <li>
                     <a href="equipos.html">Equipos</a>
@@ -39,14 +43,10 @@
                 </li>
             </ul>
         </nav>
-        <section class="hero">
-            <img class="hero-img" src="../img/LogoFormula1.png" alt="logo">
-            <h1 class="hero-text">Equipos y Pilotos </h1>
-        </section>
     </header>
     <main>
         <section class="teams-card">
-            <div class="team-card">
+            <div id="retorno" class="team-card">
                 <!-- Ferrari -->
                 <a href="#ferrari" class="sombra_ferrari">
                     <img src="../img/logo/Ferrari800x800.png" alt="ferrariLogo">
@@ -93,7 +93,7 @@
             <div class="team">
                 <!-- Red Bull -->
                 <div id="redbull" class="cont-team">
-                    <div class="equipo-team sombra_redbull redbull_team">
+                    <div id="redbull_car" class="equipo-team sombra_redbull redbull_team">
                         <img src="../img/Equipos/Equipo/redbull.png" alt="redbull_auto">
                         <h5>Red Bull RB20</h5>
                     </div>
@@ -107,11 +107,10 @@
                             <h5>Checo Perez</h5>
                         </div>
                     </div>
-                    <a href="#teams-list">Volver a Equipos</a>
                 </div>
                 <!-- Mercedes -->
                 <div id="mercedes" class="cont-team">
-                    <div class="equipo-team sombra_mercedes">
+                    <div id="mercedes_car" class="equipo-team sombra_mercedes">
                         <img src="../img/Equipos/Equipo/mercedes.png" alt="mercedes_auto">
                         <h5>Mercedes AMG F1 W15 E</h5>
                     </div>
@@ -125,11 +124,10 @@
                             <h5>Hamilton, Lewis</h5>
                         </div>
                     </div>
-                    <a href="#teams-list">Volver a Equipos</a>
                 </div>
                 <!-- McLaren -->
                 <div id="mclaren" class="cont-team">
-                    <div class="equipo-team sombra_mclaren ">
+                    <div id="mclaren_car" class="equipo-team sombra_mclaren ">
                         <img src="../img/Equipos/Equipo/Mclaren.png" alt="mclaren_auto">
                         <h5>McLaren MCL 38</h5>
                     </div>
@@ -143,11 +141,10 @@
                             <h5>Piastri, Oscar</h5>
                         </div>
                     </div>
-                    <a href="#teams-list">Volver a Equipos</a>
                 </div>
                 <!-- Ferrari -->
                 <div id="ferrari" class="cont-team">
-                    <div class="equipo-team sombra_ferrari">
+                    <div id="ferrari_car" class="equipo-team sombra_ferrari">
                         <img src="../img/Equipos/Equipo/ferrari.png" alt="ferrari">
                         <h5>Ferrari SF 24</h5>
                     </div>
@@ -161,11 +158,10 @@
                             <h5>Sainz, Carlos</h5>
                         </div>
                     </div>
-                    <a href="#teams-list">Volver a Equipos</a>
                 </div>
                 <!-- RB -->
                 <div id="racingbull" class="cont-team">
-                    <div class="equipo-team sombra_redbull">
+                    <div id="racingbull_car" class="equipo-team sombra_redbull">
                         <img src="../img/Equipos/Equipo/RacingBull.png" alt="racingbull_auto">
                         <h5>Racing Bull VCARB 01</h5>
                     </div>
@@ -179,29 +175,27 @@
                             <h5>Tsunoda, Yuki</h5>
                         </div>
                     </div>
-                    <a href="#teams-list">Volver a Equipos</a>
                 </div>
                 <!-- Alpine -->
                 <div id="alpine" class="cont-team">
-                    <div class="equipo-team sombra_alpine ">
+                    <div id="alpine_car" class="equipo-team sombra_alpine ">
                         <img src="../img/Equipos/Equipo/alpine.png" alt="alpine_auto">
                         <h5>Alpine A110</h5>
                     </div>
                     <div class=" pilotos-team sombra_alpine ">
-                        <div class="pilot-1">
+                        <div id="Ocon" class="pilot-1">
                             <img src="../img/Equipos/pilotos/ocon.png" alt="ocon_photo">
                             <h5>Ocon, Esteban</h5>
                         </div>
-                        <div class="pilot-2">
+                        <div id="Gasly" class="pilot-2">
                             <img src="../img/Equipos/pilotos/gasly.png" alt="gasly_photo">
                             <h5>Gasly, Pierre</h5>
                         </div>
                     </div>
-                    <a href="#teams-list">Volver a Equipos</a>
                 </div>
                 <!-- Hass -->
                 <div id="hass" class="cont-team">
-                    <div class="equipo-team sombra_hass">
+                    <div id="hass_car" class="equipo-team sombra_hass">
                         <img src="../img/Equipos/Equipo/hass.png" alt="hass_auto">
                         <h5>Hass VF 24</h5>
                     </div>
@@ -215,29 +209,27 @@
                             <h5>HÜlkenberg, Nico</h5>
                         </div>
                     </div>
-                    <a href="#teams-list">Volver a Equipos</a>
                 </div>
                 <!-- stake -->
                 <div id="stake" class="cont-team">
-                    <div class="equipo-team sombra_stake">
+                    <div id="stake_car" class="equipo-team sombra_stake">
                         <img src="../img/Equipos/Equipo/stake.png" alt="stake_auto">
                         <h5>Stake C44</h5>
                     </div>
                     <div class=" pilotos-team sombra_stake">
-                        <div class="pilot-1">
+                        <div id="Bottas" class="pilot-1">
                             <img src="../img/Equipos/pilotos/valtteri.png" alt="valtteri_photo">
                             <h5>Bottas, Valtteri</h5>
                         </div>
-                        <div class="pilot-2">
+                        <div id="Zhou" class="pilot-2">
                             <img src="../img/Equipos/pilotos/zhou.png" alt="zhou_photo">
                             <h5>Zhou, Guanyu</h5>
                         </div>
                     </div>
-                    <a href="#teams-list">Volver a Equipos</a>
                 </div>
                 <!-- Aston Martin -->
                 <div id="astonmartin" class="cont-team">
-                    <div class="equipo-team sombra_astonmartin">
+                    <div id="astonmartin_car" class="equipo-team sombra_astonmartin">
                         <img src="../img/Equipos/Equipo/astonmartin.png" alt="aston_auto">
                         <h5>Aston Martin ARM24</h5>
                     </div>
@@ -251,25 +243,23 @@
                             <h5>Stroll, Lance</h5>
                         </div>
                     </div>
-                    <a href="#teams-list">Volver a Equipos</a>
                 </div>
                 <!-- Williams -->
                 <div id="williams" class="cont-team">
-                    <div class="equipo-team sombra_williams">
+                    <div id="williams_car" class="equipo-team sombra_williams">
                         <img src="../img/Equipos/Equipo/williams.png" alt="williams_auto">
                         <h5>Williams FW 46</h5>
                     </div>
                     <div class=" pilotos-team sombra_williams">
-                        <div class="pilot-1">
+                        <div id="Albon" class="pilot-1">
                             <img src="../img/Equipos/pilotos/albon.png" alt="albon_photo">
                             <h5>Albon, Alexander </h5>
                         </div>
-                        <div class="pilot-2">
+                        <div id="Sargeant" class="pilot-2">
                             <img src="../img/Equipos/pilotos/sargeant.png" alt="sargeant_photo">
                             <h5>Sargeant, Logan</h5>
                         </div>
                     </div>
-                    <a href="#teams-list">Volver a Equipos</a>
                 </div>
             </div>
         </section>
@@ -305,7 +295,127 @@
             </div>
         </div>
     </footer>
+    <!-- Modales Equipos -->
 
+    <!-- Modal Ferrari -->
+    <section id="Ferrari_Historia" class="modal">
+        <div class="modal_content">
+            <h3>Scuderia Ferrari</h3>
+            <div class="datos">
+                <div class="datos_scuderia">
+                    <span>Sede: Maranello, Italia</span>
+                    <span>Jefe de equipo: Frédéric Vasseur</span>
+                    <span>Jefe Técnico: Enrico Cardile / Enrico Gualtieri</span>
+                    <span>Chasis: SF-24</span>
+                    <span>Motor: Ferrari</span>
+                    <span>Año de ingreso a la categoría: 1950</span>
+                    <span>Campeonatos mundiales obtenidos: 16</span>
+                    <span>Carreras ganadas: 245</span>
+                </div>
+                <div class="hist_scuderia">
+                    <p>Para muchos, Ferrari y las carreras de Fórmula 1 se han vuelto inseparables. Como el único equipo
+                        que ha
+                        competido en
+                        cada temporada desde el inicio del campeonato mundial, el Cavallino Rampante ha crecido desde el
+                        humilde
+                        sueño del
+                        fundador Enzo Ferrari para convertirse en una de las marcas más icónicas y reconocidas en el
+                        mundo.
+                        El éxito llegó rápidamente a través de figuras como Alberto Ascari y John Surtees, y continuó,
+                        en
+                        medio
+                        de épocas
+                        difíciles, con Niki Lauda en la década de 1970 y luego con Michael Schumacher en la década de
+                        2000,
+                        cuando Ferrari logró
+                        entonces cinco dobletes de títulos consecutivos, asegurando su estatus como el equipo más
+                        exitoso y
+                        laureado en la
+                        historia de la Fórmula 1.
+                    </p>
+                </div>
+            </div>
+            <div id="btn_close_Ferrari" class="btn_modal">
+                <button class="close">Volver</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal Aston -->
+    <section id="Aston_Historia" class="modal">
+        <div class="modal_content">
+            <h3>Aston Martin Aramco F1 Team</h3>
+            <div class="datos">
+                <div class="datos_scuderia">
+                    <span>Sede: Silverstone, Reino Unido</span>
+                    <span>Jefe de equipo: Mike Krack</span>
+                    <span>Jefe Técnico: Dan Fallows</span>
+                    <span>Chasis: AMR24</span>
+                    <span>Motor: Mercedes</span>
+                    <span>Año de ingreso a la categoría: 2018</span>
+                    <span>Campeonatos mundiales obtenidos: no tiene</span>
+                    <span>Carreras ganadas: 1</span>
+                </div>
+                <div class="hist_scuderia">
+                    <p>La incursión original de Aston Martin en la Fórmula 1, hace más de medio siglo, duró apenas
+                        cinco
+                        carreras. Sin embargo,
+                        esta vez es diferente. Este equipo de F1 no es ajeno al éxito, habiendo ganado en su forma
+                        original
+                        como
+                        Jordan y más
+                        recientemente como Racing Point en 2020.
+                        Reconocidos por su capacidad para superar su categoría, y ahora con un campeón dos veces
+                        liderando
+                        su
+                        alineación de
+                        pilotos, Aston Martin es definitivamente un equipo para seguir de cerca.
+                    </p>
+                </div>
+            </div>
+            <div id="btn_close_Aston" class="btn_modal">
+                <button class="close">Volver</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal Alpine -->
+    <section id="Alpine_Historia" class="modal">
+        <div class="modal_content">
+            <h3>BWT Alpine F1 Team
+            </h3>
+            <div class="datos">
+                <div class="datos_scuderia">
+                    <span>Sede: Enstone, Reino Unido</span>
+                    <span>Jefe de equipo: Bruno Famin</span>
+                    <span> Jefe Técnico: Joe Burnell / David Wheater / Ciaron Pilbeam</span>
+                    <span> Chasis: A524</span>
+                    <span> Motor: Renault</span>
+                    <span> Año de ingreso a la categoría: 1986</span>
+                    <span> Campeonatos mundiales obtenidos: 2</span>
+                    <span> Carreras ganadas: 21</span>
+                </div>
+                <div class="hist_scuderia">
+                    <p> Alpine puede ser un nombre relativamente nuevo en la Fórmula 1, pero el famoso brazo de deportes
+                        de
+                        motor de Renault
+                        tiene mucha herencia en el automovilismo.
+                        El cambio de marca del equipo en 2021 marcó el siguiente paso en la reactivación de Renault en
+                        la
+                        F1,
+                        que comenzó en
+                        2016 con la adquisición del entonces equipo Lotus.
+                    </p>
+                </div>
+            </div>
+            <div id="btn_close_Alpine" class="btn_modal">
+                <button class="close">Volver</button>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Modales Pilotos -->
     <!-- Modal Max -->
     <section id="Max_Historia" class="modal">
         <div class="modal_content">
@@ -596,8 +706,135 @@
             </div>
         </div>
     </section>
+    <!-- Modal Albon -->
+    <section id="Albon_Historia" class="modal">
+        <div class="modal_content">
+            <h3>Alexander Albon Ansusinha
 
+            </h3>
+            <p>Tailandés nacido el 23 de marzo de 1996, más conocido como Alex Albon. Debutó en Fórmula 1 en 2019 con la
+                escudería Toro
+                Rosso y en mitad de temporada pasó a Red Bull, donde compitió a tiempo completo en 2020. En 2022 volvió
+                a la «máxima
+                categoría» con Williams. Relajado y alegre con una sonrisa descarada, el piloto tailandés es popular
+                entre sus
+                compañeros pero en la Fórmula 1 no se tiene éxito siendo popular, lo que inspira a este corredor a
+                crecer
+                profesionalmente. Lleva ganados 86 grandes premios y 2 podios.
+            </p>
+            <div id="btn_close_Albon" class="btn_modal">
+                <button class="close">Volver</button>
+            </div>
+        </div>
+    </section>
+    <!-- Modal Sargeant -->
+    <section id="Sargeant_Historia" class="modal">
+        <div class="modal_content">
+            <h3>Logan Hunter Sargeant
 
+            </h3>
+            <p>Piloto estadounidense nacido el 31 de diciembre del año 2000. Desde 2023 es piloto titular de la
+                escudería Williams
+                Racing. Aunque su aparición en Fórmula 1 es muy reciente el talento de Logan ha demostrado en F2 y F3
+                que tiene mucho
+                potencial para crecer en las ligas mayores. Aún no cuenta con podios en F1 pero ha ganado 26 grandes
+                premios.
+
+            </p>
+            <div id="btn_close_Sargeant" class="btn_modal">
+                <button class="close">Volver</button>
+            </div>
+        </div>
+    </section>
+    <!-- Modal Ocon -->
+    <section id="Ocon_Historia" class="modal">
+        <div class="modal_content">
+            <h3>Esteban José Jean-Pierre Ocon-Khelfane
+            </h3>
+            <p>Más conocido como Esteban Ocon, nació el 17 de septiembre de 1996 en Francia. Debutó en Fórmula 1 en 2016
+                con Manor y
+                más tarde compitió para Force India y Racing Point. Luego de un año de desarrollo con Mercedes, volvió a
+                este campeonato
+                de la mano de Renault. o con Fernando Alonso en la escudería Alpine, obteniendo la primera y única
+                victoria de su
+                carrera en el Gran Premio de Hungría de 2021. Desde 2023 comparte equipo con su compatriota Pierre
+                Gasly. Nada en la
+                carrera de Ocon en el deporte del motor ha sido fácil, pero si Ocon ha logrado regresar a la parrilla de
+                F1 y subir al
+                podio, es gracias a una combinación de confianza en sí mismo, determinación y un talento que está a la
+                altura de los
+                mejores. Cuenta con 138 grandes premios y 3 podios.
+            </p>
+            <div id="btn_close_Ocon" class="btn_modal">
+                <button class="close">Volver</button>
+            </div>
+        </div>
+    </section>
+    <!-- Modal Gasly -->
+    <section id="Gasly_Historia" class="modal">
+        <div class="modal_content">
+            <h3>Pierre Gasly
+            </h3>
+            <p>El 7 de febrero de 1996 nació en Ruan, Francia. En 2017 resultó subcampeón de la Super Fórmula Japonesa y
+                debutó en la
+                temporada de Fórmula 1 con Toro Rosso.​ En 2019, disputó las 12 primeras carreras con Red Bull Racing,
+                pero la escudería
+                austríaca decidió prescindir de él a mitad de temporada. Desde 2020 hasta 2022, fue piloto de
+                AlphaTauri, obteniendo su
+                primera y única victoria en el Gran Premio de Italia de 2020. Desde 2023 forma parte de la escudería
+                francesa Alpine F1
+                Team. Se destacan en su carrera 4 podios en Fórmula 1 y 135 grandes premios.
+            </p>
+            <div id="btn_close_Gasly" class="btn_modal">
+                <button class="close">Volver</button>
+            </div>
+        </div>
+    </section>
+    <!-- Modal Bottas -->
+    <section id="Bottas_Historia" class="modal">
+        <div class="modal_content">
+            <h3>Valtteri Viktor Bottas
+            </h3>
+            <p>En Nastola, Finlandia el 28 de agosto de 1989 nació el piloto filandés. Su carrera en Fórmula 1 tiene
+                comienzos en el
+                año 2013 con el equipo Williams donde se mantuvo hasta 2016. Entre 2017 y 2021 compitió para Mercedes,
+                donde obtuvo sus
+                mejores resultados en el campeonato, que son dos subcampeonatos en 2019 y 2020, y tercero en 2017 y
+                2021, también
+                resultó cuarto con Williams en 2014. En 2022 y 2023 fue piloto de Alfa Romeo. En 2024 es piloto del
+                equipo Kick Sauber.
+                Ha festejado 67 podios y 227 grandes premios.
+
+            </p>
+            <div id="btn_close_Bottas" class="btn_modal">
+                <button class="close">Volver</button>
+            </div>
+        </div>
+    </section>
+    <!-- Modal Zhou -->
+    <section id="Zhou_Historia" class="modal">
+        <div class="modal_content">
+            <h3>Guanyu Zhou
+            </h3>
+            <p>El 30 de mayo de 1999 nació en Shanghái, China. En 2022 y 2023 fue piloto de Alfa Romeo en Fórmula 1,
+                siendo el primer
+                piloto de la República Popular China en la historia de la categoría. Actualmente corre para Kick Sauber.
+                Mostrando
+                audacia y dedicación ha ganado 49 grandes premios y lucha aún por conseguir su primer festejo en el
+                podio de la fórmula
+                1.
+            </p>
+            <div id="btn_close_Zhou" class="btn_modal">
+                <button class="close">Volver</button>
+            </div>
+        </div>
+    </section>
+    <!-- Boton Regreso Equipos -->
+    <div id="volver" class="volver_Index">
+        <a href="#teams-list">
+            <img src="../img/loguito.png" alt="Logo" title="Volver a Listado de Equipos">
+        </a>
+    </div>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"

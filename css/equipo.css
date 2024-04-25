@@ -133,3 +133,38 @@ body main .teams .team .cont-team .pilotos-team h5 {
 .sombra_williams {
 	filter: drop-shadow(3px 3px 8px #005aff);
 }
+
+body #volver img {
+	position: fixed;
+	bottom: 50px;
+	right: 70px;
+	width: 8%;
+	border-radius: 50%;
+	display: none;
+}
+
+body .modal .modal_content .datos {
+	display: flex;
+	width: 95%;
+}
+
+body .modal .modal_content .datos .datos_scuderia {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+body .modal .modal_content .datos .datos_scuderia p {
+	font-size: 0.8rem;
+}
+
+body .modal .modal_content .datos .hist_scuderia {
+	width: 50%;
+}
+
+body .modal .modal_content .datos .hist_scuderia p {
+	width: 100%;
+	font-size: small;
+	text-align: justify;
+}
