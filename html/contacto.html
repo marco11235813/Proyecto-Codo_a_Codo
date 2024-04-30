@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,14 +8,14 @@
     <link rel="stylesheet" href="../css/estilos.css">
     <script src="../js/contacto.js" defer></script>
 </head>
+
 <body>
     <header>
+        <section class="hero">
+            <img class="hero-img" src="../img/LogoFormula1.png" alt="logo">
+            <h1 class="hero-text">Contactanos</h1>
+        </section>
         <nav class="menu-bar">
-            <div class="loguitoUno">
-                <a href="index.html">
-                    <img src="../img/loguito.png" alt="Logo" title="Formula 1">
-                </a>
-            </div>
             <ul class="menu-nabvar">
                 <li>
                     <a href="equipos.html">Equipos</a>
@@ -33,10 +34,6 @@
                 </li>
             </ul>
         </nav>
-        <section class="hero">
-            <img class="hero-img" src="../img/LogoFormula1.png" alt="logo">
-            <h1 class="hero-text">Contacto</h1>
-        </section>
     </header>
     <main>
         <section class="form_cont">
@@ -60,15 +57,15 @@
                         <div class="input_sexo_group">
                             <div class="input_sex">
                                 <label for="sexo">Femenino</label>
-                                <input type="radio" id="sexo" name="Gender" value="Femenino">
+                                <input type="radio" name="sexo" id="Femenino">
                             </div>
                             <div class="input_sex">
                                 <label for="sexo">Masculino</label>
-                                <input type="radio" id="sexo" name="gender" value="Masculino">
+                                <input type="radio" name="sexo" id="Masculino">
                             </div>
                             <div class="input_sex">
                                 <label for="sexo">Sin genero</label>
-                                <input type="radio" id="sexo" name="gender" value="Singenero">
+                                <input type="radio" name="sexo" id="Sin_genero">
                             </div>
                         </div>
                     </div>
@@ -78,7 +75,7 @@
                     </div>
                     <div class="input">
                         <label for="pais">País de residencia:</label>
-                        <select name="pais" id="pais">
+                        <select name="pais" id="pais" class="select_input">
                             <option value="Argentina">Argentina</option>
                             <option value="Bolivia">Bolivia</option>
                             <option value="Brasil">Brasil</option>
@@ -91,12 +88,12 @@
                             <option value="Otro">Otro</option>
                         </select>
                     </div>
-                    
+
                     <div class="input_pais_otro">
-                        <label for="pais">Pais de Residencia</label>
-                        <input type="text" name="pais">
+                        <label for="pais_otro">Pais de Residencia</label>
+                        <input type="text" name="pais_otro">
                     </div>
-                   
+
                     <div class="input">
                         <label for="email">Email:</label>
                         <input type="email" id="email" name="email">
@@ -109,37 +106,38 @@
                 </div>
             </form>
         </section>
-    </main>
-<footer>
-    <div>
-        <h3>Formula 1</h3>
-    </div>
-    <div class="redes">
-        <div class="redes-boot">
-            <ul>
-                <li>
-                    <a href="#" target="_blank">
-                        <img src="../img/logo/Redes/icons8-facebook-100.png" alt="logo-facebook">
-                    </a>
-                </li>
-                <li>
-                    <a href="#" target="_blank">
-                        <img src="../img/logo/Redes/icons8-instagram-100.png" alt="logo-instagram">
-                    </a>
-                </li>
-                <li>
-                    <a href="#" target="_blank">
-                        <img src="../img/logo/Redes/icons8-twitter-100.png" alt="logo-twiter">
-                    </a>
-                </li>
-                <li>
-                    <a href="#" target="_blank">
-                        <img src="../img/logo/Redes/icons8-youtube-100.png" alt="logo-youtube">
-                    </a>
-                </li>
-            </ul>
+    </main>
+    <footer>
+        <div>
+            <h3>Formula 1</h3>
         </div>
-    </div>
-</footer>
+        <div class="redes">
+            <div class="redes-boot">
+                <ul>
+                    <li>
+                        <a href="#" target="_blank">
+                            <img src="../img/logo/Redes/icons8-facebook-100.png" alt="logo-facebook">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">
+                            <img src="../img/logo/Redes/icons8-instagram-100.png" alt="logo-instagram">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">
+                            <img src="../img/logo/Redes/icons8-twitter-100.png" alt="logo-twiter">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">
+                            <img src="../img/logo/Redes/icons8-youtube-100.png" alt="logo-youtube">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>

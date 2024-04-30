@@ -153,6 +153,8 @@ body .modal .modal_content .datos .datos_scuderia {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;
+	color: blue;
+	text-shadow: 1px 1px 1px red;
 }
 
 body .modal .modal_content .datos .datos_scuderia p {
