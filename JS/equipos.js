@@ -243,6 +243,34 @@ const Ferrari = document.querySelector("#ferrari_car");
 const Ferrari_Historia = document.querySelector("#Ferrari_Historia");
 const btn_close_Ferrari = document.querySelector("#btn_close_Ferrari");
 
+const RedBull = document.querySelector("#redbull_car");
+const RedBull_Historia = document.querySelector("#RedBull_Historia");
+const btn_close_RedBull = document.querySelector("#btn_close_RedBull");
+
+const Hass = document.querySelector("#haas_car");
+const Haas_Historia = document.querySelector("#Haas_Historia");
+const btn_close_Haas = document.querySelector("#btn_close_Haas");
+
+const RB = document.querySelector("#racingbull_car");
+const RB_Historia = document.querySelector("#RB_Historia");
+const btn_close_RB = document.querySelector("#btn_close_RB");
+
+const Mercedes = document.querySelector("#mercedes_car");
+const Mercedes_Historia = document.querySelector("#Mercedes_Historia");
+const btn_close_Mercedes = document.querySelector("#btn_close_Mercedes");
+
+const Williams = document.querySelector("#williams_car");
+const Williams_Historia = document.querySelector("#Williams_Historia");
+const btn_close_Williams = document.querySelector("#btn_close_Williams");
+
+const Stake = document.querySelector("#stake_car");
+const Stake_Historia = document.querySelector("#Stake_Historia");
+const btn_close_Stake = document.querySelector("#btn_close_Stake");
+
+const Mclaren = document.querySelector("#mclaren_car");
+const Mclaren_Historia = document.querySelector("#Mclaren_Historia");
+const btn_close_Mclaren = document.querySelector("#btn_close_Mclaren");
+
 Ferrari.addEventListener("click", () => {
 	Ferrari_Historia.style.display = "block";
 });
@@ -265,4 +293,60 @@ Aston.addEventListener("click", () => {
 
 btn_close_Aston.addEventListener("click", () => {
 	Aston_Historia.style.display = "none";
+});
+
+RB.addEventListener("click", () => {
+	RB_Historia.style.display = "block";
+});
+
+btn_close_RB.addEventListener("click", () => {
+	RB_Historia.style.display = "none";
+});
+
+Williams.addEventListener("click", () => {
+	Williams_Historia.style.display = "block";
+});
+
+btn_close_Williams.addEventListener("click", () => {
+	Williams_Historia.style.display = "none";
+});
+
+Stake.addEventListener("click", () => {
+	Stake_Historia.style.display = "block";
+});
+
+btn_close_Stake.addEventListener("click", () => {
+	Stake_Historia.style.display = "none";
+});
+
+Mercedes.addEventListener("click", () => {
+	Mercedes_Historia.style.display = "block";
+});
+
+btn_close_Mercedes.addEventListener("click", () => {
+	Mercedes_Historia.style.display = "none";
+});
+
+Mclaren.addEventListener("click", () => {
+	Mclaren_Historia.style.display = "block";
+});
+
+btn_close_Mclaren.addEventListener("click", () => {
+	Mclaren_Historia.style.display = "none";
+});
+
+RedBull.addEventListener("click", () => {
+	RedBull_Historia.style.display = "block";
+});
+
+btn_close_RedBull.addEventListener("click", () => {
+	RedBull_Historia.style.display = "none";
+});
+
+Hass.addEventListener("click", () => {
+	Haas_Historia.style.display = "block";
+});
+
+btn_close_Haas.addEventListener("click", () => {
+	Haas_Historia.style.display = "none";
 });
