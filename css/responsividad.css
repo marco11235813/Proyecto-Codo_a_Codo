@@ -1,0 +1,142 @@
+/* @media (769px <= width < 1024px) {
+}
+
+@media (767px <= width < 768px) {
+}
+
+@media (451px <= width < 767px) {
+} */
+
+/* Index Esquema */
+
+body header {
+	display: grid;
+	grid-template: repeat(2, auto) / 100%;
+	grid-template-areas:
+		"hero"
+		"menu-navbar";
+}
+
+body header .hero {
+	grid-area: hero;
+}
+
+body header .menu-bar .menu-nabvar {
+	grid-area: menu-navbar;
+}
+
+body main .container-news {
+	display: grid;
+	grid-template: repeat(2, auto) / 100%;
+	grid-template-areas:
+		"news"
+		"stadistics";
+}
+
+body main .container-news .news {
+	grid-area: news;
+}
+
+body main .container-news .stadistics {
+	grid-area: stadistics;
+	display: grid;
+	grid-template: repeat(2, auto) / 100%;
+	grid-template-areas:
+		"pilotos"
+		"equipos";
+}
+
+body main .container-news .stadistics .pos_Pilotos {
+	grid-area: pilotos;
+}
+
+body main .container-news .stadistics .pos_Equipos {
+	grid-area: equipos;
+}
+
+body main .teams-list {
+}
+
+body footer {
+	display: grid;
+	grid-template: repeat(2, auto) / 100%;
+	grid-template-areas:
+		"title-f1"
+		"redes";
+	row-gap: 15px;
+}
+
+body footer .title-f1 {
+	grid-area: title-f1;
+}
+
+body footer .redes {
+	grid-area: redes;
+}
+
+/* Valores para Query desde 451 hasta 767px */
+
+@media (300px <= width < 500px) {
+	header .hero .hero-img {
+		width: 300px;
+	}
+
+	header .hero .hero-text {
+		font-size: 1.2rem;
+	}
+
+	header nav .menu-nabvar li a {
+		font-size: 0.9rem;
+	}
+
+	main .container-news .news .card img {
+		height: 140px;
+	}
+
+	main .container-news .stadistics .pos_Pilotos img {
+		width: 100%;
+	}
+
+	main .container-news .stadistics .pos_Equipos img {
+		width: 100%;
+	}
+
+	footer .title-f1 h3 {
+		font-size: 1.8rem;
+	}
+
+	footer .redes .redes-boot a img {
+		width: 30px;
+	}
+}
+
+@media (501px <= width < 767px) {
+	header .hero .hero-img {
+		width: 500px;
+	}
+
+	main .container-news .news .card img {
+		height: 300px;
+	}
+
+	main .container-news .stadistics .pos_Pilotos,
+	main .container-news .stadistics .pos_Equipos {
+		display: flex;
+		justify-content: center;
+	}
+
+	main .container-news .stadistics .pos_Pilotos img {
+		width: 85%;
+	}
+
+	main .container-news .stadistics .pos_Equipos img {
+		width: 85%;
+	}
+}
+
+@media (768px <= width < 1024px) {
+	body main .container-news {
+		grid-template-columns: 70% 30%;
+		grid-template-areas: "news stadistics";
+	}
+}
