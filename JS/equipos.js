@@ -1,227 +1,17 @@
-const max = document.querySelector("#Max");
-const Max_Historia = document.querySelector("#Max_Historia");
-const btn_close_Max = document.querySelector("#btn_close_Max");
-const Checo = document.querySelector("#Checo");
-const Checo_Historia = document.querySelector("#Checo_Historia");
-const btn_close_Checo = document.querySelector("#btn_close_Checo");
-const Russell = document.querySelector("#Russell");
-const Russell_Historia = document.querySelector("#Russell_Historia");
-const btn_close_Russell = document.querySelector("#btn_close_Russell");
-const Hamilton = document.querySelector("#Hamilton");
-const Hamilton_Historia = document.querySelector("#Hamilton_Historia");
-const btn_close_Hamilton = document.querySelector("#btn_close_Hamilton");
-const Norris = document.querySelector("#Norris");
-const Norris_Historia = document.querySelector("#Norris_Historia");
-const btn_close_Norris = document.querySelector("#btn_close_Norris");
-const Piastri = document.querySelector("#Piastri");
-const Piastri_Historia = document.querySelector("#Piastri_Historia");
-const btn_close_Piastri = document.querySelector("#btn_close_Piastri");
-const Leclerc = document.querySelector("#Leclerc");
-const Leclerc_Historia = document.querySelector("#Leclerc_Historia");
-const btn_close_Leclerc = document.querySelector("#btn_close_Leclerc");
-const Sainz = document.querySelector("#Sainz");
-const Sainz_Historia = document.querySelector("#Sainz_Historia");
-const btn_close_Sainz = document.querySelector("#btn_close_Sainz");
-const Ricciardo = document.querySelector("#Ricciardo");
-const Ricciardo_Historia = document.querySelector("#Ricciardo_Historia");
-const btn_close_Ricciardo = document.querySelector("#btn_close_Ricciardo");
-const Tsunoda = document.querySelector("#Tsunoda");
-const Tsunoda_Historia = document.querySelector("#Tsunoda_Historia");
-const btn_close_Tsunoda = document.querySelector("#btn_close_Tsunoda");
-const Alonso = document.querySelector("#Alonso");
-const Alonso_Historia = document.querySelector("#Alonso_Historia");
-const btn_close_Alonso = document.querySelector("#btn_close_Alonso");
-const Stroll = document.querySelector("#Stroll");
-const Stroll_Historia = document.querySelector("#Stroll_Historia");
-const btn_close_Stroll = document.querySelector("#btn_close_Stroll");
-const Magnussen = document.querySelector("#Magnussen");
-const Magnussen_Historia = document.querySelector("#Magnussen_Historia");
-const btn_close_Magnussen = document.querySelector("#btn_close_Magnussen");
-const Hulkenberg = document.querySelector("#Hulkenberg");
-const Hulkenberg_Historia = document.querySelector("#Hulkenberg_Historia");
-const btn_close_Hulkenberg = document.querySelector("#btn_close_Hulkenberg");
-const Albon = document.querySelector("#Albon");
-const Albon_Historia = document.querySelector("#Albon_Historia");
-const btn_close_Albon = document.querySelector("#btn_close_Albon");
-const Sargeant = document.querySelector("#Sargeant");
-const Sargeant_Historia = document.querySelector("#Sargeant_Historia");
-const btn_close_Sargeant = document.querySelector("#btn_close_Sargeant");
-const Ocon = document.querySelector("#Ocon");
-const Ocon_Historia = document.querySelector("#Ocon_Historia");
-const btn_close_Ocon = document.querySelector("#btn_close_Ocon");
-const Gasly = document.querySelector("#Gasly");
-const Gasly_Historia = document.querySelector("#Gasly_Historia");
-const btn_close_Gasly = document.querySelector("#btn_close_Gasly");
-const Bottas = document.querySelector("#Bottas");
-const Bottas_Historia = document.querySelector("#Bottas_Historia");
-const btn_close_Bottas = document.querySelector("#btn_close_Bottas");
-const Zhou = document.querySelector("#Zhou");
-const Zhou_Historia = document.querySelector("#Zhou_Historia");
-const btn_close_Zhou = document.querySelector("#btn_close_Zhou");
+/* Funciones Modal */
 
-max.addEventListener("click", () => {
-	Max_Historia.style.display = "block";
-});
+function mostrarModal(hist) {
+	hist.style.display = "block";
+}
 
-btn_close_Max.addEventListener("click", () => {
-	Max_Historia.style.display = "none";
-});
+function cerrarModal(hist) {
+	hist.style.display = "none";
+}
 
-Checo.addEventListener("click", () => {
-	Checo_Historia.style.display = "block";
-});
-
-btn_close_Checo.addEventListener("click", () => {
-	Checo_Historia.style.display = "none";
-});
-
-Russell.addEventListener("click", () => {
-	Russell_Historia.style.display = "block";
-});
-
-btn_close_Russell.addEventListener("click", () => {
-	Russell_Historia.style.display = "none";
-});
-
-Hamilton.addEventListener("click", () => {
-	Hamilton_Historia.style.display = "block";
-});
-
-btn_close_Hamilton.addEventListener("click", () => {
-	Hamilton_Historia.style.display = "none";
-});
-
-Norris.addEventListener("click", () => {
-	Norris_Historia.style.display = "block";
-});
-
-btn_close_Norris.addEventListener("click", () => {
-	Norris_Historia.style.display = "none";
-});
-
-Piastri.addEventListener("click", () => {
-	Piastri_Historia.style.display = "block";
-});
-
-btn_close_Piastri.addEventListener("click", () => {
-	Piastri_Historia.style.display = "none";
-});
-
-Leclerc.addEventListener("click", () => {
-	Leclerc_Historia.style.display = "block";
-});
-
-btn_close_Leclerc.addEventListener("click", () => {
-	Leclerc_Historia.style.display = "none";
-});
-
-Sainz.addEventListener("click", () => {
-	Sainz_Historia.style.display = "block";
-});
-
-btn_close_Sainz.addEventListener("click", () => {
-	Sainz_Historia.style.display = "none";
-});
-
-Ricciardo.addEventListener("click", () => {
-	Ricciardo_Historia.style.display = "block";
-});
-
-btn_close_Ricciardo.addEventListener("click", () => {
-	Ricciardo_Historia.style.display = "none";
-});
-
-Tsunoda.addEventListener("click", () => {
-	Tsunoda_Historia.style.display = "block";
-});
-
-btn_close_Tsunoda.addEventListener("click", () => {
-	Tsunoda_Historia.style.display = "none";
-});
-
-Alonso.addEventListener("click", () => {
-	Alonso_Historia.style.display = "block";
-});
-
-btn_close_Alonso.addEventListener("click", () => {
-	Alonso_Historia.style.display = "none";
-});
-
-Stroll.addEventListener("click", () => {
-	Stroll_Historia.style.display = "block";
-});
-
-btn_close_Stroll.addEventListener("click", () => {
-	Stroll_Historia.style.display = "none";
-});
-
-Magnussen.addEventListener("click", () => {
-	Magnussen_Historia.style.display = "block";
-});
-
-btn_close_Magnussen.addEventListener("click", () => {
-	Magnussen_Historia.style.display = "none";
-});
-
-Hulkenberg.addEventListener("click", () => {
-	Hulkenberg_Historia.style.display = "block";
-});
-
-btn_close_Hulkenberg.addEventListener("click", () => {
-	Hulkenberg_Historia.style.display = "none";
-});
-
-Albon.addEventListener("click", () => {
-	Albon_Historia.style.display = "block";
-});
-
-btn_close_Albon.addEventListener("click", () => {
-	Albon_Historia.style.display = "none";
-});
-
-Sargeant.addEventListener("click", () => {
-	Sargeant_Historia.style.display = "block";
-});
-
-btn_close_Sargeant.addEventListener("click", () => {
-	Sargeant_Historia.style.display = "none";
-});
-
-Ocon.addEventListener("click", () => {
-	Ocon_Historia.style.display = "block";
-});
-
-btn_close_Ocon.addEventListener("click", () => {
-	Ocon_Historia.style.display = "none";
-});
-
-Gasly.addEventListener("click", () => {
-	Gasly_Historia.style.display = "block";
-});
-
-btn_close_Gasly.addEventListener("click", () => {
-	Gasly_Historia.style.display = "none";
-});
-
-Bottas.addEventListener("click", () => {
-	Bottas_Historia.style.display = "block";
-});
-
-btn_close_Bottas.addEventListener("click", () => {
-	Bottas_Historia.style.display = "none";
-});
-
-Zhou.addEventListener("click", () => {
-	Zhou_Historia.style.display = "block";
-});
-
-btn_close_Zhou.addEventListener("click", () => {
-	Zhou_Historia.style.display = "none";
-});
+/* Boton Regresar Escudo F1*/
 
 const retorno = document.querySelector("#retorno");
 const volver = document.querySelector("#volver");
-console.log(retorno);
 
 retorno.addEventListener("click", () => {
 	document.querySelector("#volver img").style.display = "block";
@@ -231,122 +21,180 @@ volver.addEventListener("click", () => {
 	document.querySelector("#volver img").style.display = "none";
 });
 
+/* Datos Modales del Html Pilotos*/
+
+const max = document.querySelector("#Max");
+const Max_Hist = document.querySelector("#Max_Hist");
+const btn_close_Max = document.querySelector("#btn_close_Max");
+const Checo = document.querySelector("#Checo");
+const Checo_Hist = document.querySelector("#Checo_Hist");
+const btn_close_Checo = document.querySelector("#btn_close_Checo");
+const Russell = document.querySelector("#Russell");
+const Russell_Hist = document.querySelector("#Russell_Hist");
+const btn_close_Russell = document.querySelector("#btn_close_Russell");
+const Hamilton = document.querySelector("#Hamilton");
+const Hamilton_Hist = document.querySelector("#Hamilton_Hist");
+const btn_close_Hamilton = document.querySelector("#btn_close_Hamilton");
+const Norris = document.querySelector("#Norris");
+const Norris_Hist = document.querySelector("#Norris_Hist");
+const btn_close_Norris = document.querySelector("#btn_close_Norris");
+const Piastri = document.querySelector("#Piastri");
+const Piastri_Hist = document.querySelector("#Piastri_Hist");
+const btn_close_Piastri = document.querySelector("#btn_close_Piastri");
+const Leclerc = document.querySelector("#Leclerc");
+const Leclerc_Hist = document.querySelector("#Leclerc_Hist");
+const btn_close_Leclerc = document.querySelector("#btn_close_Leclerc");
+const Sainz = document.querySelector("#Sainz");
+const Sainz_Hist = document.querySelector("#Sainz_Hist");
+const btn_close_Sainz = document.querySelector("#btn_close_Sainz");
+const Ricciardo = document.querySelector("#Ricciardo");
+const Ricciardo_Hist = document.querySelector("#Ricciardo_Hist");
+const btn_close_Ricciardo = document.querySelector("#btn_close_Ricciardo");
+const Tsunoda = document.querySelector("#Tsunoda");
+const Tsunoda_Hist = document.querySelector("#Tsunoda_Hist");
+const btn_close_Tsunoda = document.querySelector("#btn_close_Tsunoda");
+const Alonso = document.querySelector("#Alonso");
+const Alonso_Hist = document.querySelector("#Alonso_Hist");
+const btn_close_Alonso = document.querySelector("#btn_close_Alonso");
+const Stroll = document.querySelector("#Stroll");
+const Stroll_Hist = document.querySelector("#Stroll_Hist");
+const btn_close_Stroll = document.querySelector("#btn_close_Stroll");
+const Magnussen = document.querySelector("#Magnussen");
+const Magnussen_Hist = document.querySelector("#Magnussen_Hist");
+const btn_close_Magnussen = document.querySelector("#btn_close_Magnussen");
+const Hulkenberg = document.querySelector("#Hulkenberg");
+const Hulkenberg_Hist = document.querySelector("#Hulkenberg_Hist");
+const btn_close_Hulkenberg = document.querySelector("#btn_close_Hulkenberg");
+const Albon = document.querySelector("#Albon");
+const Albon_Hist = document.querySelector("#Albon_Hist");
+const btn_close_Albon = document.querySelector("#btn_close_Albon");
+const Sargeant = document.querySelector("#Sargeant");
+const Sargeant_Hist = document.querySelector("#Sargeant_Hist");
+const btn_close_Sargeant = document.querySelector("#btn_close_Sargeant");
+const Ocon = document.querySelector("#Ocon");
+const Ocon_Hist = document.querySelector("#Ocon_Hist");
+const btn_close_Ocon = document.querySelector("#btn_close_Ocon");
+const Gasly = document.querySelector("#Gasly");
+const Gasly_Hist = document.querySelector("#Gasly_Hist");
+const btn_close_Gasly = document.querySelector("#btn_close_Gasly");
+const Bottas = document.querySelector("#Bottas");
+const Bottas_Hist = document.querySelector("#Bottas_Hist");
+const btn_close_Bottas = document.querySelector("#btn_close_Bottas");
+const Zhou = document.querySelector("#Zhou");
+const Zhou_Hist = document.querySelector("#Zhou_Hist");
+const btn_close_Zhou = document.querySelector("#btn_close_Zhou");
+
+/* Eventos Modales Pilotos*/
+
+max.addEventListener("click", () => mostrarModal(Max_Hist));
+btn_close_Max.addEventListener("click", () => cerrarModal(Max_Hist));
+Checo.addEventListener("click", () => mostrarModal(Checo_Hist));
+btn_close_Checo.addEventListener("click", () => cerrarModal(Checo_Hist));
+Russell.addEventListener("click", () => mostrarModal(Russell_Hist));
+btn_close_Russell.addEventListener("click", () => cerrarModal(Russell_Hist));
+Hamilton.addEventListener("click", () => mostrarModal(Hamilton_Hist));
+btn_close_Hamilton.addEventListener("click", () => cerrarModal(Hamilton_Hist));
+Norris.addEventListener("click", () => mostrarModal(Norris_Hist));
+btn_close_Norris.addEventListener("click", () => cerrarModal(Norris_Hist));
+Piastri.addEventListener("click", () => mostrarModal(Piastri_Hist));
+btn_close_Piastri.addEventListener("click", () => cerrarModal(Piastri_Hist));
+Leclerc.addEventListener("click", () => mostrarModal(Leclerc_Hist));
+btn_close_Leclerc.addEventListener("click", () => cerrarModal(Leclerc_Hist));
+Sainz.addEventListener("click", () => mostrarModal(Sainz_Hist));
+btn_close_Sainz.addEventListener("click", () => cerrarModal(Sainz_Hist));
+Ricciardo.addEventListener("click", () => mostrarModal(Ricciardo_Hist));
+btn_close_Ricciardo.addEventListener("click", () =>
+	cerrarModal(Ricciardo_Hist)
+);
+Tsunoda.addEventListener("click", () => mostrarModal(Tsunoda_Hist));
+btn_close_Tsunoda.addEventListener("click", () => cerrarModal(Tsunoda_Hist));
+Alonso.addEventListener("click", () => mostrarModal(Alonso_Hist));
+btn_close_Alonso.addEventListener("click", () => cerrarModal(Alonso_Hist));
+Stroll.addEventListener("click", () => mostrarModal(Stroll_Hist));
+btn_close_Stroll.addEventListener("click", () => cerrarModal(Stroll_Hist));
+Magnussen.addEventListener("click", () => mostrarModal(Magnussen_Hist));
+btn_close_Magnussen.addEventListener("click", () =>
+	cerrarModal(Magnussen_Hist)
+);
+Hulkenberg.addEventListener("click", () => mostrarModal(Hulkenberg_Hist));
+btn_close_Hulkenberg.addEventListener("click", () =>
+	cerrarModal(Hulkenberg_Hist)
+);
+Albon.addEventListener("click", () => mostrarModal(Albon_Hist));
+btn_close_Albon.addEventListener("click", () => cerrarModal(Albon_Hist));
+Sargeant.addEventListener("click", () => mostrarModal(Sargeant_Hist));
+btn_close_Sargeant.addEventListener("click", () => cerrarModal(Sargeant_Hist));
+Ocon.addEventListener("click", () => mostrarModal(Ocon_Hist));
+btn_close_Ocon.addEventListener("click", () => cerrarModal(Ocon_Hist));
+Gasly.addEventListener("click", () => mostrarModal(Gasly_Hist));
+btn_close_Gasly.addEventListener("click", () => cerrarModal(Gasly_Hist));
+Bottas.addEventListener("click", () => mostrarModal(Bottas_Hist));
+btn_close_Bottas.addEventListener("click", () => cerrarModal(Bottas_Hist));
+Zhou.addEventListener("click", () => mostrarModal(Zhou_Hist));
+btn_close_Zhou.addEventListener("click", () => cerrarModal(Zhou_Hist));
+
+/* Datos Modales del Html Equipos*/
+
+/* Alpine */
 const Alpine = document.querySelector("#alpine_car");
-const Alpine_Historia = document.querySelector("#Alpine_Historia");
+const Alpine_Hist = document.querySelector("#Alpine_Hist");
 const btn_close_Alpine = document.querySelector("#btn_close_Alpine");
-
+/* Aston */
 const Aston = document.querySelector("#astonmartin_car");
-const Aston_Historia = document.querySelector("#Aston_Historia");
+const Aston_Hist = document.querySelector("#Aston_Hist");
 const btn_close_Aston = document.querySelector("#btn_close_Aston");
-
+/* RedBull */
+const RedBull = document.querySelector("#redbull_car");
+const RedBull_Hist = document.querySelector("#RedBull_Hist");
+const btn_close_RedBull = document.querySelector("#btn_close_RedBull");
+/* Haas */
+const Hass = document.querySelector("#haas_car");
+const Haas_Hist = document.querySelector("#Haas_Hist");
+const btn_close_Haas = document.querySelector("#btn_close_Haas");
+/* RB */
+const RB = document.querySelector("#racingbull_car");
+const RB_Hist = document.querySelector("#RB_Hist");
+const btn_close_RB = document.querySelector("#btn_close_RB");
+/* Mercedes */
+const Mercedes = document.querySelector("#mercedes_car");
+const Mercedes_Hist = document.querySelector("#Mercedes_Hist");
+const btn_close_Mercedes = document.querySelector("#btn_close_Mercedes");
+/* Williams */
+const Williams = document.querySelector("#williams_car");
+const Williams_Hist = document.querySelector("#Williams_Hist");
+const btn_close_Williams = document.querySelector("#btn_close_Williams");
+/* Stake */
+const Stake = document.querySelector("#stake_car");
+const Stake_Hist = document.querySelector("#Stake_Hist");
+const btn_close_Stake = document.querySelector("#btn_close_Stake");
+/* Mclaren */
+const Mclaren = document.querySelector("#mclaren_car");
+const Mclaren_Hist = document.querySelector("#Mclaren_Hist");
+const btn_close_Mclaren = document.querySelector("#btn_close_Mclaren");
+/* Ferrari */
 const Ferrari = document.querySelector("#ferrari_car");
-const Ferrari_Historia = document.querySelector("#Ferrari_Historia");
+const Ferrari_Hist = document.querySelector("#Ferrari_Hist");
 const btn_close_Ferrari = document.querySelector("#btn_close_Ferrari");
 
-const RedBull = document.querySelector("#redbull_car");
-const RedBull_Historia = document.querySelector("#RedBull_Historia");
-const btn_close_RedBull = document.querySelector("#btn_close_RedBull");
+/* Eventos Modales Equipos */
 
-const Hass = document.querySelector("#haas_car");
-const Haas_Historia = document.querySelector("#Haas_Historia");
-const btn_close_Haas = document.querySelector("#btn_close_Haas");
-
-const RB = document.querySelector("#racingbull_car");
-const RB_Historia = document.querySelector("#RB_Historia");
-const btn_close_RB = document.querySelector("#btn_close_RB");
-
-const Mercedes = document.querySelector("#mercedes_car");
-const Mercedes_Historia = document.querySelector("#Mercedes_Historia");
-const btn_close_Mercedes = document.querySelector("#btn_close_Mercedes");
-
-const Williams = document.querySelector("#williams_car");
-const Williams_Historia = document.querySelector("#Williams_Historia");
-const btn_close_Williams = document.querySelector("#btn_close_Williams");
-
-const Stake = document.querySelector("#stake_car");
-const Stake_Historia = document.querySelector("#Stake_Historia");
-const btn_close_Stake = document.querySelector("#btn_close_Stake");
-
-const Mclaren = document.querySelector("#mclaren_car");
-const Mclaren_Historia = document.querySelector("#Mclaren_Historia");
-const btn_close_Mclaren = document.querySelector("#btn_close_Mclaren");
-
-Ferrari.addEventListener("click", () => {
-	Ferrari_Historia.style.display = "block";
-});
-
-btn_close_Ferrari.addEventListener("click", () => {
-	Ferrari_Historia.style.display = "none";
-});
-
-Alpine.addEventListener("click", () => {
-	Alpine_Historia.style.display = "block";
-});
-
-btn_close_Alpine.addEventListener("click", () => {
-	Alpine_Historia.style.display = "none";
-});
-
-Aston.addEventListener("click", () => {
-	Aston_Historia.style.display = "block";
-});
-
-btn_close_Aston.addEventListener("click", () => {
-	Aston_Historia.style.display = "none";
-});
-
-RB.addEventListener("click", () => {
-	RB_Historia.style.display = "block";
-});
-
-btn_close_RB.addEventListener("click", () => {
-	RB_Historia.style.display = "none";
-});
-
-Williams.addEventListener("click", () => {
-	Williams_Historia.style.display = "block";
-});
-
-btn_close_Williams.addEventListener("click", () => {
-	Williams_Historia.style.display = "none";
-});
-
-Stake.addEventListener("click", () => {
-	Stake_Historia.style.display = "block";
-});
-
-btn_close_Stake.addEventListener("click", () => {
-	Stake_Historia.style.display = "none";
-});
-
-Mercedes.addEventListener("click", () => {
-	Mercedes_Historia.style.display = "block";
-});
-
-btn_close_Mercedes.addEventListener("click", () => {
-	Mercedes_Historia.style.display = "none";
-});
-
-Mclaren.addEventListener("click", () => {
-	Mclaren_Historia.style.display = "block";
-});
-
-btn_close_Mclaren.addEventListener("click", () => {
-	Mclaren_Historia.style.display = "none";
-});
-
-RedBull.addEventListener("click", () => {
-	RedBull_Historia.style.display = "block";
-});
-
-btn_close_RedBull.addEventListener("click", () => {
-	RedBull_Historia.style.display = "none";
-});
-
-Hass.addEventListener("click", () => {
-	Haas_Historia.style.display = "block";
-});
-
-btn_close_Haas.addEventListener("click", () => {
-	Haas_Historia.style.display = "none";
-});
+Ferrari.addEventListener("click", () => mostrarModal(Ferrari_Hist));
+btn_close_Ferrari.addEventListener("click", () => cerrarModal(Ferrari_Hist));
+Alpine.addEventListener("click", () => mostrarModal(Alpine_Hist));
+btn_close_Alpine.addEventListener("click", () => cerrarModal(Alpine_Hist));
+Aston.addEventListener("click", () => mostrarModal(Aston_Hist));
+btn_close_Aston.addEventListener("click", () => cerrarModal(Aston_Hist));
+RB.addEventListener("click", () => mostrarModal(RB_Hist));
+btn_close_RB.addEventListener("click", () => cerrarModal(RB_Hist));
+Williams.addEventListener("click", () => mostrarModal(Williams_Hist));
+btn_close_Williams.addEventListener("click", () => cerrarModal(Williams_Hist));
+Stake.addEventListener("click", () => mostrarModal(Stake_Hist));
+btn_close_Stake.addEventListener("click", () => cerrarModal(Stake_Hist));
+Mercedes.addEventListener("click", () => mostrarModal(Mercedes_Hist));
+btn_close_Mercedes.addEventListener("click", () => cerrarModal(Mercedes_Hist));
+Mclaren.addEventListener("click", () => mostrarModal(Mclaren_Hist));
+btn_close_Mclaren.addEventListener("click", () => cerrarModal(Mclaren_Hist));
+RedBull.addEventListener("click", () => mostrarModal(RedBull_Hist));
+btn_close_RedBull.addEventListener("click", () => cerrarModal(RedBull_Hist));
+Hass.addEventListener("click", () => mostrarModal(Haas_Hist));
+btn_close_Haas.addEventListener("click", () => cerrarModal(Haas_Hist));
