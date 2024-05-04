@@ -1,12 +1,3 @@
-/* @media (769px <= width < 1024px) {
-}
-
-@media (767px <= width < 768px) {
-}
-
-@media (451px <= width < 767px) {
-} */
-
 /* Index Esquema */
 
 body header {
@@ -15,10 +6,23 @@ body header {
 	grid-template-areas:
 		"hero"
 		"menu-navbar";
+	row-gap: 35px;
 }
 
 body header .hero {
-	grid-area: hero;
+	display: grid;
+	grid-template: repeat(2, auto) / 100%;
+	grid-template-areas:
+		"h_img"
+		"h_text";
+}
+
+body header .hero .hero-text {
+	grid-area: h_text;
+}
+
+body header .hero .hero-img {
+	grid-area: h_img;
 }
 
 body header .menu-bar .menu-nabvar {
@@ -74,9 +78,9 @@ body footer .redes {
 	grid-area: redes;
 }
 
-/* Valores para Query desde 451 hasta 767px */
+/* Valores para Query Mobile Vertical */
 
-@media (300px <= width < 500px) {
+@media (300px <= width <= 650px) {
 	header .hero .hero-img {
 		width: 300px;
 	}
@@ -89,8 +93,13 @@ body footer .redes {
 		font-size: 0.9rem;
 	}
 
+	main .container-news .news .card {
+		width: 90%;
+	}
+
 	main .container-news .news .card img {
-		height: 140px;
+		height: 180px;
+		background-size: cover;
 	}
 
 	main .container-news .stadistics .pos_Pilotos img {
@@ -110,33 +119,71 @@ body footer .redes {
 	}
 }
 
-@media (501px <= width < 767px) {
-	header .hero .hero-img {
-		width: 500px;
-	}
+/* Valores para Query Mobile Landscape */
 
-	main .container-news .news .card img {
-		height: 300px;
-	}
-
-	main .container-news .stadistics .pos_Pilotos,
-	main .container-news .stadistics .pos_Equipos {
-		display: flex;
-		justify-content: center;
-	}
-
-	main .container-news .stadistics .pos_Pilotos img {
+@media (651px <= width < 833px) {
+	main .container-news .news .card {
 		width: 85%;
 	}
 
+	main .container-news .stadistics .pos_Pilotos img,
 	main .container-news .stadistics .pos_Equipos img {
-		width: 85%;
+		width: 90%;
 	}
 }
 
-@media (768px <= width < 1024px) {
+/* Valores para Query Tablet Vertical and Landscape */
+
+@media (834px <= width < 1023px) {
+	body header .hero {
+		grid-template-columns: 40% 60%;
+		grid-template-areas: "h_img h_text";
+	}
+
+	body header .menu-bar .menu-nabvar {
+		flex-direction: row;
+	}
+
 	body main .container-news {
-		grid-template-columns: 70% 30%;
+		grid-template-columns: 60% 40%;
 		grid-template-areas: "news stadistics";
+	}
+
+	main .container-news .stadistics .pos_Pilotos img,
+	main .container-news .stadistics .pos_Equipos img {
+		width: 100%;
+	}
+
+	body footer {
+		grid-template-columns: 30% 70%;
+		grid-template-areas: "title-f1 redes";
+	}
+}
+
+/* Valores para Query Notebook y Monitor */
+
+@media (1024px <= width < 1440px) {
+	body header .hero {
+		grid-template-columns: 40% 60%;
+		grid-template-areas: "h_img h_text";
+	}
+
+	body header .menu-bar .menu-nabvar {
+		flex-direction: row;
+	}
+
+	body main .container-news {
+		grid-template-columns: 60% 40%;
+		grid-template-areas: "news stadistics";
+	}
+
+	main .container-news .stadistics .pos_Pilotos img,
+	main .container-news .stadistics .pos_Equipos img {
+		width: 100%;
+	}
+
+	body footer {
+		grid-template-columns: 30% 70%;
+		grid-template-areas: "title-f1 redes";
 	}
 }
