@@ -58,9 +58,6 @@ body main .container-news .stadistics .pos_Equipos {
 	grid-area: equipos;
 }
 
-body main .teams-list {
-}
-
 body footer {
 	display: grid;
 	grid-template: repeat(2, auto) / 100%;
@@ -78,63 +75,43 @@ body footer .redes {
 	grid-area: redes;
 }
 
-/* Valores para Query Mobile Vertical */
-
-@media (300px <= width <= 650px) {
-	header .hero .hero-img {
-		width: 300px;
-	}
-
-	header .hero .hero-text {
-		font-size: 1.2rem;
-	}
-
-	header nav .menu-nabvar li a {
-		font-size: 0.9rem;
-	}
-
-	main .container-news .news .card {
-		width: 90%;
-	}
-
-	main .container-news .news .card img {
-		height: 180px;
-		background-size: cover;
-	}
-
-	main .container-news .stadistics .pos_Pilotos img {
-		width: 100%;
-	}
-
-	main .container-news .stadistics .pos_Equipos img {
-		width: 100%;
-	}
-
-	footer .title-f1 h3 {
-		font-size: 1.8rem;
-	}
-
-	footer .redes .redes-boot a img {
-		width: 30px;
-	}
-}
-
-/* Valores para Query Mobile Landscape */
-
-@media (651px <= width < 833px) {
+@media (830px <= width < 915px) {
 	main .container-news .news .card {
 		width: 85%;
+	}
+
+	main .container-news .news .card .card-img-overlay h6 {
+		font-size: 1.1rem;
+	}
+
+	main .container-news .news .card .card-img-overlay p {
+		font-size: 0.9rem;
 	}
 
 	main .container-news .stadistics .pos_Pilotos img,
 	main .container-news .stadistics .pos_Equipos img {
 		width: 90%;
 	}
+
+	/* Cronograma */
+	body .modal .modal_content .content_text_modal {
+		flex-direction: row;
+	}
+
+	body .modal .modal_content .content_text_modal .text_modal {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+	}
+
+	/* Equipos */
+
+	body #volver img {
+		width: 8%;
+	}
 }
 
-/* Valores para Query Tablet Vertical and Landscape */
-
-@media (834px <= width < 1023px) {
+@media (916px <= width < 1023px) {
 	body header .hero {
 		grid-template-columns: 40% 60%;
 		grid-template-areas: "h_img h_text";
@@ -149,6 +126,14 @@ body footer .redes {
 		grid-template-areas: "news stadistics";
 	}
 
+	main .container-news .news .card .card-img-overlay h6 {
+		font-size: 1.1rem;
+	}
+
+	main .container-news .news .card .card-img-overlay p {
+		font-size: 0.9rem;
+	}
+
 	main .container-news .stadistics .pos_Pilotos img,
 	main .container-news .stadistics .pos_Equipos img {
 		width: 100%;
@@ -158,9 +143,25 @@ body footer .redes {
 		grid-template-columns: 30% 70%;
 		grid-template-areas: "title-f1 redes";
 	}
-}
 
-/* Valores para Query Notebook y Monitor */
+	/* Cronograma */
+	body .modal .modal_content .content_text_modal {
+		flex-direction: row;
+	}
+
+	body .modal .modal_content .content_text_modal .text_modal {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+	}
+
+	/* Equipos */
+
+	body main .teams .team .cont-team .pilotos-team {
+		flex-direction: row;
+		column-gap: 35px;
+	}
+}
 
 @media (1024px <= width < 1440px) {
 	body header .hero {
@@ -177,6 +178,14 @@ body footer .redes {
 		grid-template-areas: "news stadistics";
 	}
 
+	main .container-news .news .card .card-img-overlay h6 {
+		font-size: 1.1rem;
+	}
+
+	main .container-news .news .card .card-img-overlay p {
+		font-size: 0.9rem;
+	}
+
 	main .container-news .stadistics .pos_Pilotos img,
 	main .container-news .stadistics .pos_Equipos img {
 		width: 100%;
@@ -185,5 +194,51 @@ body footer .redes {
 	body footer {
 		grid-template-columns: 30% 70%;
 		grid-template-areas: "title-f1 redes";
+	}
+
+	/* Cronograma */
+
+	body .modal .modal_content {
+		width: 55%;
+	}
+
+	body .modal .modal_content .content_text_modal {
+		flex-direction: row;
+	}
+
+	body .modal .modal_content .content_text_modal .text_modal {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+	}
+
+	body .modal .modal_content .content_text_modal .img_piloto_modal img {
+		width: 250px;
+	}
+
+	/* Equipos */
+
+	body #volver img {
+		width: 9%;
+	}
+
+	body main .teams .team .cont-team .equipo-team img {
+		width: 600px;
+	}
+	body main .teams .team .cont-team .pilotos-team {
+		flex-direction: row;
+		column-gap: 200px;
+	}
+
+	body .modal .modal_content .datos .context_text_teams {
+		flex-direction: row;
+		column-gap: 35px;
+	}
+
+	body .modal .modal_content .datos .context_text_teams .datos_scuderia {
+		width: 40%;
+	}
+	body .modal .modal_content .datos .context_text_teams .hist_scuderia {
+		width: 60%;
 	}
 }

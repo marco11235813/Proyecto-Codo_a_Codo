@@ -1,0 +1,112 @@
+body main .galery-cont {
+	padding: 35px;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	row-gap: 20px;
+	column-gap: 20px;
+}
+
+body main .galery-cont .circuit-card {
+	width: 100%;
+	max-width: 500px;
+	display: flex;
+	flex-direction: column;
+}
+
+body main .galery-cont .circuit-card img {
+	width: 100%;
+}
+
+body main .galery-cont .circuit-card .text-logo {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+body main .galery-cont .circuit-card .text-logo img {
+	width: 40px;
+}
+
+body main .galery-cont .circuit-card a {
+	display: flex;
+	justify-content: center;
+	padding: 25px;
+}
+
+/* modal */
+
+body .modal {
+	width: 100%;
+	height: 100%;
+	display: none;
+	z-index: 1;
+}
+
+body .modal .modal_content {
+	width: 75%;
+	height: auto;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url(../img/Bandera_a_Cuadro.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	border-radius: 45px;
+	z-index: 1;
+}
+
+body .modal .modal_content h3,
+body .modal .modal_content .content_text_modal .text_modal {
+	padding: 15px;
+	row-gap: 5px;
+	color: #b9935a;
+	text-shadow: 3px 3px 2px black;
+	font-size: 0.8rem;
+}
+
+body .modal .modal_content .btn_modal button {
+	width: 70%;
+	font-size: 1.1rem;
+	background: none;
+	color: red;
+	border: none;
+	font-weight: bold;
+	padding: 25px;
+}
+
+body .modal .modal_content h3 {
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+body .modal .modal_content .content_text_modal {
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+body .modal .modal_content .content_text_modal .text_modal strong,
+body .modal .modal_content .content_text_modal .text_modal p {
+	font-size: 0.8rem;
+	width: 95%;
+}
+
+body .modal .modal_content .content_text_modal .img_piloto_modal {
+	width: 100%;
+	display: flex;
+}
+
+body .modal .modal_content .content_text_modal .img_piloto_modal img {
+	width: 175px;
+	margin: auto;
+	background: white;
+}

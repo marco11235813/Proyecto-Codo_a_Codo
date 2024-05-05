@@ -1,3 +1,8 @@
+a:hover,
+img:hover {
+	cursor: pointer;
+}
+
 body {
 	background-color: lightgray;
 }
@@ -36,8 +41,8 @@ body main .teams-card .team-card a {
 }
 
 body main .teams-card .team-card img {
-	width: 160px;
-	height: 120px;
+	width: 190px;
+	height: 150px;
 	padding: 15px;
 }
 
@@ -57,8 +62,11 @@ body main .teams .team .cont-team {
 	margin: auto;
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	width: 95%;
 	padding: 25px;
+	row-gap: 45px;
 }
 
 body main .teams .team .cont-team a {
@@ -75,7 +83,7 @@ body main .teams .team .cont-team .equipo-team {
 }
 
 body main .teams .team .cont-team .equipo-team img {
-	width: 75%;
+	width: 380px;
 	filter: drop-shadow(4px 4px 2px black);
 	margin: auto;
 	padding: 25px;
@@ -83,13 +91,14 @@ body main .teams .team .cont-team .equipo-team img {
 
 body main .teams .team .cont-team .pilotos-team {
 	display: flex;
+	flex-direction: column;
 	justify-content: space-around;
 	align-items: center;
 	text-align: center;
 }
 
 body main .teams .team .cont-team .pilotos-team img {
-	width: 250px;
+	width: 175px;
 	filter: drop-shadow(3px 3px 5px black);
 }
 
@@ -134,26 +143,18 @@ body main .teams .team .cont-team .pilotos-team h5 {
 	filter: drop-shadow(3px 3px 8px #005aff);
 }
 
-body #volver img {
-	position: fixed;
-	bottom: 50px;
-	right: 70px;
-	width: 8%;
-	border-radius: 50%;
-	display: none;
-}
-
 /* modal */
 
 body .modal {
 	width: 100%;
 	height: 100%;
 	display: none;
+	z-index: 1;
 }
 
 body .modal .modal_content {
 	width: 75%;
-	height: 95%;
+	height: auto;
 	position: fixed;
 	top: 50%;
 	left: 50%;
@@ -168,42 +169,55 @@ body .modal .modal_content {
 	border-radius: 45px;
 }
 
-body .modal .modal_content .datos,
-body .modal .modal_content h3,
-body .modal .modal_content .content_text_modal .text_modal {
-	width: 95%;
-	padding: 35px;
+body .modal .modal_content .datos {
+	width: 100%;
 	display: flex;
 	flex-direction: column;
-	row-gap: 25px;
-	color: #b9935a;
-	text-shadow: 3px 3px 2px black;
+	row-gap: 20px;
 }
 
 body .modal .modal_content .datos h3 {
+	font-size: 1.2rem;
+	padding: 45px;
 	text-align: center;
-	font-size: 2rem;
+}
+
+body .modal .datos .datos_pilotos {
+	font-size: 0.9rem;
+	padding: 10px;
+	text-align: center;
 }
 
 body .modal .modal_content .datos .context_text_teams {
 	display: flex;
-	padding: 25px;
-	column-gap: 50px;
+	flex-direction: column;
+	row-gap: 35px;
 }
 
-body .modal .modal_content .datos .context_text_teams .datos_scuderia {
-	width: 40%;
+body .modal .modal_content .datos,
+body .modal .modal_content .datos h3 {
+	color: #b9935a;
+	text-shadow: 3px 3px 2px black;
+}
+
+body .modal .modal_content .datos .context_text_teams .datos_scuderia span {
+	width: 65%;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-evenly;
+	margin: auto;
+	font-size: 0.8rem;
 }
 
-body .modal .modal_content .datos .context_text_teams .hist_scuderia {
-	width: 60%;
+body .modal .modal_content .datos .context_text_teams .hist_scuderia p {
+	width: 65%;
+	font-size: 0.8rem;
+	display: flex;
+	margin: auto;
 }
 
 body .modal .modal_content .btn_modal button {
 	width: 70%;
+	padding: 45px;
 	font-size: 1.1rem;
 	background: none;
 	color: red;
@@ -211,29 +225,11 @@ body .modal .modal_content .btn_modal button {
 	font-weight: bold;
 }
 
-body .modal .modal_content .content_text_modal {
-	width: 95%;
-	padding: 35px;
-	display: flex;
-	column-gap: 25px;
-}
-
-body .modal .modal_content h3 {
-	text-align: center;
-	font-size: 2rem;
-}
-
-body .modal .modal_content .content_text_modal .text_modal {
-	width: 65%;
-}
-
-body .modal .modal_content .content_text_modal .img_piloto_modal {
-	width: 35%;
-	display: flex;
-}
-
-body .modal .modal_content .content_text_modal .img_piloto_modal img {
-	width: 250px;
-	margin: auto;
-	background: white;
+body #volver img {
+	position: fixed;
+	bottom: 50px;
+	right: 70px;
+	width: 15%;
+	border-radius: 50%;
+	display: none;
 }
