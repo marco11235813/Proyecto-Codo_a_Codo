@@ -24,26 +24,30 @@ body {
 /* Header */
 body header {
 	background-color: black;
+	padding: 45px;
 }
 
 body header .hero {
-	width: 100%;
-	display: flex;
-	flex-direction: column;
 }
 
 header .hero .hero-text {
+	display: flex;
+}
+header .hero .hero-text h1 {
 	font-size: 2rem;
 	width: 100%;
+	margin: auto;
 	color: white;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	text-align: center;
+	grid-area: h_text;
 }
 
 header .hero .hero-img {
 	width: 450px;
+	display: flex;
 	margin: auto;
+	padding: 25px;
+	grid-area: h_img;
 }
 
 body header .menu-bar {
@@ -75,7 +79,6 @@ header nav ul li :hover {
 
 main {
 	width: 100%;
-	background-color: lightcoral;
 }
 
 main .container-news {
@@ -92,12 +95,8 @@ main .container-news .news {
 	row-gap: 25px;
 }
 
-main .container-news .news .card {
-	width: 85%;
-}
-
 main .container-news .news .card img {
-	height: 200px;
+	width: 100%;
 	background-size: cover;
 }
 
@@ -109,11 +108,11 @@ main .container-news .news .card .card-img-overlay {
 }
 
 main .container-news .news .card .card-img-overlay h6 {
-	font-size: 0.8rem;
+	font-size: 0.9rem;
 }
 
 main .container-news .news .card .card-img-overlay p {
-	font-size: 0.5rem;
+	font-size: 0rem;
 }
 
 main .container-news .stadistics {
@@ -168,6 +167,7 @@ main .teams-list .slider-teams .slider img {
 
 footer {
 	width: 100%;
+	padding: 10px;
 	background-color: black;
 	color: white;
 }
@@ -180,6 +180,20 @@ footer .title-f1 {
 footer .title-f1 h3 {
 	font-size: 2.5rem;
 	padding: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+footer .redes {
+	width: 100%;
+	display: flex;
+}
+
+footer .redes .redes-boot {
+	width: 100%;
+	display: flex;
+	margin: auto;
 }
 
 footer .redes .redes-boot ul {
@@ -204,90 +218,6 @@ footer .redes .redes-boot a img {
 	100% {
 		transform: translateX(calc(-150px * 10));
 	}
-}
-
-/* modal */
-
-.modal {
-	width: 100%;
-	height: 100%;
-	padding: 15px;
-	background-image: url(/img/Bandera_a_Cuadro.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	z-index: 1;
-	opacity: 0.8;
-}
-
-.modal .modal_content {
-	background-color: lightgrey;
-	margin: auto;
-	width: 65%;
-	height: 75%;
-	border-radius: 25px;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-evenly;
-	align-items: center;
-	row-gap: 10px;
-	position: fixed;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-}
-
-.modal .modal_content p {
-	width: 85%;
-	padding: 10px;
-	color: blue;
-	text-shadow: 1px 1px 1px red;
-}
-
-.modal .modal_content h3 {
-	padding: 15px;
-	color: blue;
-	text-shadow: 1px 1px 1px red;
-}
-
-.modal .modal_content .content_text_modal {
-	display: flex;
-	column-gap: 10px;
-}
-
-.modal .modal_content .content_text_modal .img_piloto_modal {
-	display: flex;
-	align-items: center;
-}
-
-.modal .modal_content .content_text_modal .img_piloto_modal img {
-	width: 250px;
-}
-
-.modal .modal_content .text_modal {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-evenly;
-}
-
-.modal .modal_content .text_modal {
-	display: flex;
-	flex-direction: column;
-	row-gap: 10px;
-}
-
-.modal .modal_content .btn_modal button {
-	width: 70%;
-	font-size: 1.1rem;
-	background: none;
-	color: red;
-	border: none;
-	font-weight: bold;
-}
-
-/* Modal Historia */
-
-#Max_Historia {
-	display: none;
 }
 
 /* form */
@@ -321,6 +251,7 @@ form .input_group {
 	margin: auto;
 	row-gap: 25px;
 }
+
 body .form_cont form .input_group .input_sexo .input_sexo_group {
 	display: flex;
 	justify-content: space-evenly;
@@ -371,6 +302,7 @@ label {
 	display: block;
 	margin-bottom: 8px;
 }
+
 input,
 textarea {
 	width: 100%;
