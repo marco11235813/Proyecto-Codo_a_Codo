@@ -110,3 +110,49 @@ body .modal .modal_content .content_text_modal .img_piloto_modal img {
 	margin: auto;
 	background: white;
 }
+
+/* Responsividad Calendario */
+
+@media (830px <= width < 915px) {
+	body .modal .modal_content .content_text_modal {
+		flex-direction: row;
+	}
+
+	body .modal .modal_content .content_text_modal .text_modal {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+	}
+}
+
+@media (916px <= width < 1023px) {
+	body .modal .modal_content .content_text_modal {
+		flex-direction: row;
+	}
+
+	body .modal .modal_content .content_text_modal .text_modal {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+	}
+}
+
+@media (1024px <= width < 1440px) {
+	body .modal .modal_content {
+		width: 55%;
+	}
+
+	body .modal .modal_content .content_text_modal {
+		flex-direction: row;
+	}
+
+	body .modal .modal_content .content_text_modal .text_modal {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+	}
+
+	body .modal .modal_content .content_text_modal .img_piloto_modal img {
+		width: 250px;
+	}
+}
