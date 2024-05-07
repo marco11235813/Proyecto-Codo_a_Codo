@@ -233,3 +233,44 @@ body #volver img {
 	border-radius: 50%;
 	display: none;
 }
+
+/* Responsividad */
+
+@media (830px <= width < 915px) {
+	body #volver img {
+		width: 8%;
+	}
+}
+
+@media (916px <= width < 1023px) {
+	body main .teams .team .cont-team .pilotos-team {
+		flex-direction: row;
+		column-gap: 35px;
+	}
+}
+
+@media (1024px <= width < 1440px) {
+	body #volver img {
+		width: 9%;
+	}
+
+	body main .teams .team .cont-team .equipo-team img {
+		width: 600px;
+	}
+	body main .teams .team .cont-team .pilotos-team {
+		flex-direction: row;
+		column-gap: 200px;
+	}
+
+	body .modal .modal_content .datos .context_text_teams {
+		flex-direction: row;
+		column-gap: 35px;
+	}
+
+	body .modal .modal_content .datos .context_text_teams .datos_scuderia {
+		width: 40%;
+	}
+	body .modal .modal_content .datos .context_text_teams .hist_scuderia {
+		width: 60%;
+	}
+}

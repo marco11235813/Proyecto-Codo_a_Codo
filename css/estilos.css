@@ -23,31 +23,25 @@ body {
 
 /* Header */
 body header {
+	width: 100%;
 	background-color: black;
 	padding: 45px;
 }
 
-body header .hero {
-}
-
 header .hero .hero-text {
 	display: flex;
-}
-header .hero .hero-text h1 {
-	font-size: 2rem;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.8rem;
 	width: 100%;
-	margin: auto;
 	color: white;
-	text-align: center;
-	grid-area: h_text;
 }
 
 header .hero .hero-img {
-	width: 450px;
+	width: 350px;
 	display: flex;
 	margin: auto;
 	padding: 25px;
-	grid-area: h_img;
 }
 
 body header .menu-bar {
@@ -193,20 +187,29 @@ footer .redes {
 footer .redes .redes-boot {
 	width: 100%;
 	display: flex;
-	margin: auto;
 }
 
 footer .redes .redes-boot ul {
-	width: 100%;
+	margin: auto;
+	width: 80%;
 	list-style: none;
 	display: flex;
-	justify-content: space-evenly;
-	align-items: center;
+	justify-content: end;
+	column-gap: 45px;
 }
 
-footer .redes .redes-boot a img {
-	width: 50px;
-	filter: drop-shadow(1px 1px 1px white);
+footer .redes .redes-boot ul li {
+	list-style: none;
+	display: flex;
+}
+
+footer .redes .redes-boot a {
+	margin: auto;
+}
+
+footer .redes .redes-boot a i {
+	color: white;
+	filter: drop-shadow(1px 1px 1px red);
 }
 
 /* Animacion Equipos */
@@ -220,101 +223,57 @@ footer .redes .redes-boot a img {
 	}
 }
 
-/* form */
-body main .form_cont {
-	padding: 2%;
-	display: flex;
-	flex-direction: column;
-	row-gap: 60px;
+/* Responsividad */
+
+@media (830px <= width < 915px) {
+	main .container-news .news .card {
+		width: 85%;
+	}
+
+	main .container-news .news .card .card-img-overlay h6 {
+		font-size: 1.1rem;
+	}
+
+	main .container-news .news .card .card-img-overlay p {
+		font-size: 0.9rem;
+	}
+
+	main .container-news .stadistics .pos_Pilotos img,
+	main .container-news .stadistics .pos_Equipos img {
+		width: 90%;
+	}
 }
 
-body main .form_cont .form_text {
-	padding: 2%;
-	display: flex;
-	flex-direction: column;
-	row-gap: 10px;
+@media (916px <= width < 1023px) {
+	body header .menu-bar .menu-nabvar {
+		flex-direction: row;
+	}
+
+	main .container-news .news .card .card-img-overlay h6 {
+		font-size: 1.1rem;
+	}
+
+	main .container-news .news .card .card-img-overlay p {
+		font-size: 0.9rem;
+	}
+
+	main .container-news .stadistics .pos_Pilotos img,
+	main .container-news .stadistics .pos_Equipos img {
+		width: 100%;
+	}
 }
 
-form {
-	width: 50%;
-	margin: auto;
-	background-color: #fff;
-	padding: 20px;
-	border-radius: 8px;
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
+@media (1024px <= width < 1440px) {
+	main .container-news .news .card .card-img-overlay h6 {
+		font-size: 1.1rem;
+	}
 
-form .input_group {
-	padding: 15px;
-	display: flex;
-	flex-direction: column;
-	margin: auto;
-	row-gap: 25px;
-}
+	main .container-news .news .card .card-img-overlay p {
+		font-size: 0.9rem;
+	}
 
-body .form_cont form .input_group .input_sexo .input_sexo_group {
-	display: flex;
-	justify-content: space-evenly;
-	row-gap: 2%;
-}
-
-body .form_cont form .input_group .input_sexo .input_sexo_group .input_sex {
-	width: 30%;
-	font-size: 0.85rem;
-	display: flex;
-	padding: 16px;
-}
-
-body
-	.form_cont
-	form
-	.input_group
-	.input_sexo
-	.input_sexo_group
-	.input_sex
-	label {
-	width: 67%;
-	margin: auto;
-	text-align: end;
-}
-
-body
-	.form_cont
-	form
-	.input_group
-	.input_sexo
-	.input_sexo_group
-	.input_sex
-	input {
-	width: 30%;
-	margin: auto;
-}
-
-body .form_cont form .input_group .input_sexo .input_sexo_group .input_sex {
-	margin: auto;
-}
-
-body .form_cont form .input_group .input_pais_otro {
-	display: none;
-}
-
-label {
-	display: block;
-	margin-bottom: 8px;
-}
-
-input,
-textarea {
-	width: 100%;
-	padding: 8px;
-}
-
-.select_input {
-	width: 50%;
-	padding: 8px;
-}
-
-input[type="submit"] {
-	background-color: #4caf50;
-	color: #fff;
+	main .container-news .stadistics .pos_Pilotos img,
+	main .container-news .stadistics .pos_Equipos img {
+		width: 100%;
+	}
 }
