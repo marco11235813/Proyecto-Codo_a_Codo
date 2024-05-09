@@ -66,6 +66,10 @@ Las herramientas y tecnologias utilizadas son:
 
 Para el hosting de nuestro sitio, utilizamos el servicio de Github Pages, que esta sincronizado directamente a nuestro repositorio Github y se actualiza automaticamente
 en base a los cambio que le vayamos haciendo.
+Como la idea es continuar el desarrollo de nuestro sitio de manera integral (es decir, continuar el desarrollo del backend y de los aspectos que nos parezcan pertinentes y necesarios),
+nos parecio lo mas óptimo utilizar una funcionalidad de nuestro repositorio en un principio, aunque esto se verá supeditado a la disponibilidad de recursos para el despliegue de nuestro sitio 
+por parte de la herramienta Github Pages (debemos tomar en cuenta la escalabilidad de nuestro proyecto).
+
 Podemos ver el despliegue de nuestro sitio [aquí](https://marco11235813.github.io/Proyecto-Codo_a_Codo/)
 
 ## Nosotros
