@@ -53,36 +53,54 @@ El sitio web cuenta con 6 paginas desarrolladas con html (Index o pagina de inic
 
 Nuestra pagina de inicio 
 
+<details>
+<summary>Ver más</summary>
+
 Puedes consultar el codigo de la pagina en el [script de la página](https://github.com/marco11235813/Proyecto-Codo_a_Codo/blob/main/index.html).
 
 ### Equipo
 
 En esta seccion encontramos
 
+<details>
+<summary>Ver más</summary>
+  
 Puedes consultar el codigo de la pagina en el [script de la página](https://github.com/marco11235813/Proyecto-Codo_a_Codo/blob/main/equipos.html).
 
 ### Calendario
 
 En esta seccion encontramos
 
+<details>
+<summary>Ver más</summary>
+  
 Puedes consultar el codigo de la pagina en el [script de la página](https://github.com/marco11235813/Proyecto-Codo_a_Codo/blob/main/calendario.html).
 
 ### Estadisticas
 
 En esta seccion encontramos
 
+<details>
+<summary>Ver más</summary>
+  
 Puedes consultar el codigo de la pagina en el [script de la página](https://github.com/marco11235813/Proyecto-Codo_a_Codo/blob/main/estadisticas.html).
 
 ### Galeria
 
 En esta seccion encontramos diferentes tomas de momentos importantes de la temporada vigente
 
+<details>
+<summary>Ver más</summary>
+  
 Puedes consultar el codigo de la pagina en el [script de la página](https://github.com/marco11235813/Proyecto-Codo_a_Codo/blob/main/galeria.html).
 
 ### Contacto
 
 Esta seccion fue creada para que el usuario tenga la posibilidad de realizar un contacto con el equipo de la FIA por interes de alguna suscripcion, 
 
+<details>
+<summary>Ver más</summary>
+  
 Puedes consultar el codigo de la pagina en el [script de la página](https://github.com/marco11235813/Proyecto-Codo_a_Codo/blob/main/contacto.html).
 
 ## Datos y Fuentes Externas
