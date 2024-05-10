@@ -51,7 +51,14 @@ El sitio web cuenta con 6 paginas desarrolladas con html (Index o pagina de inic
 
 ### Página de inicio (Index)
 
-Nuestra pagina de inicio 
+Nuestra pagina de inicio brinda una interfaz amigable donde predomina un encabezado de colores fuertes, con los nombres de las secciones del sitio en el comienzo.
+
+Siguiendo el recorrido, vemos que contiene en su parte central (cuerpo de la pagina) distintas imagenes y capturas de noticias importantes de los eventos sobre 
+la temática de la F1, y del lado derecho podemos ver que hay 2 imagenes correspondientes al ranking de posiciones en el campeonato por pilotos y por constructores
+(o sea por marca lider o equipo)
+
+Llegando al final de la pagina, se pueden ver de manera dinamica las escuderias que participan en el actual campeonato, en conjunto con las distintas redes sociales del
+sitio web sobre F1.
 
 <details>
 <summary>Ver más</summary>
