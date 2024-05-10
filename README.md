@@ -57,6 +57,7 @@ Nuestra pagina de inicio
 <summary>Ver más</summary>
 
 Puedes consultar el codigo de la pagina en el [script de la página](https://github.com/marco11235813/Proyecto-Codo_a_Codo/blob/main/index.html).
+</details>
 
 ### Equipo
 
@@ -66,6 +67,7 @@ En esta seccion encontramos
 <summary>Ver más</summary>
   
 Puedes consultar el codigo de la pagina en el [script de la página](https://github.com/marco11235813/Proyecto-Codo_a_Codo/blob/main/equipos.html).
+</details>
 
 ### Calendario
 
@@ -75,6 +77,7 @@ En esta seccion encontramos
 <summary>Ver más</summary>
   
 Puedes consultar el codigo de la pagina en el [script de la página](https://github.com/marco11235813/Proyecto-Codo_a_Codo/blob/main/calendario.html).
+</details>
 
 ### Estadisticas
 
@@ -84,6 +87,7 @@ En esta seccion encontramos
 <summary>Ver más</summary>
   
 Puedes consultar el codigo de la pagina en el [script de la página](https://github.com/marco11235813/Proyecto-Codo_a_Codo/blob/main/estadisticas.html).
+</details>
 
 ### Galeria
 
@@ -93,6 +97,7 @@ En esta seccion encontramos diferentes tomas de momentos importantes de la tempo
 <summary>Ver más</summary>
   
 Puedes consultar el codigo de la pagina en el [script de la página](https://github.com/marco11235813/Proyecto-Codo_a_Codo/blob/main/galeria.html).
+</details>
 
 ### Contacto
 
@@ -102,6 +107,7 @@ Esta seccion fue creada para que el usuario tenga la posibilidad de realizar un 
 <summary>Ver más</summary>
   
 Puedes consultar el codigo de la pagina en el [script de la página](https://github.com/marco11235813/Proyecto-Codo_a_Codo/blob/main/contacto.html).
+</details>
 
 ## Datos y Fuentes Externas
 
