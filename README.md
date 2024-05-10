@@ -11,6 +11,16 @@
 
 # Construccion de Sitio web F1
 
+## Índice
+- [Introducción](#Introducción)
+- [Contexto](#Contexto)
+- [Desarrollo](#Desarrollo)
+- [Datos y Fuentes Externas](#Datos-y-Fuentes-Externas)
+- [Tecnologías utilizadas](#Tecnologías-utilizadas)
+- [Hosting y Deploy](#Hosting-y-Deploy)
+- [Nosotros](#Nosotros)
+
+
 ## Introducción
 
 En este proyecto se simula el rol de un Equipo de desarrolladores de una empresa desarrolladora a la cual la  **Federación Internacional del Automóvil(FIA)**, que es el arbitro que regula las competiciones de automovilismo más importantes, le pide el desarrollo de un sitio web para la competicion de la categoria F1.
@@ -43,25 +53,37 @@ El sitio web cuenta con 6 paginas desarrolladas con html (Index o pagina de inic
 
 Nuestra pagina de inicio 
 
+Puedes consultar el codigo de la pagina en el [script de la página](https://github.com/marco11235813/Proyecto-Codo_a_Codo/blob/main/index.html).
+
 ### Equipo
 
 En esta seccion encontramos
+
+Puedes consultar el codigo de la pagina en el [script de la página](https://github.com/marco11235813/Proyecto-Codo_a_Codo/blob/main/equipos.html).
 
 ### Calendario
 
 En esta seccion encontramos
 
+Puedes consultar el codigo de la pagina en el [script de la página](https://github.com/marco11235813/Proyecto-Codo_a_Codo/blob/main/calendario.html).
+
 ### Estadisticas
 
 En esta seccion encontramos
+
+Puedes consultar el codigo de la pagina en el [script de la página](https://github.com/marco11235813/Proyecto-Codo_a_Codo/blob/main/estadisticas.html).
 
 ### Galeria
 
 En esta seccion encontramos diferentes tomas de momentos importantes de la temporada vigente
 
+Puedes consultar el codigo de la pagina en el [script de la página](https://github.com/marco11235813/Proyecto-Codo_a_Codo/blob/main/galeria.html).
+
 ### Contacto
 
 Esta seccion fue creada para que el usuario tenga la posibilidad de realizar un contacto con el equipo de la FIA por interes de alguna suscripcion, 
+
+Puedes consultar el codigo de la pagina en el [script de la página](https://github.com/marco11235813/Proyecto-Codo_a_Codo/blob/main/contacto.html).
 
 ## Datos y Fuentes Externas
 
