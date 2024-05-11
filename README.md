@@ -68,7 +68,10 @@ Puedes consultar el codigo de la pagina en el [script de la página](https://git
 
 ### Equipo
 
-En esta seccion encontramos
+En esta seccion encontramos los equipos que participan en la categoría. Seleccionando un equipo nos lleva directamente a la seccion donde podemos ver los pilotos principales de cada equipo junto al coche correspondiente a la escuderia.
+
+Tenemos la opcion de acceder a una reseña tanto de cada piloto como del modelo del auto con el que corren la competencia haciendo click sobre ellos.
+En caso de querer regresar al inicio de la pagina donde estan los equipos para elegir, podemos hacerlo mediante el botón que se presenta del lado derecho de la pantalla con el logo de F1 en negro.
 
 <details>
 <summary>Ver más</summary>
@@ -76,9 +79,12 @@ En esta seccion encontramos
 Puedes consultar el codigo de la pagina en el [script de la página](https://github.com/marco11235813/Proyecto-Codo_a_Codo/blob/main/equipos.html).
 </details>
 
-### Calendario
+### Cronograma
 
-En esta seccion encontramos
+En esta seccion encontramos la informacion de las fechas de cada Gran Premio de la temporada en conjunto con el circuito correspondiente,
+del cual podemos ver una vista del circuito con informacion preliminar.
+
+También esta disponible la posibilidad de desplegar mas informacion seleccinando la opcion 'más info' donde se detalla informacion complementaria
 
 <details>
 <summary>Ver más</summary>
@@ -88,7 +94,7 @@ Puedes consultar el codigo de la pagina en el [script de la página](https://git
 
 ### Estadisticas
 
-En esta seccion encontramos
+Proximamente :D
 
 <details>
 <summary>Ver más</summary>
@@ -98,7 +104,7 @@ Puedes consultar el codigo de la pagina en el [script de la página](https://git
 
 ### Galeria
 
-En esta seccion encontramos diferentes tomas de momentos importantes de la temporada vigente
+En esta seccion encontramos diferentes tomas de la temporada, en los distintos circuitos, en gradas y boxes, mostrando tanto la carrera como el despliegue de la organizacion, el contexto, los equipos, las diferentes secciones, las gradas y los fanáticos que van a apoyar a la escuderia de su preferencia
 
 <details>
 <summary>Ver más</summary>
@@ -108,7 +114,7 @@ Puedes consultar el codigo de la pagina en el [script de la página](https://git
 
 ### Contacto
 
-Esta seccion fue creada para que el usuario tenga la posibilidad de realizar un contacto con el equipo de la FIA por interes de alguna suscripcion, 
+Esta seccion fue creada para que el usuario tenga la posibilidad de realizar un contacto con el equipo de la FIA por interes de alguna suscripcion, realizar distintas consultas, ofrecer recomendaciones sobre el sitio, y demás posibilidades.
 
 <details>
 <summary>Ver más</summary>
