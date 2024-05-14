@@ -23,9 +23,9 @@ let validarApellido = function (e) {
     }
 }
 let validarRadio = function (e) {
-    if (contacto.so[0].checked == true || contacto.so[1].checked == true || contacto.so[2].checked == true) {
+    if (contacto.sexo[0].checked == true || contacto.sexo[1].checked == true || contacto.sexo[2].checked == true) {
     } else {  
-        alert("Seleccione una opción");
+        alert("Seleccione una opción de género");
         e.preventDefault();
     }
 }
