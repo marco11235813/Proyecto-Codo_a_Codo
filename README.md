@@ -50,7 +50,23 @@ El inicio de la Fórmula 1 moderna se remonta al año 1950, en el que participar
 * Federación Internacional del Automóvil (FIA). https://es.wikipedia.org/wiki/Federaci%C3%B3n_Internacional_del_Autom%C3%B3vil 
 
 ## Tecnologías utilizadas
+Para el desarrollo de nuestro proyecto, utilizamos los siguientes lenguajes:
 
+* ![HTML5](https://img.shields.io/badge/-HTML5-333333?style=flat&logo=html5)
+* ![CSS3](https://img.shields.io/badge/-CSS3-333333?style=flat&logo=css3)
+* ![JavaScript](https://img.shields.io/badge/-JavaScript-333333?style=flat&logo=javascript)
+
+Las herramientas y tecnologias utilizadas son:
+
+* ![Git](https://img.shields.io/badge/-Git-black?style=flat-square&logo=git)
+* ![GitHub](https://img.shields.io/badge/-GitHub-black?style=flat-square&logo=github)
+* ![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-black?style=flat&logo=visual-studio-code&logoColor=007ACC)
+
+## Hosting y Deploy
+
+Para el hosting de nuestro sitio, utilizamos el servicio de Github Pages, que esta sincronizado directamente a nuestro repositorio Github y se actualiza automaticamente
+en base a los cambio que le vayamos haciendo.
+Podemos ver el despliegue de nuestro sitio [aquí](https://marco11235813.github.io/Proyecto-Codo_a_Codo/)
 
 ## Nosotros
 
