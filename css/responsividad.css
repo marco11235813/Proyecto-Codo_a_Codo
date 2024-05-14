@@ -78,9 +78,17 @@ body footer .redes {
 /* Responsividad  */
 
 @media (830px <= width < 915px) {
+	body footer {
+		grid-template-columns: 50% 50%;
+		grid-template-areas: "title-f1 redes";
+	}
 }
 
 @media (916px <= width < 1023px) {
+	body footer {
+		grid-template-columns: 50% 50%;
+		grid-template-areas: "title-f1 redes";
+	}
 }
 
 @media (1024px <= width < 1440px) {

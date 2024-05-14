@@ -44,27 +44,37 @@ header .hero .hero-img {
 	padding: 25px;
 }
 
-body header .menu-bar {
+body .menu-bar {
 	width: 100%;
+	background-color: black;
 }
 
-body header .menu-bar .menu-nabvar {
+body.menu-bar .menu-nabvar {
 	width: 100%;
 	display: flex;
 	flex-direction: column;
 	row-gap: 10px;
 	justify-content: space-evenly;
 	align-items: center;
-	list-style: none;
 }
 
-header nav .menu-nabvar li a {
+body .menu-nabvar {
+	padding: 15px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	list-style: none;
+	row-gap: 15px;
+}
+
+body .menu-nabvar li a {
 	color: white;
 	text-decoration: none;
 	font-size: 1rem;
 }
 
-header nav ul li :hover {
+body nav ul li :hover {
 	color: red;
 	filter: brightness(1);
 }
@@ -107,6 +117,20 @@ main .container-news .news .card .card-img-overlay h6 {
 
 main .container-news .news .card .card-img-overlay p {
 	font-size: 0rem;
+}
+
+main .container-news .video_cont {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 25px;
+	row-gap: 15px;
+}
+
+main .container-news .video_cont iframe {
+	width: 100%;
+	height: 315px;
 }
 
 main .container-news .stadistics {
@@ -186,15 +210,15 @@ footer .redes {
 
 footer .redes .redes-boot {
 	width: 100%;
-	display: flex;
+	margin: auto;
 }
 
 footer .redes .redes-boot ul {
 	margin: auto;
-	width: 80%;
+	width: 100%;
 	list-style: none;
 	display: flex;
-	justify-content: end;
+	justify-content: center;
 	column-gap: 45px;
 }
 
@@ -226,6 +250,10 @@ footer .redes .redes-boot a i {
 /* Responsividad */
 
 @media (830px <= width < 915px) {
+	body .menu-bar .menu-nabvar {
+		flex-direction: row;
+	}
+
 	main .container-news .news .card {
 		width: 85%;
 	}
@@ -245,10 +273,9 @@ footer .redes .redes-boot a i {
 }
 
 @media (916px <= width < 1023px) {
-	body header .menu-bar .menu-nabvar {
+	body .menu-bar .menu-nabvar {
 		flex-direction: row;
 	}
-
 	main .container-news .news .card .card-img-overlay h6 {
 		font-size: 1.1rem;
 	}
@@ -264,6 +291,9 @@ footer .redes .redes-boot a i {
 }
 
 @media (1024px <= width < 1440px) {
+	body .menu-bar .menu-nabvar {
+		flex-direction: row;
+	}
 	main .container-news .news .card .card-img-overlay h6 {
 		font-size: 1.1rem;
 	}
