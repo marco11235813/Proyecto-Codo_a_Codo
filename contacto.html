@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/contacto.css">
     <link rel="stylesheet" href="css/responsividad.css">
     <script src="https://kit.fontawesome.com/d7e5186ff3.js" crossorigin="anonymous"></script>
-    <script src="JS/contacto.js" defer></script>
+    
 </head>
 
 <body>
@@ -45,7 +45,7 @@
                 <h5>Quiero recibir la información más reciente sobre la F1 por e-mail, incluyendo noticias relevantes,
                     encuestas, ofertas, promociones y competiciones exclusivas.</h5>
             </div>
-            <form action="https://formsubmit.co/your@email.com" method="post" enctype="multipart/form-data">
+            <form action="https://formsubmit.co/your@email.com" name="contacto" method="post" enctype="multipart/form-data">
                 <div class="input_group">
                     <div class="input">
                         <label for="nombre">Nombre:</label>
@@ -105,11 +105,12 @@
                         <label for="imagen">Cargar foto de perfil:</label>
                         <input type="file" id="imagen" name="imagen">
                     </div>
-                    <input type="submit" value="Enviar">
+                    <input type="submit" id="b1" name="btn" value="Enviar">
                 </div>
             </form>
         </section>
     </main>
+    <script src="JS/contacto.js" defer></script>
     <footer>
         <div class="title-f1">
             <h3>Formula 1</h3>
