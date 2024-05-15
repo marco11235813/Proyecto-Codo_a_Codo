@@ -1,0 +1,15 @@
+main {
+	min-height: calc(100vh - 400px);
+}
+
+.container {
+	height: 80vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: lightgoldenrodyellow;
+}
+
+.container img {
+	width: 65%;
+}

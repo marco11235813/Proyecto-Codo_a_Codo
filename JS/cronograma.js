@@ -286,10 +286,3 @@ btn_close_ArabiaSaudita.addEventListener("click", () => {
 btn_close_Bahrein.addEventListener("click", () => {
 	modal_Bahrein.style.display = "none";
 });
-
-/*  Fecha */
-
-const hero_text = document.querySelector(".hero-text");
-const fecha = new Date().getFullYear();
-
-hero_text.innerHTML = `<h1> Calendario ${fecha}</h1> `;
