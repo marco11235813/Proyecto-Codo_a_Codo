@@ -8,18 +8,36 @@ function cerrarModal(hist) {
 	hist.style.display = "none";
 }
 
+// /* Boton Regresar Escudo F1*/
+
+// const retorno = document.querySelector("#retorno");
+// const volver = document.querySelector("#volver");
+
+// retorno.addEventListener("click", () => {
+// 	document.querySelector("#volver img").style.display = "block";
+// });
+
+// volver.addEventListener("click", () => {
+// 	document.querySelector("#volver img").style.display = "none";
+// });
+
 /* Boton Regresar Escudo F1*/
+window.onscroll = function () {
+	const scroll = document.documentElement.scrollTop || document.body.scrollTop;
 
-const retorno = document.querySelector("#retorno");
-const volver = document.querySelector("#volver");
+	document.querySelector("#volver img").addEventListener("click", volver);
 
-retorno.addEventListener("click", () => {
-	document.querySelector("#volver img").style.display = "block";
-});
+	function volver() {
+		if (scroll > 0) {
+			window.scrollTo(0, 0);
+		}
+	}
 
-volver.addEventListener("click", () => {
-	document.querySelector("#volver img").style.display = "none";
-});
+	const mostrar_Boton =
+		scroll > 200
+			? (document.querySelector("#volver img").style.display = "block")
+			: (document.querySelector("#volver img").style.display = "none");
+};
 
 /* Datos Modales del Html Pilotos*/
 
