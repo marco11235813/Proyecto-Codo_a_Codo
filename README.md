@@ -1,9 +1,9 @@
 ![F1](img/F1-Logo-2018.png)
 <br />
 
-![HTML5](https://img.shields.io/badge/-HTML5-333333?style=flat&logo=html5)
-![CSS3](https://img.shields.io/badge/-CSS3-333333?style=flat&logo=css3)
-![JavaScript](https://img.shields.io/badge/-JavaScript-333333?style=flat&logo=javascript)
+![HTML5](https://img.shields.io/badge/-HTML5-black?style=flat&logo=html5)
+![CSS3](https://img.shields.io/badge/-CSS3-black?style=flat&logo=css3)
+![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat&logo=javascript)
 ![Git](https://img.shields.io/badge/-Git-black?style=flat-square&logo=git)
 ![GitHub](https://img.shields.io/badge/-GitHub-black?style=flat-square&logo=github)
 ![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-black?style=flat&logo=visual-studio-code&logoColor=007ACC)
@@ -46,6 +46,8 @@ A cada carrera se le denomina Gran Premio y el torneo que las agrupa es el Campe
 El inicio de la Fórmula 1 moderna se remonta al año 1950, en el que participaron escuderías como Ferrari, Alfa Romeo y Maserati. Algunas fueron reemplazadas por otras nuevas como McLaren, Williams, Red Bull y otras que volvieron como Mercedes se han alzado varias veces con el Campeonato Mundial de Constructores. Por su parte, los pilotos deben contar con la superlicencia de la FIA para competir, que se obtiene por los resultados en otros campeonatos.
 
 ## Desarrollo
+
+Para un seguimiento INTEGRAL del proyecto, disponibilizamos la documentacion del proyecto [aquí](docs/DOCUMENTACION%20PROYECTO.docx)
 
 El sitio web cuenta con 6 paginas desarrolladas con html (Index o pagina de inicio, Equipo, Calendario, Estadisticas, Galeria, Contacto)
 
@@ -130,9 +132,9 @@ Puedes consultar el codigo de la pagina en el [script de la página](https://git
 ## Tecnologías utilizadas
 Para el desarrollo de nuestro proyecto, utilizamos los siguientes lenguajes:
 
-* ![HTML5](https://img.shields.io/badge/-HTML5-333333?style=flat&logo=html5)
-* ![CSS3](https://img.shields.io/badge/-CSS3-333333?style=flat&logo=css3)
-* ![JavaScript](https://img.shields.io/badge/-JavaScript-333333?style=flat&logo=javascript)
+* ![HTML5](https://img.shields.io/badge/-HTML5-black?style=flat&logo=html5)
+* ![CSS3](https://img.shields.io/badge/-CSS3-black?style=flat&logo=css3)
+* ![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat&logo=javascript)
 
 Las herramientas y tecnologias utilizadas son:
 
