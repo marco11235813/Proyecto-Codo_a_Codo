@@ -132,9 +132,9 @@ Puedes consultar el codigo de la pagina en el [script de la página](https://git
 ## Tecnologías utilizadas
 Para el desarrollo de nuestro proyecto, utilizamos los siguientes lenguajes:
 
-* ![HTML5](https://img.shields.io/badge/-HTML5-333333?style=flat&logo=html5)
-* ![CSS3](https://img.shields.io/badge/-CSS3-333333?style=flat&logo=css3)
-* ![JavaScript](https://img.shields.io/badge/-JavaScript-333333?style=flat&logo=javascript)
+* ![HTML5](https://img.shields.io/badge/-HTML5-black?style=flat&logo=html5)
+* ![CSS3](https://img.shields.io/badge/-CSS3-black?style=flat&logo=css3)
+* ![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat&logo=javascript)
 
 Las herramientas y tecnologias utilizadas son:
 
