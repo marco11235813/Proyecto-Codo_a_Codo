@@ -117,6 +117,12 @@ En caso de querer regresar al inicio de la pagina donde estan los equipos para e
 | ![Imagen 3](assets/equipos2.jpg) |
 | Distribucion de los valores de Puntuacion Total de los examinados en relacion al Nivel de Educacion de sus padres señalando el tipo de Institucion a la que el alumno asiste |
 
+|                       |                       |
+|-----------------------|-----------------------|
+| <img src="assets/cronograma1.jpg" alt="Imagen 3" style="width:100%; height:auto;"> | <img src="assets/cronograma2.jpg" alt="Imagen 3" style="width:100%; height:auto;"> |
+| Educación de los padres de los examinados (en Cantidad de frecuencias) | Distribución de los valores de Puntuación Total de los examinados en relación al Nivel de Educación de sus padres |
+
+
   
 Puedes consultar el codigo de la pagina en el [script de la página](https://github.com/marco11235813/Proyecto-Codo_a_Codo/blob/main/equipos.html).
 </details>
@@ -139,12 +145,7 @@ También esta disponible la posibilidad de desplegar mas informacion seleccinand
 
 |                       |
 |-----------------------|
-| ![Imagen 3](assets/cronograma1.jpg) |
-| Distribucion de los valores de Puntuacion Total de los examinados en relacion al Nivel de Educacion de sus padres señalando el tipo de Institucion a la que el alumno asiste |
-
-|                       |
-|-----------------------|
-| ![Imagen 3](assets/cronograma2.jpg) |
+| ![Imagen 3](assets/cronograma4.jpg) |
 | Distribucion de los valores de Puntuacion Total de los examinados en relacion al Nivel de Educacion de sus padres señalando el tipo de Institucion a la que el alumno asiste |
 
   
