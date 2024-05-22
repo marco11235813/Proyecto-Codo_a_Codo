@@ -88,7 +88,6 @@ sitio web sobre F1.
 | Educación de los padres de los examinados (en Cantidad de frecuencias) | Distribución de los valores de Puntuación Total de los examinados en relación al Nivel de Educación de sus padres |
 
 
-
 |                       |
 |-----------------------|
 | ![Imagen 3](assets/principal3.jpg) |
@@ -107,11 +106,16 @@ En caso de querer regresar al inicio de la pagina donde estan los equipos para e
 <details>
 <summary>Ver más</summary>
 
-![Pagina Principal](assets/equipos1.jpg)
-<br />
+|                       |
+|-----------------------|
+| ![Imagen 3](assets/equipos1.jpg) |
+| Distribucion de los valores de Puntuacion Total de los examinados en relacion al Nivel de Educacion de sus padres señalando el tipo de Institucion a la que el alumno asiste |
 
-![Pagina Principal](assets/equipos2.jpg)
-<br />
+
+|                       |
+|-----------------------|
+| ![Imagen 3](assets/equipos2.jpg) |
+| Distribucion de los valores de Puntuacion Total de los examinados en relacion al Nivel de Educacion de sus padres señalando el tipo de Institucion a la que el alumno asiste |
 
   
 Puedes consultar el codigo de la pagina en el [script de la página](https://github.com/marco11235813/Proyecto-Codo_a_Codo/blob/main/equipos.html).
@@ -127,15 +131,21 @@ También esta disponible la posibilidad de desplegar mas informacion seleccinand
 <details>
 <summary>Ver más</summary>
 
-![Pagina Principal](assets/cronograma3.jpg)
-<br />
+|                       |
+|-----------------------|
+| ![Imagen 3](assets/cronograma3.jpg) |
+| Distribucion de los valores de Puntuacion Total de los examinados en relacion al Nivel de Educacion de sus padres señalando el tipo de Institucion a la que el alumno asiste |
 
-![Pagina Principal](assets/cronograma1.jpg)
-<br />
 
-![Pagina Principal](assets/cronograma2.jpg)
-<br />
+|                       |
+|-----------------------|
+| ![Imagen 3](assets/cronograma1.jpg) |
+| Distribucion de los valores de Puntuacion Total de los examinados en relacion al Nivel de Educacion de sus padres señalando el tipo de Institucion a la que el alumno asiste |
 
+|                       |
+|-----------------------|
+| ![Imagen 3](assets/cronograma2.jpg) |
+| Distribucion de los valores de Puntuacion Total de los examinados en relacion al Nivel de Educacion de sus padres señalando el tipo de Institucion a la que el alumno asiste |
 
   
 Puedes consultar el codigo de la pagina en el [script de la página](https://github.com/marco11235813/Proyecto-Codo_a_Codo/blob/main/calendario.html).
@@ -158,8 +168,10 @@ En esta seccion encontramos diferentes tomas de la temporada, en los distintos c
 <details>
 <summary>Ver más</summary>
 
-![Pagina Principal](assets/img_galeria.jpg)
-<br />
+|                       |
+|-----------------------|
+| ![Imagen 3](assets/img_galeria.jpg) |
+| Distribucion de los valores de Puntuacion Total de los examinados en relacion al Nivel de Educacion de sus padres señalando el tipo de Institucion a la que el alumno asiste |
 
   
 Puedes consultar el codigo de la pagina en el [script de la página](https://github.com/marco11235813/Proyecto-Codo_a_Codo/blob/main/galeria.html).
@@ -172,11 +184,16 @@ Esta seccion fue creada para que el usuario tenga la posibilidad de realizar un 
 <details>
 <summary>Ver más</summary>
 
-![Pagina Principal](assets/formulario_contacto1.jpg)
-<br />
+|                       |
+|-----------------------|
+| ![Imagen 3](assets/formulario_contacto1.jpg) |
+| Distribucion de los valores de Puntuacion Total de los examinados en relacion al Nivel de Educacion de sus padres señalando el tipo de Institucion a la que el alumno asiste |
 
-![Pagina Principal](assets/formulario_contacto2.jpg)
-<br />
+
+|                       |
+|-----------------------|
+| ![Imagen 3](assets/formulario_contacto2.jpg) |
+| Distribucion de los valores de Puntuacion Total de los examinados en relacion al Nivel de Educacion de sus padres señalando el tipo de Institucion a la que el alumno asiste |
 
   
 Puedes consultar el codigo de la pagina en el [script de la página](https://github.com/marco11235813/Proyecto-Codo_a_Codo/blob/main/contacto.html).
