@@ -51,6 +51,10 @@ Para un seguimiento INTEGRAL del proyecto, disponibilizamos la documentacion del
 
 El sitio web cuenta con 6 paginas desarrolladas con html (Index o pagina de inicio, Equipo, Calendario, Estadisticas, Galeria, Contacto)
 
+![Pagina Principal](assets/img_maquetado.jpg)
+<br />
+
+
 ### Página de inicio (Index)
 
 Nuestra pagina de inicio brinda una interfaz amigable donde predomina un encabezado de colores fuertes, con los nombres de las secciones del sitio en el comienzo.
@@ -68,6 +72,14 @@ sitio web sobre F1.
 ![Pagina Principal](assets/principal1.jpg)
 <br />
 
+![Pagina Principal](assets/principal2.jpg)
+<br />
+
+![Pagina Principal](assets/principal3.jpg)
+<br />
+
+
+
 Puedes consultar el codigo de la pagina en el [script de la página](https://github.com/marco11235813/Proyecto-Codo_a_Codo/blob/main/index.html).
 </details>
 
@@ -80,6 +92,13 @@ En caso de querer regresar al inicio de la pagina donde estan los equipos para e
 
 <details>
 <summary>Ver más</summary>
+
+![Pagina Principal](assets/equipos1.jpg)
+<br />
+
+![Pagina Principal](assets/equipos2jpg)
+<br />
+
   
 Puedes consultar el codigo de la pagina en el [script de la página](https://github.com/marco11235813/Proyecto-Codo_a_Codo/blob/main/equipos.html).
 </details>
@@ -93,6 +112,17 @@ También esta disponible la posibilidad de desplegar mas informacion seleccinand
 
 <details>
 <summary>Ver más</summary>
+
+![Pagina Principal](assets/cronograma3.jpg)
+<br />
+
+![Pagina Principal](assets/cronograma1.jpg)
+<br />
+
+![Pagina Principal](assets/cronograma2.jpg)
+<br />
+
+
   
 Puedes consultar el codigo de la pagina en el [script de la página](https://github.com/marco11235813/Proyecto-Codo_a_Codo/blob/main/calendario.html).
 </details>
@@ -113,6 +143,10 @@ En esta seccion encontramos diferentes tomas de la temporada, en los distintos c
 
 <details>
 <summary>Ver más</summary>
+
+![Pagina Principal](assets/img_galeria.jpg)
+<br />
+
   
 Puedes consultar el codigo de la pagina en el [script de la página](https://github.com/marco11235813/Proyecto-Codo_a_Codo/blob/main/galeria.html).
 </details>
@@ -123,6 +157,13 @@ Esta seccion fue creada para que el usuario tenga la posibilidad de realizar un 
 
 <details>
 <summary>Ver más</summary>
+
+![Pagina Principal](assets/formulario_contacto1.jpg)
+<br />
+
+![Pagina Principal](assets/formulario_contacto2.jpg)
+<br />
+
   
 Puedes consultar el codigo de la pagina en el [script de la página](https://github.com/marco11235813/Proyecto-Codo_a_Codo/blob/main/contacto.html).
 </details>
