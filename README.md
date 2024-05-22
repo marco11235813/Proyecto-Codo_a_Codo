@@ -53,6 +53,7 @@ El sitio web cuenta con 6 paginas desarrolladas con html (Index o pagina de inic
 
 ![Pagina Principal](assets/img_maquetado.jpg)
 <br />
+> _Estructura del maqueta usado en el desarrollo del sitio._
 
 
 ### Página de inicio (Index)
@@ -71,9 +72,11 @@ sitio web sobre F1.
 
 ![Pagina Principal](assets/principal1.jpg)
 <br />
+> _Primera captura. Podemos ver en el diseño la ditribucion de solapas o secciones en el header._
 
 ![Pagina Principal](assets/principal2.jpg)
 <br />
+> _Gran Premio de Australia._
 
 ![Pagina Principal](assets/principal3.jpg)
 <br />
@@ -96,7 +99,7 @@ En caso de querer regresar al inicio de la pagina donde estan los equipos para e
 ![Pagina Principal](assets/equipos1.jpg)
 <br />
 
-![Pagina Principal](assets/equipos2jpg)
+![Pagina Principal](assets/equipos2.jpg)
 <br />
 
   
