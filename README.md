@@ -73,19 +73,19 @@ sitio web sobre F1.
 |                       |
 |-----------------------|
 | ![Imagen 3](assets/principal1.jpg) |
-| Distribucion de los valores de Puntuacion Total de los examinados en relacion al Nivel de Educacion de sus padres señalando el tipo de Institucion a la que el alumno asiste |
+| Parte superior de página de inicio |
 
 
 |                       |
 |-----------------------|
 | ![Imagen 3](assets/principal3.jpg) |
-| Distribucion de los valores de Puntuacion Total de los examinados en relacion al Nivel de Educacion de sus padres señalando el tipo de Institucion a la que el alumno asiste |
+| Parte inferior de página de inicio |
 
 
 |                       |                       |
 |-----------------------|-----------------------|
 | <img src="assets/responsive1.jpg" alt="Imagen 3" style="width:100%; height:100;"> | <img src="assets/responsive3.jpg" alt="Imagen 3" style="width:100%; height:100;"> |
-| Educación de los padres de los examinados (en Cantidad de frecuencias) | Distribución de los valores de Puntuación Total de los examinados en relación al Nivel de Educación de sus padres |
+| Diseño responsive para celulares |
 
 
 Puedes consultar el codigo de la pagina en el [script de la página](https://github.com/marco11235813/Proyecto-Codo_a_Codo/blob/main/index.html).
@@ -104,18 +104,18 @@ En caso de querer regresar al inicio de la pagina donde estan los equipos para e
 |                       |
 |-----------------------|
 | ![Imagen 3](assets/equipos1.jpg) |
-| Distribucion de los valores de Puntuacion Total de los examinados en relacion al Nivel de Educacion de sus padres señalando el tipo de Institucion a la que el alumno asiste |
+|Parte superior de pagina equipos, nos muestra las escuderias en competencia y las distintas solapas a las que podemos acceder |
 
 
 |                       |
 |-----------------------|
 | ![Imagen 3](assets/equipos2.jpg) |
-| Distribucion de los valores de Puntuacion Total de los examinados en relacion al Nivel de Educacion de sus padres señalando el tipo de Institucion a la que el alumno asiste |
+| Parte media de la página equipos, podemos ver el modelo de coche utilizado en la actual temporada asi como los pilotos titulares, también se observa el botón de regreso al 'índice' de escuderas |
 
 |                       |                       |
 |-----------------------|-----------------------|
 | <img src="assets/cronograma1.jpg" alt="Imagen 3" style="width:100%; height:auto;"> | <img src="assets/cronograma2.jpg" alt="Imagen 3" style="width:100%; height:auto;"> |
-| Educación de los padres de los examinados (en Cantidad de frecuencias) | Distribución de los valores de Puntuación Total de los examinados en relación al Nivel de Educación de sus padres |
+| Modal de piloto donde se observa una reseña del mismo | Modal del coche donde se describe brevemente su desarrollo y caracteristicas |
 
 
   
@@ -135,13 +135,13 @@ También esta disponible la posibilidad de desplegar mas informacion seleccinand
 |                       |
 |-----------------------|
 | ![Imagen 3](assets/cronograma3.jpg) |
-| Distribucion de los valores de Puntuacion Total de los examinados en relacion al Nivel de Educacion de sus padres señalando el tipo de Institucion a la que el alumno asiste |
+| Parte superior-media de la página cronograma, donde observamos algunos de los circuitos de la temporada, tanto un croquis de su disposicion como fecha y lugar|
 
 
 |                       |
 |-----------------------|
 | ![Imagen 3](assets/cronograma4.jpg) |
-| Distribucion de los valores de Puntuacion Total de los examinados en relacion al Nivel de Educacion de sus padres señalando el tipo de Institucion a la que el alumno asiste |
+| Modal de circuito, se describe brevemente las caracteristicas del circuito y alguna informacion preliminar |
 
   
 Puedes consultar el codigo de la pagina en el [script de la página](https://github.com/marco11235813/Proyecto-Codo_a_Codo/blob/main/calendario.html).
@@ -167,7 +167,7 @@ En esta seccion encontramos diferentes tomas de la temporada, en los distintos c
 |                       |
 |-----------------------|
 | ![Imagen 3](assets/img_galeria.jpg) |
-| Distribucion de los valores de Puntuacion Total de los examinados en relacion al Nivel de Educacion de sus padres señalando el tipo de Institucion a la que el alumno asiste |
+| Parte superior de la página galeria |
 
   
 Puedes consultar el codigo de la pagina en el [script de la página](https://github.com/marco11235813/Proyecto-Codo_a_Codo/blob/main/galeria.html).
@@ -183,13 +183,13 @@ Esta seccion fue creada para que el usuario tenga la posibilidad de realizar un 
 |                       |
 |-----------------------|
 | ![Imagen 3](assets/formulario_contacto1.jpg) |
-| Distribucion de los valores de Puntuacion Total de los examinados en relacion al Nivel de Educacion de sus padres señalando el tipo de Institucion a la que el alumno asiste |
+| Parte superior de la página contacto, se describe brevemente el formulario de contacto |
 
 
 |                       |
 |-----------------------|
 | ![Imagen 3](assets/formulario_contacto2.jpg) |
-| Distribucion de los valores de Puntuacion Total de los examinados en relacion al Nivel de Educacion de sus padres señalando el tipo de Institucion a la que el alumno asiste |
+| Parte media-inferior de página contacto, donde se observa la disposicion y campos del formulario a completar y el boton de envío |
 
   
 Puedes consultar el codigo de la pagina en el [script de la página](https://github.com/marco11235813/Proyecto-Codo_a_Codo/blob/main/contacto.html).
