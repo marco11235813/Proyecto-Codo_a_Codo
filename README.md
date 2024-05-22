@@ -70,20 +70,6 @@ sitio web sobre F1.
 <details>
 <summary>Ver más</summary>
 
-<p align="center">
-  <img src="assets/assets/principal1.jpg" alt="platform">
-</p>
-> _Primera captura. Podemos ver en el diseño la ditribucion de solapas o secciones en el header._
-
-<p align="center">
-  <img src="assets/principal2.jpg" alt="platform">
-</p>
-> _Gran Premio de Australia._
-
-<p align="center">
-  <img src="assets/principal3.jpg" alt="platform">
-</p>
-
 |                       |
 |-----------------------|
 | ![Imagen 3](assets/principal1.jpg) |
@@ -98,7 +84,7 @@ sitio web sobre F1.
 
 |                       |                       |
 |-----------------------|-----------------------|
-| ![Imagen 1](assets/responsive1.jpg) | ![Imagen 2](assets/responsive3.png) |
+| ![Imagen 1](assets/responsive1.jpg) | ![Imagen 2](assets/responsive3.jpg) |
 | Educacion de los padres de los examinados (en Cantidad de frecuencias) | Distribucion de los valores de Puntuacion Total de los examinados en relacion al Nivel de Educacion de sus padres |
 
 
