@@ -53,7 +53,7 @@ El sitio web cuenta con 6 paginas desarrolladas con html (Index o pagina de inic
 
 ![Pagina Principal](assets/img_maquetado.jpg)
 <br />
-> _Estructura del maqueta usado en el desarrollo del sitio._
+> _Estructura del maquetado usado en el desarrollo del sitio._
 
 
 ### Página de inicio (Index)
@@ -84,6 +84,28 @@ sitio web sobre F1.
   <img src="assets/principal3.jpg" alt="platform">
 </p>
 
+|                       |
+|-----------------------|
+| ![Imagen 3](assets/principal1.jpg) |
+| Distribucion de los valores de Puntuacion Total de los examinados en relacion al Nivel de Educacion de sus padres señalando el tipo de Institucion a la que el alumno asiste |
+
+
+|                       |
+|-----------------------|
+| ![Imagen 3](assets/principal2.jpg) |
+| Distribucion de los valores de Puntuacion Total de los examinados en relacion al Nivel de Educacion de sus padres señalando el tipo de Institucion a la que el alumno asiste |
+
+
+|                       |                       |
+|-----------------------|-----------------------|
+| ![Imagen 1](assets/responsive1.jpg) | ![Imagen 2](assets/responsive3.png) |
+| Educacion de los padres de los examinados (en Cantidad de frecuencias) | Distribucion de los valores de Puntuacion Total de los examinados en relacion al Nivel de Educacion de sus padres |
+
+
+|                       |
+|-----------------------|
+| ![Imagen 3](assets/principal3.jpg) |
+| Distribucion de los valores de Puntuacion Total de los examinados en relacion al Nivel de Educacion de sus padres señalando el tipo de Institucion a la que el alumno asiste |
 
 Puedes consultar el codigo de la pagina en el [script de la página](https://github.com/marco11235813/Proyecto-Codo_a_Codo/blob/main/index.html).
 </details>
