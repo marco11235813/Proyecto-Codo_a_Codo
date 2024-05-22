@@ -51,6 +51,11 @@ Para un seguimiento INTEGRAL del proyecto, disponibilizamos la documentacion del
 
 El sitio web cuenta con 6 paginas desarrolladas con html (Index o pagina de inicio, Equipo, Calendario, Estadisticas, Galeria, Contacto)
 
+![Pagina Principal](assets/img_maquetado.jpg)
+<br />
+> _Estructura del maqueta usado en el desarrollo del sitio._
+
+
 ### Página de inicio (Index)
 
 Nuestra pagina de inicio brinda una interfaz amigable donde predomina un encabezado de colores fuertes, con los nombres de las secciones del sitio en el comienzo.
@@ -65,8 +70,20 @@ sitio web sobre F1.
 <details>
 <summary>Ver más</summary>
 
-![Pagina Principal](assets/principal1.jpg)
-<br />
+<p align="center">
+  <img src="assets/assets/principal1.jpg" alt="platform">
+</p>
+> _Primera captura. Podemos ver en el diseño la ditribucion de solapas o secciones en el header._
+
+<p align="center">
+  <img src="assets/principal2.jpg" alt="platform">
+</p>
+> _Gran Premio de Australia._
+
+<p align="center">
+  <img src="assets/principal3.jpg" alt="platform">
+</p>
+
 
 Puedes consultar el codigo de la pagina en el [script de la página](https://github.com/marco11235813/Proyecto-Codo_a_Codo/blob/main/index.html).
 </details>
@@ -80,6 +97,13 @@ En caso de querer regresar al inicio de la pagina donde estan los equipos para e
 
 <details>
 <summary>Ver más</summary>
+
+![Pagina Principal](assets/equipos1.jpg)
+<br />
+
+![Pagina Principal](assets/equipos2.jpg)
+<br />
+
   
 Puedes consultar el codigo de la pagina en el [script de la página](https://github.com/marco11235813/Proyecto-Codo_a_Codo/blob/main/equipos.html).
 </details>
@@ -93,6 +117,17 @@ También esta disponible la posibilidad de desplegar mas informacion seleccinand
 
 <details>
 <summary>Ver más</summary>
+
+![Pagina Principal](assets/cronograma3.jpg)
+<br />
+
+![Pagina Principal](assets/cronograma1.jpg)
+<br />
+
+![Pagina Principal](assets/cronograma2.jpg)
+<br />
+
+
   
 Puedes consultar el codigo de la pagina en el [script de la página](https://github.com/marco11235813/Proyecto-Codo_a_Codo/blob/main/calendario.html).
 </details>
@@ -113,6 +148,10 @@ En esta seccion encontramos diferentes tomas de la temporada, en los distintos c
 
 <details>
 <summary>Ver más</summary>
+
+![Pagina Principal](assets/img_galeria.jpg)
+<br />
+
   
 Puedes consultar el codigo de la pagina en el [script de la página](https://github.com/marco11235813/Proyecto-Codo_a_Codo/blob/main/galeria.html).
 </details>
@@ -123,6 +162,13 @@ Esta seccion fue creada para que el usuario tenga la posibilidad de realizar un 
 
 <details>
 <summary>Ver más</summary>
+
+![Pagina Principal](assets/formulario_contacto1.jpg)
+<br />
+
+![Pagina Principal](assets/formulario_contacto2.jpg)
+<br />
+
   
 Puedes consultar el codigo de la pagina en el [script de la página](https://github.com/marco11235813/Proyecto-Codo_a_Codo/blob/main/contacto.html).
 </details>
