@@ -84,7 +84,7 @@ sitio web sobre F1.
 
 |                       |                       |
 |-----------------------|-----------------------|
-| <img src= "assets/responsive1.jpg" width="450" height="200" | <img src= "assets/responsive3.jpg" width="450" height="200"|
+| <img src= "assets/responsive1.jpg" width="450" height="200"> | <img src= "assets/responsive3.jpg" width="450" height="200">|
 | Educacion de los padres de los examinados (en Cantidad de frecuencias) | Distribucion de los valores de Puntuacion Total de los examinados en relacion al Nivel de Educacion de sus padres |
 
 
