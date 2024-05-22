@@ -65,6 +65,9 @@ sitio web sobre F1.
 <details>
 <summary>Ver más</summary>
 
+![Pagina Principal](assets/principal1.jpg)
+<br />
+
 Puedes consultar el codigo de la pagina en el [script de la página](https://github.com/marco11235813/Proyecto-Codo_a_Codo/blob/main/index.html).
 </details>
 
