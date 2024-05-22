@@ -23,11 +23,11 @@
 
 ## Introducción
 
-En este proyecto se simula el rol de un Equipo de desarrolladores de una empresa desarrolladora a la cual la  **Federación Internacional del Automóvil(FIA)**, que es el arbitro que regula las competiciones de automovilismo más importantes, le pide el desarrollo de un sitio web para la competicion de la categoria F1.
+En este proyecto se simula el rol de un Equipo de desarrolladores de una empresa desarrolladora a la cual la  **Federación Internacional del Automóvil(FIA)**, que es el árbitro que regula las competiciones de automovilismo más importantes, le pide el desarrollo de un sitio web para la competicion de la categoría F1.
 
-El fin de este proyecto es generar una plataforma de informacion que le permita a los usuarios acercarse al deporte y mas especificamente tener a disposicion la informacion relevante mas actualizada o historica de la competencia de la formula 1 y su contexto. 
+El fin de este proyecto es generar una plataforma de información que le permita a los usuarios acercarse al deporte y más específicamente tener a disposición la información relevante más actualizada o histórica de la competencia de la fórmula 1 y su contexto. 
 
-Se espera como producto final una plataforma con una interfaz amigable, con contenido historico y actual de la competencia y de la categoria, de los equipos y pilotos participantes, como tambien formulario de contacto con la institucion.
+Se espera como producto final una plataforma con una interfaz amigable, con contenido histórico y actual de la competencia y de la categoría, de los equipos y pilotos participantes, como también formulario de contacto con la institución.
 
 ## Contexto
 
@@ -49,7 +49,7 @@ El inicio de la Fórmula 1 moderna se remonta al año 1950, en el que participar
 
 Para un seguimiento INTEGRAL del desarrolo, disponibilizamos la documentacion del proyecto [aquí](docs/DOCUMENTACION%20PROYECTO.docx)
 
-El sitio web cuenta con 6 paginas desarrolladas con html (Index o pagina de inicio, Equipo, Calendario, Estadisticas, Galeria, Contacto)
+El sitio web cuenta con 6 páginas desarrolladas con HTML (Index o página de inicio, Equipo, Calendario, Estadísticas, Galeria, Contacto)
 
 ![Pagina Principal](assets/img_maquetado.jpg)
 <br />
@@ -58,13 +58,13 @@ El sitio web cuenta con 6 paginas desarrolladas con html (Index o pagina de inic
 
 ### Página de inicio (Index)
 
-Nuestra pagina de inicio brinda una interfaz amigable donde predomina un encabezado de colores fuertes, con los nombres de las secciones del sitio en el comienzo.
+Nuestra página de inicio brinda una interfaz amigable donde predomina un encabezado de colores fuertes, con los nombres de las secciones del sitio en el comienzo.
 
-Siguiendo el recorrido, vemos que contiene en su parte central (cuerpo de la pagina) distintas imagenes y capturas de noticias importantes de los eventos sobre 
+Siguiendo el recorrido, vemos que contiene en su parte central (cuerpo de la página) distintas imagenes y capturas de noticias importantes de los eventos sobre 
 la temática de la F1, y del lado derecho podemos ver que hay 2 imagenes correspondientes al ranking de posiciones en el campeonato por pilotos y por constructores
 (o sea por marca lider o equipo)
 
-Llegando al final de la pagina, se pueden ver de manera dinamica las escuderias que participan en el actual campeonato, en conjunto con las distintas redes sociales del
+Llegando al final de la página, se pueden ver de manera dinámica las escuderias que participan en el actual campeonato, en conjunto con las distintas redes sociales del
 sitio web sobre F1.
 
 <details>
@@ -88,7 +88,7 @@ sitio web sobre F1.
 | Diseño responsive para celulares |
 
 
-Puedes consultar el codigo de la pagina en el [script de la página](https://github.com/marco11235813/Proyecto-Codo_a_Codo/blob/main/index.html).
+Puedes consultar el código de la página en el [script de la página](https://github.com/marco11235813/Proyecto-Codo_a_Codo/blob/main/index.html).
 </details>
 
 ### Equipo
@@ -104,30 +104,30 @@ En caso de querer regresar al inicio de la pagina donde estan los equipos para e
 |                       |
 |-----------------------|
 | ![Imagen 3](assets/equipos1.jpg) |
-|Parte superior de pagina equipos, nos muestra las escuderias en competencia y las distintas solapas a las que podemos acceder |
+|Parte superior de página equipos, nos muestra las escuderías en competencia y las distintas solapas a las que podemos acceder |
 
 
 |                       |
 |-----------------------|
 | ![Imagen 3](assets/equipos2.jpg) |
-| Parte media de la página equipos, podemos ver el modelo de coche utilizado en la actual temporada asi como los pilotos titulares, también se observa el botón de regreso al 'índice' de escuderas |
+| Parte media de la página equipos, podemos ver el modelo de coche utilizado en la actual temporada asi como los pilotos titulares, también se observa el botón de regreso al 'índice' de escuderías |
 
 |                       |                       |
 |-----------------------|-----------------------|
 | <img src="assets/cronograma1.jpg" alt="Imagen 3" style="width:100%; height:auto;"> | <img src="assets/cronograma2.jpg" alt="Imagen 3" style="width:100%; height:auto;"> |
-| Modal de piloto donde se observa una reseña del mismo | Modal del coche donde se describe brevemente su desarrollo y caracteristicas |
+| Modal de piloto donde se observa una reseña del mismo | Modal del coche donde se describe brevemente su desarrollo y características |
 
 
   
-Puedes consultar el codigo de la pagina en el [script de la página](https://github.com/marco11235813/Proyecto-Codo_a_Codo/blob/main/equipos.html).
+Puedes consultar el código de la página en el [script de la página](https://github.com/marco11235813/Proyecto-Codo_a_Codo/blob/main/equipos.html).
 </details>
 
 ### Cronograma
 
-En esta seccion encontramos la informacion de las fechas de cada Gran Premio de la temporada en conjunto con el circuito correspondiente,
-del cual podemos ver una vista del circuito con informacion preliminar.
+En esta sección encontramos la información de las fechas de cada Gran Premio de la temporada en conjunto con el circuito correspondiente,
+del cual podemos ver una vista del circuito con información preliminar.
 
-También esta disponible la posibilidad de desplegar mas informacion seleccinando la opcion 'más info' donde se detalla informacion complementaria
+También esta disponible la posibilidad de desplegar mas información seleccinando la opcion 'más info' donde se detalla información complementaria
 
 <details>
 <summary>Ver más</summary>
@@ -135,31 +135,31 @@ También esta disponible la posibilidad de desplegar mas informacion seleccinand
 |                       |
 |-----------------------|
 | ![Imagen 3](assets/cronograma3.jpg) |
-| Parte superior-media de la página cronograma, donde observamos algunos de los circuitos de la temporada, tanto un croquis de su disposicion como fecha y lugar|
+| Parte superior-media de la página cronograma, donde observamos algunos de los circuitos de la temporada, tanto un croquis de su disposición como fecha y lugar|
 
 
 |                       |
 |-----------------------|
 | ![Imagen 3](assets/cronograma4.jpg) |
-| Modal de circuito, se describe brevemente las caracteristicas del circuito y alguna informacion preliminar |
+| Modal de circuito, se describe brevemente las caracteristicas del circuito y alguna información preliminar |
 
   
-Puedes consultar el codigo de la pagina en el [script de la página](https://github.com/marco11235813/Proyecto-Codo_a_Codo/blob/main/calendario.html).
+Puedes consultar el código de la página en el [script de la página](https://github.com/marco11235813/Proyecto-Codo_a_Codo/blob/main/calendario.html).
 </details>
 
 ### Estadisticas
 
-Proximamente :D
+Próximamente :D
 
 <details>
 <summary>Ver más</summary>
   
-Puedes consultar el codigo de la pagina en el [script de la página](https://github.com/marco11235813/Proyecto-Codo_a_Codo/blob/main/estadisticas.html).
+Puedes consultar el código de la página en el [script de la página](https://github.com/marco11235813/Proyecto-Codo_a_Codo/blob/main/estadisticas.html).
 </details>
 
 ### Galeria
 
-En esta seccion encontramos diferentes tomas de la temporada, en los distintos circuitos, en gradas y boxes, mostrando tanto la carrera como el despliegue de la organizacion, el contexto, los equipos, las diferentes secciones, las gradas y los fanáticos que van a apoyar a la escuderia de su preferencia
+En esta sección encontramos diferentes tomas de la temporada, en los distintos circuitos, en gradas y boxes, mostrando tanto la carrera como el despliegue de la organización, el contexto, los equipos, las diferentes secciones, las gradas y los fanáticos que van a apoyar a la escudería de su preferencia
 
 <details>
 <summary>Ver más</summary>
@@ -170,12 +170,12 @@ En esta seccion encontramos diferentes tomas de la temporada, en los distintos c
 | Parte superior de la página galeria |
 
   
-Puedes consultar el codigo de la pagina en el [script de la página](https://github.com/marco11235813/Proyecto-Codo_a_Codo/blob/main/galeria.html).
+Puedes consultar el código de la página en el [script de la página](https://github.com/marco11235813/Proyecto-Codo_a_Codo/blob/main/galeria.html).
 </details>
 
 ### Contacto
 
-Esta seccion fue creada para que el usuario tenga la posibilidad de realizar un contacto con el equipo de la FIA por interes de alguna suscripcion, realizar distintas consultas, ofrecer recomendaciones sobre el sitio, y demás posibilidades.
+Esta sección fue creada para que el usuario tenga la posibilidad de realizar un contacto con el equipo de la FIA por interes de alguna suscripción, realizar distintas consultas, ofrecer recomendaciones sobre el sitio, y demás posibilidades.
 
 <details>
 <summary>Ver más</summary>
@@ -189,15 +189,15 @@ Esta seccion fue creada para que el usuario tenga la posibilidad de realizar un 
 |                       |
 |-----------------------|
 | ![Imagen 3](assets/formulario_contacto2.jpg) |
-| Parte media-inferior de página contacto, donde se observa la disposicion y campos del formulario a completar y el boton de envío |
+| Parte media-inferior de página contacto, donde se observa la disposición y campos del formulario a completar y el botón de envío |
 
   
-Puedes consultar el codigo de la pagina en el [script de la página](https://github.com/marco11235813/Proyecto-Codo_a_Codo/blob/main/contacto.html).
+Puedes consultar el código de la página en el [script de la página](https://github.com/marco11235813/Proyecto-Codo_a_Codo/blob/main/contacto.html).
 </details>
 
 ## Datos y Fuentes Externas
 
-* Formula 1. https://es.wikipedia.org/wiki/F%C3%B3rmula_1
+* Fórmula 1. https://es.wikipedia.org/wiki/F%C3%B3rmula_1
 * Federación Internacional del Automóvil (FIA). https://es.wikipedia.org/wiki/Federaci%C3%B3n_Internacional_del_Autom%C3%B3vil 
 
 ## Tecnologías utilizadas
@@ -207,7 +207,7 @@ Para el desarrollo de nuestro proyecto, utilizamos los siguientes lenguajes:
 * ![CSS3](https://img.shields.io/badge/-CSS3-black?style=flat&logo=css3)
 * ![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat&logo=javascript)
 
-Las herramientas y tecnologias utilizadas son:
+Las herramientas y tecnologías utilizadas son:
 
 * ![Git](https://img.shields.io/badge/-Git-black?style=flat-square&logo=git)
 * ![GitHub](https://img.shields.io/badge/-GitHub-black?style=flat-square&logo=github)
@@ -218,7 +218,7 @@ Las herramientas y tecnologias utilizadas son:
 Para el hosting de nuestro sitio, utilizamos el servicio de Github Pages, que esta sincronizado directamente a nuestro repositorio Github y se actualiza automaticamente
 en base a los cambio que le vayamos haciendo.
 Como la idea es continuar el desarrollo de nuestro sitio de manera integral (es decir, continuar el desarrollo del backend y de los aspectos que nos parezcan pertinentes y necesarios),
-nos parecio lo mas óptimo utilizar una funcionalidad de nuestro repositorio en un principio, aunque esto se verá supeditado a la disponibilidad de recursos para el despliegue de nuestro sitio 
+nos parecio lo más óptimo utilizar una funcionalidad de nuestro repositorio en un principio, aunque esto se verá supeditado a la disponibilidad de recursos para el despliegue de nuestro sitio 
 por parte de la herramienta Github Pages (debemos tomar en cuenta la escalabilidad de nuestro proyecto).
 
 Podemos ver el despliegue de nuestro sitio [aquí](https://marco11235813.github.io/Proyecto-Codo_a_Codo/)
