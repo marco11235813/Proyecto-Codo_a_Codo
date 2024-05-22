@@ -84,7 +84,7 @@ sitio web sobre F1.
 
 |                       |                       |
 |-----------------------|-----------------------|
-| <div style="display: flex; justify-content: center; align-items: center; padding: 0; margin: 0;"><img src="assets/responsive1.jpg" alt="Imagen 3" style="width:100%; height:auto;"></div> | <div style="display: flex; justify-content: center; align-items: center; padding: 0; margin: -30px;"><img src="assets/responsive3.jpg" alt="Imagen 3" style="width:73%; height:auto;"></div> |
+| <img src="assets/responsive1.jpg" alt="Imagen 3" style="width:100%; height:100;"> | <img src="assets/responsive3.jpg" alt="Imagen 3" style="width:100%; height:100;"> |
 | Educación de los padres de los examinados (en Cantidad de frecuencias) | Distribución de los valores de Puntuación Total de los examinados en relación al Nivel de Educación de sus padres |
 
 
