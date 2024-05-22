@@ -84,7 +84,7 @@ sitio web sobre F1.
 
 |                       |                       |
 |-----------------------|-----------------------|
-| <img src="assets/responsive1.jpg" alt="Imagen 3" style="width:100%; height:100;"> | <img src="assets/responsive3.jpg" alt="Imagen 3" style="width:80%; height:100;"> |
+| <img src="assets/responsive1.jpg" alt="Imagen 3" style="width:100%; height:100;"> | <img src="assets/responsive3.jpg" alt="Imagen 3" style="width:70%; height:100;"> |
 | Educación de los padres de los examinados (en Cantidad de frecuencias) | Distribución de los valores de Puntuación Total de los examinados en relación al Nivel de Educación de sus padres |
 
 Puedes consultar el codigo de la pagina en el [script de la página](https://github.com/marco11235813/Proyecto-Codo_a_Codo/blob/main/index.html).
