@@ -70,17 +70,19 @@ sitio web sobre F1.
 <details>
 <summary>Ver más</summary>
 
-![Pagina Principal](assets/principal1.jpg)
-<br />
+<p align="center">
+  <img src="assets/assets/principal1.jpg" alt="platform">
+</p>
 > _Primera captura. Podemos ver en el diseño la ditribucion de solapas o secciones en el header._
 
-![Pagina Principal](assets/principal2.jpg)
-<br />
+<p align="center">
+  <img src="assets/principal2.jpg" alt="platform">
+</p>
 > _Gran Premio de Australia._
 
-![Pagina Principal](assets/principal3.jpg)
-<br />
-
+<p align="center">
+  <img src="assets/principal3.jpg" alt="platform">
+</p>
 
 
 Puedes consultar el codigo de la pagina en el [script de la página](https://github.com/marco11235813/Proyecto-Codo_a_Codo/blob/main/index.html).
