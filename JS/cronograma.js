@@ -286,3 +286,4 @@ btn_close_ArabiaSaudita.addEventListener("click", () => {
 btn_close_Bahrein.addEventListener("click", () => {
 	modal_Bahrein.style.display = "none";
 });
+
