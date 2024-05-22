@@ -84,7 +84,7 @@ sitio web sobre F1.
 
 |                       |                       |
 |-----------------------|-----------------------|
-| <img src="assets/responsive1.jpg" alt="Imagen 3" style="width:100%; height:auto;"> | <img src="assets/responsive3.jpg" alt="Imagen 3" style="width:100%; height:auto;"> |
+| <img src="assets/responsive1.jpg" alt="Imagen 3" style="width:100%; height:auto;"> | <img src="assets/responsive3.jpg" alt="Imagen 3" style="width:60%; height:auto;"> |
 | Educación de los padres de los examinados (en Cantidad de frecuencias) | Distribución de los valores de Puntuación Total de los examinados en relación al Nivel de Educación de sus padres |
 
 Puedes consultar el codigo de la pagina en el [script de la página](https://github.com/marco11235813/Proyecto-Codo_a_Codo/blob/main/index.html).
@@ -113,7 +113,7 @@ En caso de querer regresar al inicio de la pagina donde estan los equipos para e
 
 |                       |                       |
 |-----------------------|-----------------------|
-| <img src="assets/cronograma1.jpg" alt="Imagen 3" style="width:100%; height:auto;"> | <img src="assets/cronograma2.jpg" alt="Imagen 3" style="width:60%; height:auto;"> |
+| <img src="assets/cronograma1.jpg" alt="Imagen 3" style="width:100%; height:auto;"> | <img src="assets/cronograma2.jpg" alt="Imagen 3" style="width:100%; height:auto;"> |
 | Educación de los padres de los examinados (en Cantidad de frecuencias) | Distribución de los valores de Puntuación Total de los examinados en relación al Nivel de Educación de sus padres |
 
 
