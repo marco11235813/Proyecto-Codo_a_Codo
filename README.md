@@ -9,7 +9,7 @@
 ![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-black?style=flat&logo=visual-studio-code&logoColor=007ACC)
 
 
-# Construccion de Sitio web F1
+# Construcción de Sitio web F1
 
 ## Índice
 - [Introducción](#Introducción)
