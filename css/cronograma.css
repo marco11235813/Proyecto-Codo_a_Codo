@@ -1,3 +1,8 @@
+a:hover,
+img:hover {
+	cursor: pointer;
+}
+
 body main .galery-cont {
 	padding: 35px;
 	width: 100%;
@@ -159,7 +164,7 @@ body .modal .modal_content .content_text_modal .img_piloto_modal img {
 		position: fixed;
 		bottom: 150px;
 		right: 60px;
-		width: 90px;
+		width: 120px;
 		border-radius: 50%;
 		display: none;
 		cursor: pointer;

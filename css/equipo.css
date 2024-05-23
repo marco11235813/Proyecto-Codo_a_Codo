@@ -225,13 +225,21 @@ body .modal .modal_content .btn_modal button {
 	font-weight: bold;
 }
 
-body #volver img {
+/* body #volver img {
 	position: fixed;
 	bottom: 50px;
 	right: 70px;
 	width: 15%;
 	border-radius: 50%;
-	display: none;
+	display: none; */
+	body #volver img {
+		position: fixed;
+		bottom: 150px;
+		right: 60px;
+		width: 90%;
+		border-radius: 50%;
+		display: none;
+		cursor: pointer;
 }
 
 /* Responsividad */
