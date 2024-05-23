@@ -155,4 +155,13 @@ body .modal .modal_content .content_text_modal .img_piloto_modal img {
 	body .modal .modal_content .content_text_modal .img_piloto_modal img {
 		width: 250px;
 	}
+	body #volver img {
+		position: fixed;
+		bottom: 150px;
+		right: 60px;
+		width: 90px;
+		border-radius: 50%;
+		display: none;
+		cursor: pointer;
+	}
 }
