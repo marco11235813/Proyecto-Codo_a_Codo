@@ -115,7 +115,7 @@ En caso de querer regresar al inicio de la pagina donde estan los equipos para e
 |                       |                       |
 |-----------------------|-----------------------|
 | <img src="assets/cronograma1.jpg" alt="Imagen 3" style="width:100%; height:auto;"> | <img src="assets/cronograma2.jpg" alt="Imagen 3" style="width:100%; height:auto;"> |
-| Modal de piloto donde se observa una reseña del mismo | Modal del coche donde se describe brevemente su desarrollo y características |
+| Modal de piloto donde se observa una reseña del mismo | Modal del coche donde se describe brevemente las características de la escudería y una breve reseña histórica |
 
 
   
