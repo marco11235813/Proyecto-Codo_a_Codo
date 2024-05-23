@@ -47,7 +47,7 @@ El inicio de la Fórmula 1 moderna se remonta al año 1950, en el que participar
 
 ## Desarrollo
 
-Para un seguimiento INTEGRAL del desarrolo, disponibilizamos la documentacion del proyecto [aquí](docs/DOCUMENTACION%20PROYECTO.docx)
+Para un seguimiento INTEGRAL del desarrolo, disponibilizamos la documentacion del proyecto para su descarga [aquí](docs/DOCUMENTACION%20PROYECTO.docx)
 
 El sitio web cuenta con 6 páginas desarrolladas con HTML (Index o página de inicio, Equipo, Calendario, Estadísticas, Galeria, Contacto)
 
