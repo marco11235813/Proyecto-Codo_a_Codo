@@ -1,5 +1,5 @@
 a:hover,
-img:hover {
+#volver:hover {
 	cursor: pointer;
 }
 
@@ -18,15 +18,16 @@ body main .galery-cont .circuit-card {
 	max-width: 500px;
 	display: flex;
 	flex-direction: column;
+	background-color: lightcyan;
 }
 
 body main .galery-cont .circuit-card img {
+	margin: auto;
 	width: 100%;
 }
 
 body main .galery-cont .circuit-card .text-logo {
 	display: flex;
-	justify-content: space-evenly;
 }
 
 body main .galery-cont .circuit-card .text-logo img {
@@ -116,7 +117,47 @@ body .modal .modal_content .content_text_modal .img_piloto_modal img {
 	background: white;
 }
 
+body #volver img {
+	position: fixed;
+	bottom: 180px;
+	right: 20px;
+	width: 90px;
+	border-radius: 50%;
+	display: none;
+}
+
 /* Responsividad Calendario */
+@media (300px <= width < 829px) {
+	body main .galery-cont .circuit-card img {
+		width: 85%;
+	}
+
+	body main .galery-cont .circuit-card .text-logo {
+		width: 100%;
+		background-color: lightcoral;
+	}
+
+	body main .galery-cont .circuit-card .text-logo .text h5 {
+		font-size: 0.75rem;
+	}
+
+	body main .galery-cont .circuit-card .text-logo .text p {
+		font-size: 0.5rem;
+	}
+
+	body main .galery-cont .circuit-card .text-logo img {
+		width: 20px;
+	}
+
+	body main .galery-cont .circuit-card a {
+		font-size: 0.7rem;
+	}
+
+	body #volver img {
+		right: 25px;
+		width: 60px;
+	}
+}
 
 @media (830px <= width < 915px) {
 	body .modal .modal_content .content_text_modal {
@@ -159,14 +200,5 @@ body .modal .modal_content .content_text_modal .img_piloto_modal img {
 
 	body .modal .modal_content .content_text_modal .img_piloto_modal img {
 		width: 250px;
-	}
-	body #volver img {
-		position: fixed;
-		bottom: 150px;
-		right: 60px;
-		width: 120px;
-		border-radius: 50%;
-		display: none;
-		cursor: pointer;
 	}
 }

@@ -225,29 +225,38 @@ body .modal .modal_content .btn_modal button {
 	font-weight: bold;
 }
 
-/* body #volver img {
+body #volver img {
 	position: fixed;
-	bottom: 50px;
-	right: 70px;
-	width: 15%;
+	bottom: 180px;
+	right: 60px;
+	width: 30px;
 	border-radius: 50%;
-	display: none; */
-	body #volver img {
-		position: fixed;
-		bottom: 150px;
-		right: 60px;
-		width: 90%;
-		border-radius: 50%;
-		display: none;
-		cursor: pointer;
+	display: none;
 }
 
 /* Responsividad */
 
-@media (830px <= width < 915px) {
-	body #volver img {
-		width: 8%;
+@media (300px <= width < 829px) {
+	body main .teams-card .team-card img {
+		width: 150px;
+		height: 100px;
 	}
+
+	body main .teams .team .cont-team .equipo-team img {
+		width: 260px;
+	}
+
+	body main .teams .team .cont-team .pilotos-team img {
+		width: 95px;
+	}
+
+	body #volver img {
+		right: 25px;
+		width: 60px;
+	}
+}
+
+@media (830px <= width < 915px) {
 }
 
 @media (916px <= width < 1023px) {

@@ -1,3 +1,20 @@
+/* Boton Regresar Escudo F1*/
+window.onscroll = function () {
+	const scroll = document.documentElement.scrollTop || document.body.scrollTop;
+
+	document.querySelector("#volver img").addEventListener("click", volver);
+
+	function volver() {
+		if (scroll > 0) {
+			window.scrollTo(0, 0);
+		}
+	}
+
+	const mostrar_Boton =
+		scroll > 200
+			? (document.querySelector("#volver img").style.display = "block")
+			: (document.querySelector("#volver img").style.display = "none");
+};
 /* Modales */
 const modal_EmiratosArabes = document.querySelector("#modal_EmiratosArabes");
 const modal_Qatar = document.querySelector("#modal_Qatar");
@@ -90,7 +107,6 @@ const btn_close_ArabiaSaudita = document.querySelector(
 	"#btn_close_ArabiaSaudita"
 );
 const btn_close_Bahrein = document.querySelector("#btn_close_Bahrein");
-
 
 /* Funcion de Apertura */
 
@@ -303,5 +319,5 @@ window.onscroll = function () {
 	const mostrar_Boton =
 		scroll > 200
 			? (document.querySelector("#volver img").style.display = "block")
-			: (document.querySelector("#volver img").style.display = "none");
+			: (document.querySelector("#volver img").style.display = "none");
 };
