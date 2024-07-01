@@ -5,38 +5,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formula 1</title>
-    <link rel="stylesheet" href="css/estilos.css">
-    <link rel="stylesheet" href="css/contacto.css">
-    <link rel="stylesheet" href="css/responsividad.css">
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="shortcut icon" href="../assets/public/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="{{ url_for('static' , filename='../assets/css/estilos.css')}}">
+    <link rel="stylesheet" href="{{ url_for('static' , filename='../assets/css/responsividad.css')}}">
+    <link rel="stylesheet" href="{{ url_for('static' , filename='../assets/css/contacto.css')}}">
     <script src="https://kit.fontawesome.com/d7e5186ff3.js" crossorigin="anonymous"></script>
-    <script src="JS/contacto.js" defer></script>
-
 </head>
 
 <body>
     <header>
         <section class="hero">
-            <a href="index.html"><img class="hero-img" src="img/LogoFormula1.png" alt="logo"></a>
+            <a href="/"><img class="hero-img" src="../assets/img/LogoFormula1.png" alt="logo"></a>
             <h1 class="hero-text">Contactanos </h1>
         </section>
     </header>
     <nav class="menu-bar">
         <ul class="menu-nabvar">
             <li>
-                <a href="equipos.html">Equipos</a>
+                <a href="equiposypilotos">Equipos</a>
             </li>
             <li>
-                <a href="cronograma.html">Cronograma</a>
+                <a href="calendario">Cronograma</a>
             </li>
             <li>
-                <a href="estadisticas.html">Estadisticas</a>
+                <a href="estadisticas">Estadisticas</a>
             </li>
             <li>
-                <a href="galeria.html">Galeria</a>
+                <a href="galeria">Galeria</a>
             </li>
             <li>
-                <a href="contacto.html">Contacto</a>
+                <a href="contacto">Contacto</a>
+            </li>
+            <li>
+                <a href="administrador">Administrador</a>
             </li>
         </ul>
     </nav>
@@ -47,40 +48,45 @@
                 <h5>Quiero recibir la información más reciente sobre la F1 por e-mail, incluyendo noticias relevantes,
                     encuestas, ofertas, promociones y competiciones exclusivas.</h5>
             </div>
-            <form name="contacto" method="post" enctype="multipart/form-data">
-                <div class="input_group">
-                    <div class="input">
+            <form id="form_admin" name="contacto">
+                <div id="input_group" class="input_group">
+                    <div id="input_nombre" class="input">
                         <label for="nombre">Nombre:</label>
                         <input type="text" id="nombre" name="nombre">
+                        <p class="error_text">Ingrese solamente letras y hasta tres palabras</p>
                     </div>
-                    <div class="input">
+                    <div id="input_apellido" class="input">
                         <label for="apellido">Apellido:</label>
                         <input type="text" id="apellido" name="apellido">
+                        <p class="error_text">Ingrese solamente letras y hasta tres palabras</p>
                     </div>
-                    <div class="input_sexo">
+                    <div id="input_sexo" class="input_sexo">
                         <label for="sexo">Sexo:</label>
                         <div class="input_sexo_group">
                             <div class="input_sex">
                                 <label for="sexo">Femenino</label>
-                                <input type="radio" name="sexo" id="Femenino">
+                                <input type="radio" name="sexo" value="Femenino">
                             </div>
                             <div class="input_sex">
                                 <label for="sexo">Masculino</label>
-                                <input type="radio" name="sexo" id="Masculino">
+                                <input type="radio" name="sexo" value="Masculino">
                             </div>
                             <div class="input_sex">
                                 <label for="sexo">Sin genero</label>
-                                <input type="radio" name="sexo" id="Sin_genero">
+                                <input type="radio" name="sexo" value="Sin_genero">
                             </div>
                         </div>
                     </div>
-                    <div class="input">
+                    <div id="input_fecha_nacimiento" class="input">
                         <label for="fecha_nacimiento">Fecha de Nacimiento:</label>
                         <input type="date" id="fecha_nacimiento" name="fecha_nacimiento">
+                        <p class="error_text">Ingrese solamente numeros con el siguiente formato año con cuatro
+                            aaaa/mm/dd- </p>
                     </div>
-                    <div class="input">
+                    <div id="input_pais" class="input">
                         <label for="pais">País de residencia:</label>
-                        <select name="pais" id="pais" class="select_input">
+                        <select id="pais" class="select_input">
+                            <option selected readonly>Seleccione su pais</option>
                             <option value="Argentina">Argentina</option>
                             <option value="Bolivia">Bolivia</option>
                             <option value="Brasil">Brasil</option>
@@ -93,19 +99,12 @@
                             <option value="Otro">Otro</option>
                         </select>
                     </div>
-
-                    <div class="input_pais_otro">
-                        <label for="pais_otro">Pais de Residencia</label>
-                        <input type="text" name="pais_otro">
-                    </div>
-
-                    <div class="input">
+                    <div id="input_email" class="input">
                         <label for="email">Email:</label>
-                        <input type="email" id="email" name="email">
-                    </div>
-                    <div class="input">
-                        <label for="imagen">Cargar foto de perfil:</label>
-                        <input type="file" id="imagen" name="imagen">
+                        <input type="text" id="email" name="email"
+                            title="Ingrese el mail deacuerdo al siguiente ej.: formula-uno@formula-uno.com">
+                        <p class="error_text">Ingrese solamente letras, numeros y los siguientes simbolos ($ - _ . \)
+                        </p>
                     </div>
                     <input type="submit" id="b1" name="btn" value="Enviar">
                 </div>
@@ -143,6 +142,9 @@
             </div>
         </div>
     </footer>
+
+    <script rel="stylesheet" src="../assets/JS/contacto.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11" defer></script>
 </body>
 
 </html>

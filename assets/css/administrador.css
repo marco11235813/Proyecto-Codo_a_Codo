@@ -1,0 +1,191 @@
+body main .container {
+	margin: 45px;
+}
+
+body main .container #form_admin {
+	display: none;
+}
+
+body main .container .form_cont .text_form h1 {
+	display: flex;
+	justify-content: center;
+}
+
+body main .container .table tbody .one {
+	display: flex;
+	justify-content: space-around;
+}
+
+body main .container .table thead tr th {
+	text-align: center;
+	font-size: 0.8rem;
+}
+
+body main .container .table tbody tr td {
+	text-align: center;
+	font-size: 0.7rem;
+}
+
+body main .form_cont {
+	margin: 45px auto;
+}
+
+body main .form_cont .text_form {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+body main .form_cont .text_form h4 {
+	color: red;
+	font-size: 2rem;
+}
+
+body main .form_cont .text_form label {
+	font-size: 1rem;
+}
+
+body main .form_cont .text_form .inputCod {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	column-gap: 10px;
+}
+
+body main .form_cont .text_form .inputCod input {
+	font-size: 0.7rem;
+	text-align: center;
+}
+
+body main .container input {
+	font-size: 0.7rem;
+	height: 2rem;
+	text-indent: 0.3rem;
+}
+
+body main .container label {
+	font-size: 1rem;
+}
+
+body main .container form {
+	display: flex;
+	flex-direction: column;
+}
+
+body main .container form .input_group {
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 10px;
+}
+
+body main .container form .input_group .input {
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+body main .container form .input_group .inputGroupLeft {
+	width: 45%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	row-gap: 20px;
+	padding: 15px;
+}
+
+body main .container form .input_group .inputGroupLeft .input_sexo {
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+body main .container form .input_group .inputGroupLeft .input_sexo .titleSex {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+body
+	main
+	.container
+	form
+	.input_group
+	.inputGroupLeft
+	.input_sexo
+	.titleSex
+	input {
+	width: 100%;
+	text-align: center;
+}
+
+body
+	main
+	.container
+	form
+	.input_group
+	.inputGroupLeft
+	.input_sexo
+	.titleSex
+	input {
+	font-size: 0.9rem;
+	color: red;
+	width: 100%;
+	height: 1.6rem;
+}
+
+body
+	main
+	.container
+	form
+	.input_group
+	.inputGroupLeft
+	.input_sexo
+	.input_sexo_group {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+body main .container form .input_group .inputGroupRigth {
+	width: 45%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	row-gap: 20px;
+	padding: 15px;
+}
+
+body main .container form .input_group .inputGroupRigth .input .select_input {
+	font-size: 0.7rem;
+	height: 2rem;
+	text-indent: 0.3rem;
+}
+
+#bpais,
+#ValueSex {
+	color: red;
+	font-size: 0.9rem;
+	margin: auto;
+	text-align: center;
+	border: none;
+}
+
+body main .container .form_cont form .btn_modificar {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	padding: 25px;
+}
+
+body main .container .form_cont form .btn_modificar #b1 {
+	color: red;
+	font-size: 1.5rem;
+	margin: auto;
+	background: none;
+	border: none;
+}

@@ -231,3 +231,24 @@ input[type="submit"] {
 		font-size: 0.9rem;
 	}
 }
+
+.input_error input {
+	border: 3px solid red;
+	color: red;
+}
+
+.input_error label {
+	color: red;
+}
+
+.input_error-activo {
+	display: block;
+}
+
+.error_text {
+	margin-top: 5px;
+	padding: 5px;
+	color: red;
+	font-size: 0.8rem;
+	display: none;
+}

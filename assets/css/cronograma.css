@@ -18,7 +18,6 @@ body main .galery-cont .circuit-card {
 	max-width: 500px;
 	display: flex;
 	flex-direction: column;
-	background-color: lightcyan;
 }
 
 body main .galery-cont .circuit-card img {
@@ -28,10 +27,16 @@ body main .galery-cont .circuit-card img {
 
 body main .galery-cont .circuit-card .text-logo {
 	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+body main .galery-cont .circuit-card .text-logo .text {
+	width: 80%;
 }
 
 body main .galery-cont .circuit-card .text-logo img {
-	width: 40px;
+	width: 20%;
 }
 
 body main .galery-cont .circuit-card a {
@@ -134,7 +139,6 @@ body #volver img {
 
 	body main .galery-cont .circuit-card .text-logo {
 		width: 100%;
-		background-color: lightcoral;
 	}
 
 	body main .galery-cont .circuit-card .text-logo .text h5 {
@@ -155,7 +159,7 @@ body #volver img {
 
 	body #volver img {
 		right: 25px;
-		width: 60px;
+		width: 50px;
 	}
 }
 
