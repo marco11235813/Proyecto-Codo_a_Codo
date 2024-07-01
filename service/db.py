@@ -5,10 +5,10 @@ from mysql.connector import Error
 try:
   
     conexion = mysql.connector.connect(
-      host='jyunesmor.mysql.pythonanywhere-services.com',
-      user='jyunesmor',
-      password='Simon310783',
-      database='jyunesmor$default',
+      host='localhost',
+      user='root',
+      password='',
+      database='ddbb_usuarios',
       port=3307)
   
     if conexion.is_connected():
