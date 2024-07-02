@@ -1,5 +1,6 @@
 // or via CommonJS
-const url_usuarios = "http://localhost:5000/";
+const url_usuarios = "http://jyunesmor.pythonanywhere.comgit status
+/";
 let codigo = " ";
 
 document.addEventListener("DOMContentLoaded", cargaPagina);

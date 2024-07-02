@@ -114,7 +114,7 @@ country_Field.addEventListener("change", (e) => {
 
 const form = document.getElementById("form_admin");
 
-const url_usuarios = "http://localhost:5000/";
+const url_usuarios = "http://jyunesmor.pythonanywhere.com/";
 
 form.addEventListener("submit", (e) => {
 	e.preventDefault();
